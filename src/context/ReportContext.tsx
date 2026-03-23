@@ -45,7 +45,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   const [timePeriodStart, setTimePeriodStart] = useState(defaultRange.start);
   const [timePeriodEnd, setTimePeriodEnd] = useState(defaultRange.end);
 
-  const BASE_URL = "/api/accounting-report";
+  const BASE_URL = "/api/accounting-report/endpoints";
 
   const getReport = async () => {
     setLoading(true);
