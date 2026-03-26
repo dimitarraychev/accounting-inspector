@@ -53,14 +53,14 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
           { label: "Total Bet", value: "totalBet" },
           { label: "Total Win", value: "totalWin" },
           { label: "Total Lost", value: "totalLost" },
-          { label: "Total Win Jackpot", value: "totalWinJackpot" },
+          { label: "Total Win JP", value: "totalWinJackpot" },
           {
-            label: "Total Win Progressive Jackpot",
+            label: "Total Win Progressive JP",
             value: "totalWinProgressiveJackpot",
           },
-          { label: "Number of Games", value: "numberOfGames" },
-          { label: "Number of Bets", value: "numberOfBet" },
-          { label: "Number of Players", value: "numberOfPlayers" },
+          { label: "# Games", value: "numberOfGames" },
+          { label: "# Bets", value: "numberOfBet" },
+          { label: "# Players", value: "numberOfPlayers" },
         ]}
         onChange={(value) => setMetric(value)}
       />
