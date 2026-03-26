@@ -2,7 +2,11 @@ export type MetricType =
   | "totalBet"
   | "totalLost"
   | "totalWin"
-  | "numberOfGames";
+  | "totalWinJackpot"
+  | "totalWinProgressiveJackpot"
+  | "numberOfGames"
+  | "numberOfBets"
+  | "numberOfPlayers";
 
 export type GroupByType = "endpoint" | "platform";
 

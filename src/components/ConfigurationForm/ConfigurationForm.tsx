@@ -51,9 +51,16 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
         value={metric}
         options={[
           { label: "Total Bet", value: "totalBet" },
-          { label: "Total Lost", value: "totalLost" },
           { label: "Total Win", value: "totalWin" },
+          { label: "Total Lost", value: "totalLost" },
+          { label: "Total Win Jackpot", value: "totalWinJackpot" },
+          {
+            label: "Total Win Progressive Jackpot",
+            value: "totalWinProgressiveJackpot",
+          },
           { label: "Number of Games", value: "numberOfGames" },
+          { label: "Number of Bets", value: "numberOfBet" },
+          { label: "Number of Players", value: "numberOfPlayers" },
         ]}
         onChange={(value) => setMetric(value)}
       />

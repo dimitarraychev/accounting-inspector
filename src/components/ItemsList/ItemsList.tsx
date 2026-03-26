@@ -1,6 +1,7 @@
 import { useConfig } from "../../context/ConfigContext";
 import { useReportContext } from "../../context/ReportContext";
 import { getColor } from "../../utils/colors";
+import { metricLabels } from "../../utils/metricLabels";
 
 const ItemsList = () => {
   const { data, selectedGroups, setSelectedGroups } = useReportContext();
@@ -27,7 +28,7 @@ const ItemsList = () => {
     <ul>
       <li className="items-list-header">
         <span>{groupBy}</span>
-        <span>{metric}</span>
+        <span>{metricLabels[metric]}</span>
       </li>
 
       <li
