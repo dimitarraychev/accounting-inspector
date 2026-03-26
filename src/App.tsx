@@ -4,10 +4,11 @@ import SideMenu from "./components/SideMenu/SideMenu";
 import CustomLineChart from "./components/CustomLineChart/CustomLineChart";
 import { useReportContext } from "./context/ReportContext";
 import Loader from "./components/Loader/Loader";
+import { formatDate } from "./utils/date";
 
 function App() {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
-  const { loading } = useReportContext();
+  const { loading, timePeriodStart, timePeriodEnd } = useReportContext();
 
   return (
     <div className="app">
@@ -26,6 +27,18 @@ function App() {
             isSidebarCollapsed ? "chart-wrapper expanded" : "chart-wrapper"
           }
         >
+          <div className="tabs-menu">
+            <div className="times-wrapper">
+              <p>
+                <span className="time-label">From:</span>{" "}
+                <span>{formatDate(timePeriodStart)}</span>
+              </p>
+              <p>
+                <span className="time-label">To:</span>{" "}
+                <span>{formatDate(timePeriodEnd)}</span>
+              </p>
+            </div>
+          </div>
           <CustomLineChart />
         </div>
       </div>
