@@ -33,6 +33,8 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     end: "",
     totalBet: 0,
     totalWin: 0,
+    totalLost: 0,
+    rounds: 0,
     endpoints: {},
     periods: [],
   });
@@ -56,7 +58,6 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
       if (timePeriodStart) params.append("start", timePeriodStart);
       if (timePeriodEnd) params.append("end", timePeriodEnd);
 
-      // fallback if end is missing and start is a relative period like "6h"
       if (!timePeriodEnd && timePeriodStart.includes("h")) {
         const hours = parsePeriodToHours(timePeriodStart);
         const startDate = new Date(Date.now() - hours * 60 * 60 * 1000);
@@ -75,6 +76,8 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
         end: "",
         totalBet: 0,
         totalWin: 0,
+        totalLost: 0,
+        rounds: 0,
         endpoints: {},
         periods: [],
       });

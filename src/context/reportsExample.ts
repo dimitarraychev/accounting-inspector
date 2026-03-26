@@ -3,6 +3,8 @@ export const reportsExample = {
   end: "2026-03-23T12:18:46.133Z",
   totalBet: 233966.53901953174,
   totalWin: 224883.09964694123,
+  totalLost: 224883.09964694123,
+  rounds: 28000,
   endpoints: {
     "1xbet.com (CU)": {
       totalBet: 3740.881866586386,
@@ -691,6 +693,8 @@ export const reportsExample = {
       ],
       totalBet: 2609.130290169658,
       totalWin: 2050.537659295695,
+      totalLost: 2050.537659295695,
+      rounds: 50,
       period: "2026-03-23T11:10:00.000Z",
     },
     {
@@ -1028,6 +1032,8 @@ export const reportsExample = {
       ],
       totalBet: 18404.471121281007,
       totalWin: 23525.906576716152,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:15:00.000Z",
     },
     {
@@ -1365,6 +1371,8 @@ export const reportsExample = {
       ],
       totalBet: 21863.036783979638,
       totalWin: 17873.773161659487,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:20:00.000Z",
     },
     {
@@ -1722,6 +1730,8 @@ export const reportsExample = {
       ],
       totalBet: 25299.982632900876,
       totalWin: 20591.539954852335,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:25:00.000Z",
     },
     {
@@ -2039,6 +2049,8 @@ export const reportsExample = {
       ],
       totalBet: 20264.1864155565,
       totalWin: 16097.359377735558,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:30:00.000Z",
     },
     {
@@ -2376,6 +2388,8 @@ export const reportsExample = {
       ],
       totalBet: 18283.685187993644,
       totalWin: 18650.21064944893,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:35:00.000Z",
     },
     {
@@ -2728,6 +2742,8 @@ export const reportsExample = {
       ],
       totalBet: 22218.83769927769,
       totalWin: 21068.774630752057,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:40:00.000Z",
     },
     {
@@ -3050,6 +3066,8 @@ export const reportsExample = {
       ],
       totalBet: 15075.595252780158,
       totalWin: 21195.914300255805,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:45:00.000Z",
     },
     {
@@ -3357,6 +3375,8 @@ export const reportsExample = {
       ],
       totalBet: 17836.762293990967,
       totalWin: 14683.894783368163,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:50:00.000Z",
     },
     {
@@ -3669,6 +3689,8 @@ export const reportsExample = {
       ],
       totalBet: 19081.167715274038,
       totalWin: 19631.872599013073,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T11:55:00.000Z",
     },
     {
@@ -4021,6 +4043,8 @@ export const reportsExample = {
       ],
       totalBet: 15905.664990832556,
       totalWin: 15517.872458857879,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T12:00:00.000Z",
     },
     {
@@ -4343,6 +4367,8 @@ export const reportsExample = {
       ],
       totalBet: 18275.886292183277,
       totalWin: 18612.509087160062,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T12:05:00.000Z",
     },
     {
@@ -4690,6 +4716,8 @@ export const reportsExample = {
       ],
       totalBet: 18848.13234331174,
       totalWin: 15382.93440782604,
+      totalLost: 23525.906576716152,
+      rounds: 60,
       period: "2026-03-23T12:10:00.000Z",
     },
   ],

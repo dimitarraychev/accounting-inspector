@@ -23,16 +23,15 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
   return (
     <form className="configuration-form">
       <CustomRadio
-        name="metric"
-        label="Metric:"
-        value={metric}
+        name="timeRange"
+        label="Time Range:"
+        value={timeRange}
         options={[
-          { label: "Total Bet", value: "totalBet" },
-          { label: "Total Lost", value: "totalLost" },
-          { label: "Total Win", value: "totalWin" },
-          { label: "Rounds", value: "rounds" },
+          { label: "Day", value: "day" },
+          { label: "Week", value: "week" },
+          { label: "Month", value: "month" },
         ]}
-        onChange={(value) => setMetric(value)}
+        onChange={(value) => setTimeRange(value)}
       />
 
       <CustomRadio
@@ -47,15 +46,16 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
       />
 
       <CustomRadio
-        name="timeRange"
-        label="Time Range:"
-        value={timeRange}
+        name="metric"
+        label="Metric:"
+        value={metric}
         options={[
-          { label: "Day", value: "day" },
-          { label: "Week", value: "week" },
-          { label: "Month", value: "month" },
+          { label: "Total Bet", value: "totalBet" },
+          { label: "Total Lost", value: "totalLost" },
+          { label: "Total Win", value: "totalWin" },
+          { label: "Rounds", value: "rounds" },
         ]}
-        onChange={(value) => setTimeRange(value)}
+        onChange={(value) => setMetric(value)}
       />
 
       <CustomRadio

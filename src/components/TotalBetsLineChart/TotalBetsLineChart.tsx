@@ -12,9 +12,11 @@ import { useMemo } from "react";
 import { getColor } from "../../utils/colors";
 import CustomTooltip from "./CustomTooltip";
 import { useHoverClickTooltip } from "../../hooks/useHoverClickTooltip";
+import { useConfig } from "../../context/ConfigContext";
 
 const TotalBetsLineChart = () => {
   const { data, selectedEndpoints } = useReportContext();
+  const { metric } = useConfig();
   const { tooltipTrigger, handleChartClick } = useHoverClickTooltip();
 
   const endpointColors = useMemo(() => {
@@ -27,20 +29,21 @@ const TotalBetsLineChart = () => {
 
   const chartData = useMemo(() => {
     return data.periods.map((bucket) => {
-      const endpointBets: Record<string, number> = {};
+      const endpointValues: Record<string, number> = {};
 
       selectedEndpoints.forEach((ep) => {
         const report = bucket.endpoints.find((e) => e.endpoint === ep);
-        endpointBets[ep] = report?.totalBet ?? 0;
+
+        endpointValues[ep] = report?.[metric] ?? 0;
       });
 
       return {
         period: new Date(bucket.period),
-        total: bucket.totalBet,
-        ...endpointBets,
+        total: bucket[metric] ?? 0,
+        ...endpointValues,
       };
     });
-  }, [data.periods, selectedEndpoints]);
+  }, [data.periods, selectedEndpoints, metric]);
 
   return (
     <LineChart
@@ -72,7 +75,6 @@ const TotalBetsLineChart = () => {
       />
       <Tooltip content={<CustomTooltip />} trigger={tooltipTrigger} />
 
-      {/* Total Bets line */}
       <Line
         type="monotone"
         dataKey="total"
@@ -82,7 +84,6 @@ const TotalBetsLineChart = () => {
         filter="url(#glow)"
       />
 
-      {/* Lines for selected endpoints */}
       {selectedEndpoints.map((ep) => (
         <Line
           key={ep}

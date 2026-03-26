@@ -1,8 +1,10 @@
+import { useConfig } from "../../context/ConfigContext";
 import { useReportContext } from "../../context/ReportContext";
 // import { getColor } from "../../utils/colors";
 
 const ItemsList = () => {
   const { data, selectedEndpoints, setSelectedEndpoints } = useReportContext();
+  const { groupBy, metric } = useConfig();
   const endpointTotals = data.endpoints;
 
   const sortedEndpoints = Object.entries(endpointTotals)
@@ -24,8 +26,8 @@ const ItemsList = () => {
   return (
     <ul>
       <li className="report-code-nav-header">
-        <span>Endpoint</span>
-        <span>Total Bet</span>
+        <span>{groupBy}</span>
+        <span>{metric}</span>
       </li>
 
       <li
