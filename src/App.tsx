@@ -4,14 +4,11 @@ import SideMenu from "./components/SideMenu/SideMenu";
 import CustomLineChart from "./components/CustomLineChart/CustomLineChart";
 import { useReportContext } from "./context/ReportContext";
 import Loader from "./components/Loader/Loader";
-import TabsMenu from "./components/TabsMenu/TabsMenu";
-import { useTabs } from "./hooks/useTabs";
+import TopMenu from "./components/TopMenu/TopMenu";
 
 function App() {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const { loading } = useReportContext();
-  const tabs = ["1h", "2h", "3h", "6h", "12h", "1d", "3d", "7d", "14d", "1m"];
-  const { selectedTab, changeSelectedTab } = useTabs();
 
   return (
     <div className="app">
@@ -30,10 +27,7 @@ function App() {
             isSidebarCollapsed ? "chart-wrapper expanded" : "chart-wrapper"
           }
         >
-          <TabsMenu
-            tabs={tabs}
-            selectedTab={selectedTab}
-            changeSelectedTab={changeSelectedTab}
+          <TopMenu
           />
           <CustomLineChart />
         </div>

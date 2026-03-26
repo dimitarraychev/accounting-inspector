@@ -1,4 +1,4 @@
-.tabs-menu {
+.top-menu {
   display: flex;
   gap: 0.5rem;
   margin: 0.5rem 0 -1.8rem 3.8rem;
@@ -33,7 +33,7 @@
   transform: scale(1);
 }
 
-.tabs-menu .times-wrapper {
+.top-menu .times-wrapper {
   width: 100%;
   display: flex;
   align-items: center;
@@ -42,14 +42,14 @@
   justify-content: flex-end;
 }
 
-.tabs-menu .time-label {
+.top-menu .time-label {
   font-size: 0.75rem;
   color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
-.tabs-menu .arrow-wrapper.disabled {
+.top-menu .arrow-wrapper.disabled {
   opacity: 0.4;
   cursor: not-allowed;
 }
