@@ -1,0 +1,54 @@
+import { useReportContext } from "../../context/ReportContext";
+import { formatDate } from "../../utils/date";
+import "./CustomTooltip.css";
+
+interface TooltipProps {
+  active?: boolean;
+  payload?: any[];
+  label?: string;
+}
+
+const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
+  const { selectedGroups, data } = useReportContext();
+
+  if (active && payload && payload.length && label) {
+    const periodReport = data.periods.find(
+      (r) => new Date(r.period).getTime() === new Date(label).getTime(),
+    );
+
+    return (
+      <div className="custom-tooltip">
+        <p>
+          <span className="time-label">Time: </span>
+          {formatDate(label)}
+        </p>
+        {payload.map((p) => (
+          <p
+            key={p.dataKey}
+            className="payload-value"
+            style={{ color: p.stroke }}
+          >
+            {p.dataKey}: {p.value}
+          </p>
+        ))}
+
+        {selectedGroups.length === 1 && periodReport && (
+          <div className="groups-wrapper">
+            {periodReport.items
+              .filter((item) => item.name === selectedGroups[0])
+              .map((item) => (
+                <p key={item.name}>
+                  <span className="group-name">{item.name}:</span>
+                  <span className="group-value">{item.value}</span>
+                </p>
+              ))}
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  return null;
+};
+
+export default CustomTooltip;

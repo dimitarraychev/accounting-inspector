@@ -13,37 +13,38 @@ import { getColor } from "../../utils/colors";
 import CustomTooltip from "./CustomTooltip";
 import { useHoverClickTooltip } from "../../hooks/useHoverClickTooltip";
 import { useConfig } from "../../context/ConfigContext";
+import type { PeriodReport } from "../../types/ReportTypes";
 
-const TotalBetsLineChart = () => {
-  const { data, selectedEndpoints } = useReportContext();
+const CustomLineChart = () => {
+  const { data, selectedGroups } = useReportContext();
   const { metric } = useConfig();
   const { tooltipTrigger, handleChartClick } = useHoverClickTooltip();
 
-  const endpointColors = useMemo(() => {
+  const groupColors = useMemo(() => {
     const map: Record<string, string> = {};
-    selectedEndpoints.forEach((ep) => {
-      map[ep] = getColor(ep);
+    selectedGroups.forEach((group) => {
+      map[group] = getColor(group);
     });
     return map;
-  }, [selectedEndpoints]);
+  }, [selectedGroups]);
 
   const chartData = useMemo(() => {
-    return data.periods.map((bucket) => {
-      const endpointValues: Record<string, number> = {};
+    return data.periods.map((bucket: PeriodReport) => {
+      const groupValues: Record<string, number> = {};
 
-      selectedEndpoints.forEach((ep) => {
-        const report = bucket.endpoints.find((e) => e.endpoint === ep);
-
-        endpointValues[ep] = report?.[metric] ?? 0;
+      bucket.items.forEach((item) => {
+        if (selectedGroups.length === 0 || selectedGroups.includes(item.name)) {
+          groupValues[item.name] = item.value ?? 0;
+        }
       });
 
       return {
         period: new Date(bucket.period),
-        total: bucket[metric] ?? 0,
-        ...endpointValues,
+        total: bucket.total ?? 0,
+        ...groupValues,
       };
     });
-  }, [data.periods, selectedEndpoints, metric]);
+  }, [data.periods, selectedGroups, metric]);
 
   return (
     <LineChart
@@ -51,8 +52,8 @@ const TotalBetsLineChart = () => {
       height="97%"
       data={chartData}
       margin={{ bottom: 80, right: 30, top: 30 }}
-      responsive={true}
       onClick={handleChartClick}
+      responsive={true}
     >
       <CartesianGrid
         stroke="rgba(255,255,255,0.2)"
@@ -84,12 +85,12 @@ const TotalBetsLineChart = () => {
         filter="url(#glow)"
       />
 
-      {selectedEndpoints.map((ep) => (
+      {selectedGroups.map((group) => (
         <Line
-          key={ep}
+          key={group}
           type="monotone"
-          dataKey={ep}
-          stroke={endpointColors[ep]}
+          dataKey={group}
+          stroke={groupColors[group]}
           strokeWidth={2.5}
           dot={false}
           filter="url(#glow)"
@@ -109,4 +110,4 @@ const TotalBetsLineChart = () => {
   );
 };
 
-export default TotalBetsLineChart;
+export default CustomLineChart;

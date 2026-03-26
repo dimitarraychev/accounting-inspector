@@ -1,39 +1,26 @@
-export interface EndpointTotals {
-  totalBet: number;
-  totalWin: number;
-  totalLost: number;
-  rounds: number;
+// Totals per group (endpoint or platform)
+export interface GroupTotals {
+  [groupName: string]: number;
 }
 
-export interface EndpointReport {
-  [endpoint: string]: EndpointTotals;
-}
-
-export interface PeriodEndpoint {
-  endpoint: string;
-  totalBet: number;
-  totalWin: number;
-  totalLost: number;
-  rounds: number;
+export interface PeriodItem {
+  name: string;
+  value: number; 
 }
 
 export interface PeriodReport {
-  period: string;
-  totalBet: number;
-  totalWin: number;
-  totalLost: number;
-  rounds: number;
-  endpoints: PeriodEndpoint[];
+  period: string; 
+  total: number;
+  items: PeriodItem[]; 
 }
 
 export interface AccountingReport {
   start: string;
   end: string;
-  totalBet: number;
-  totalWin: number;
-  totalLost: number;
-  rounds: number;
-
-  endpoints: EndpointReport;
-  periods: PeriodReport[];
+  groupBy: "endpoint" | "platform";
+  metric: "totalBet" | "totalWin" | "totalLost" | "numberOfGames";
+  mode: "period" | "cumulative";
+  total: number; 
+  groups: GroupTotals; 
+  periods: PeriodReport[]; 
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import SideMenu from "./components/SideMenu/SideMenu";
-import TotalBetsLineChart from "./components/TotalBetsLineChart/TotalBetsLineChart";
+import CustomLineChart from "./components/CustomLineChart/CustomLineChart";
 import { useReportContext } from "./context/ReportContext";
 import Loader from "./components/Loader/Loader";
 
@@ -26,7 +26,7 @@ function App() {
             isSidebarCollapsed ? "chart-wrapper expanded" : "chart-wrapper"
           }
         >
-          <TotalBetsLineChart />
+          <CustomLineChart />
         </div>
       </div>
     </div>

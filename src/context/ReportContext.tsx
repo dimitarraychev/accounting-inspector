@@ -6,15 +6,16 @@ import {
   type ReactNode,
 } from "react";
 import type { AccountingReport } from "../types/ReportTypes";
-import { getDefaultRange, parsePeriodToHours } from "../utils/date";
+import { getDefaultRange } from "../utils/date";
+import { useConfig } from "./ConfigContext";
 // import { reportsExample } from "./reportsExample";
 
 interface ReportContextType {
   data: AccountingReport;
   loading: boolean;
   error: string | null;
-  selectedEndpoints: string[];
-  setSelectedEndpoints: React.Dispatch<React.SetStateAction<string[]>>;
+  selectedGroups: string[];
+  setSelectedGroups: React.Dispatch<React.SetStateAction<string[]>>;
   timePeriodStart: string;
   setTimePeriodStart: React.Dispatch<React.SetStateAction<string>>;
   timePeriodEnd: string;
@@ -31,15 +32,17 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   const [data, setData] = useState<AccountingReport>({
     start: "",
     end: "",
-    totalBet: 0,
-    totalWin: 0,
-    totalLost: 0,
-    rounds: 0,
-    endpoints: {},
+    groupBy: "endpoint",
+    metric: "totalBet",
+    mode: "period",
+    total: 0,
+    groups: {},
     periods: [],
   });
 
-  const [selectedEndpoints, setSelectedEndpoints] = useState<string[]>([]);
+  const { metric, groupBy, aggregation: mode } = useConfig();
+
+  const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -47,23 +50,21 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   const [timePeriodStart, setTimePeriodStart] = useState(defaultRange.start);
   const [timePeriodEnd, setTimePeriodEnd] = useState(defaultRange.end);
 
-  const BASE_URL = "/api/accounting-report/endpoints";
-
   const getReport = async () => {
     setLoading(true);
     setError(null);
 
     try {
       const params = new URLSearchParams();
+
       if (timePeriodStart) params.append("start", timePeriodStart);
       if (timePeriodEnd) params.append("end", timePeriodEnd);
 
-      if (!timePeriodEnd && timePeriodStart.includes("h")) {
-        const hours = parsePeriodToHours(timePeriodStart);
-        const startDate = new Date(Date.now() - hours * 60 * 60 * 1000);
-        params.set("start", startDate.toISOString());
-      }
+      params.append("groupBy", groupBy);
+      params.append("metric", metric);
+      params.append("mode", mode);
 
+      const BASE_URL = "/api/accounting-report";
       const res = await fetch(`${BASE_URL}?${params.toString()}`);
       if (!res.ok) throw new Error(`Failed to fetch report: ${res.status}`);
 
@@ -74,11 +75,11 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
       setData({
         start: "",
         end: "",
-        totalBet: 0,
-        totalWin: 0,
-        totalLost: 0,
-        rounds: 0,
-        endpoints: {},
+        groupBy: "endpoint",
+        metric: "totalBet",
+        mode: "period",
+        total: 0,
+        groups: {},
         periods: [],
       });
     } finally {
@@ -89,16 +90,16 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   useEffect(() => {
     // return setData(reportsExample as unknown as AccountingReport);
     getReport();
-    const interval = setInterval(getReport, 5 * 60 * 1000); // refresh every 5 mins
+    const interval = setInterval(getReport, 5 * 60 * 1000);
     return () => clearInterval(interval);
-  }, [timePeriodStart, timePeriodEnd]);
+  }, [timePeriodStart, timePeriodEnd, groupBy, metric, mode]);
 
   const contextValue: ReportContextType = {
     data,
     loading,
     error,
-    selectedEndpoints,
-    setSelectedEndpoints,
+    selectedGroups,
+    setSelectedGroups,
     timePeriodStart,
     setTimePeriodStart,
     timePeriodEnd,

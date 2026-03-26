@@ -1,4724 +1,8269 @@
 export const reportsExample = {
-  start: "2026-03-23T06:18:46.133Z",
-  end: "2026-03-23T12:18:46.133Z",
-  totalBet: 233966.53901953174,
-  totalWin: 224883.09964694123,
-  totalLost: 224883.09964694123,
-  rounds: 28000,
-  endpoints: {
-    "1xbet.com (CU)": {
-      totalBet: 3740.881866586386,
-      totalWin: 4357.031306498783,
-    },
-    "1xslot.com (CU)": {
-      totalBet: 195.71706606195266,
-      totalWin: 197.12114122993125,
-    },
-    "22bet.com (CU)": {
-      totalBet: 14.430124659699189,
-      totalWin: 94.1074795819514,
-    },
-    "7starswin.com (CU)": {
-      totalBet: 2.128284980245121,
-      totalWin: 1.7972184277625465,
-    },
-    "888starz.bet (CU)": {
-      totalBet: 184.4147717779182,
-      totalWin: 217.71923668930324,
-    },
-    "Admiralbet.BG": {
-      totalBet: 101.30000000000001,
-      totalWin: 64.24999999999999,
-    },
-    "Admiralbet.RS": {
-      totalBet: 8.152018310754096,
-      totalWin: 5.694895052253646,
-    },
-    "alphawin.BG": {
-      totalBet: 3249.1399999999994,
-      totalWin: 2874.6899999999996,
-    },
-    "Asvla.GE": {
-      totalBet: 856.5231144388533,
-      totalWin: 707.5928044378031,
-    },
-    "Belarus /Slotegrator/ .BY": {
-      totalBet: 559.8865248109679,
-      totalWin: 519.0787255665679,
-    },
-    "Bet.BG": {
-      totalBet: 966.2700000000001,
-      totalWin: 1140.96,
-    },
-    "Betano.AR (LOTBA)": {
-      totalBet: 5.343080338755845,
-      totalWin: 3.24734201792702,
-    },
-    "Betano.AR (MGA)": {
-      totalBet: 1361.4848239535127,
-      totalWin: 1595.1100345562088,
-    },
-    "Betano.BG (New)": {
-      totalBet: 1613.23,
-      totalWin: 1375.51,
-    },
-    "Betano.CL (MGA)": {
-      totalBet: 94.71757119262409,
-      totalWin: 108.90092031480165,
-    },
-    "Betano.EC": {
-      totalBet: 1.358397180498994,
-      totalWin: 0.4414790836621731,
-    },
-    "BetHub.BG": {
-      totalBet: 443.12999999999994,
-      totalWin: 378.08000000000004,
-    },
-    "betwinner.com (CU)": {
-      totalBet: 392.70647287630686,
-      totalWin: 386.8639690939887,
-    },
-    "carousel.BE": {
-      totalBet: 1265.8000000000002,
-      totalWin: 1223.26,
-    },
-    "Casino770 (CU)": {
-      totalBet: 22579.34,
-      totalWin: 20450.624400000004,
-    },
-    "Casino777.ES": {
-      totalBet: 86.55,
-      totalWin: 59.550000000000004,
-    },
-    "Casino777.NL": {
-      totalBet: 5.3999999999999995,
-      totalWin: 1.6,
-    },
-    "Casinomagiconline.AR (MGA)": {
-      totalBet: 49.93690392012216,
-      totalWin: 99.00784996879715,
-    },
-    "Circus.BE (CU)": {
-      totalBet: 23.700000000000003,
-      totalWin: 16.5,
-    },
-    "Crocobet.GE": {
-      totalBet: 308.5159618564828,
-      totalWin: 403.30595919336963,
-    },
-    "crystalbet.GE": {
-      totalBet: 2470.2708282701315,
-      totalWin: 2238.564768124382,
-    },
-    "dbbet.com (CU)": {
-      totalBet: 0.07793473218301637,
-      totalWin: 0.05382039800979606,
-    },
-    Doradobet: {
-      totalBet: 1.358397180498994,
-      totalWin: 2.546994713435614,
-    },
-    "EM (CU)": {
-      totalBet: 100.2863425486367,
-      totalWin: 184.65057150497,
-    },
-    "Europebet_betsson (CU)": {
-      totalBet: 9.048785543799282,
-      totalWin: 2.3495092289163044,
-    },
-    "G8star (CU)": {
-      totalBet: 72.2032213679832,
-      totalWin: 66.89879543758396,
-    },
-    "Ganaplay El Salvador (CU)": {
-      totalBet: 6.7070860787137825,
-      totalWin: 2.716794360997988,
-    },
-    "GapaGroup.CZ": {
-      totalBet: 21.458102880447342,
-      totalWin: 13.246251970429995,
-    },
-    "Goldpari (CU)": {
-      totalBet: 13.110615482417291,
-      totalWin: 13.186839991035997,
-    },
-    "Grandwin.CZ": {
-      totalBet: 16.67129531480909,
-      totalWin: 9.449818383889312,
-    },
-    "helabet.com (CU)": {
-      totalBet: 28.0989258829748,
-      totalWin: 26.98053299139501,
-    },
-    "IceCasino (CU)": {
-      totalBet: 294.90359985482826,
-      totalWin: 236.53633321235685,
-    },
-    "Inbet.BG": {
-      totalBet: 14647.54,
-      totalWin: 15383.960000000001,
-    },
-    "Lightbet24.com (CU)": {
-      totalBet: 42.352939966208396,
-      totalWin: 32.10341068370455,
-    },
-    "Linebet (CU)": {
-      totalBet: 225.72347379199357,
-      totalWin: 210.2987600210061,
-    },
-    "Logrand.MX (CU)": {
-      totalBet: 128.53971210743435,
-      totalWin: 291.4855794472814,
-    },
-    "Madridbet (CU)": {
-      totalBet: 0.1930828025106119,
-      totalWin: 0.07723312100424476,
-    },
-    "MagicBet.BG": {
-      totalBet: 1339.7999999999997,
-      totalWin: 1374.12,
-    },
-    "megapari.com (CU)": {
-      totalBet: 5.2859365522427835,
-      totalWin: 3.0046376191695825,
-    },
-    "Melbet.com (CU)": {
-      totalBet: 413.48452935238384,
-      totalWin: 356.38960560832595,
-    },
-    "Merkurxtip.RS": {
-      totalBet: 3.6856848877506745,
-      totalWin: 1.2891365429146457,
-    },
-    "Monacobetsk.SK": {
-      totalBet: 40.05,
-      totalWin: 27.2,
-    },
-    "mscasino.com (CU)": {
-      totalBet: 144.8,
-      totalWin: 126.39999999999999,
-    },
-    "Napoleon.BE (CU)": {
-      totalBet: 195.4,
-      totalWin: 177.6,
-    },
-    "OffsideLA (CU)": {
-      totalBet: 8070.022434721251,
-      totalWin: 6630.130836044551,
-    },
-    "OffsideROW (CU)": {
-      totalBet: 187.56063435880844,
-      totalWin: 147.29321589522027,
-    },
-    "palmsbet.BG": {
-      totalBet: 59683.76999999999,
-      totalWin: 56684,
-    },
-    "PEN_AtlanticCity.PE": {
-      totalBet: 118.33034568957498,
-      totalWin: 120.10175805019736,
-    },
-    "PEN_Baby Palms Peru": {
-      totalBet: 562.9042364240603,
-      totalWin: 569.3698915403319,
-    },
-    "PEN_Betano.PE": {
-      totalBet: 2362.70980659813,
-      totalWin: 1970.9569018683178,
-    },
-    "PEN_Betsafe.PE": {
-      totalBet: 186.25135677401022,
-      totalWin: 154.98845919811183,
-    },
-    "PEN_Betsson.PE": {
-      totalBet: 132.8812329375445,
-      totalWin: 103.71619371444032,
-    },
-    "PEN_Calimaco Apuesta": {
-      totalBet: 3210.0522563564123,
-      totalWin: 2903.3549814164267,
-    },
-    "PEN_Calimaco Apuesta 2": {
-      totalBet: 998.0643357563808,
-      totalWin: 992.0364725520916,
-    },
-    "PEN_Doradobet.PE": {
-      totalBet: 373.2492373285685,
-      totalWin: 370.7262400092249,
-    },
-    "PEN_Inkabet.PE": {
-      totalBet: 255.8172507647377,
-      totalWin: 222.099681774834,
-    },
-    "PEN_LaFija.PE": {
-      totalBet: 383.23241127521885,
-      totalWin: 360.58363895011837,
-    },
-    "PEN_LaTinka.PE": {
-      totalBet: 4036.8083638951757,
-      totalWin: 2945.1350072362493,
-    },
-    "PEN_OlimpoBet.PE": {
-      totalBet: 4177.116875801902,
-      totalWin: 4403.194643620876,
-    },
-    "PEN_RushStreet.PE": {
-      totalBet: 98.49052725060432,
-      totalWin: 86.92573512482679,
-    },
-    "Peppermill.BE": {
-      totalBet: 275.2,
-      totalWin: 398.88000000000005,
-    },
-    "playcet_TgLab.AR (MGA)": {
-      totalBet: 97.68485877630835,
-      totalWin: 92.15896510913586,
-    },
-    "RON_AdmiralBet.RO": {
-      totalBet: 83.35073865460043,
-      totalWin: 40.86303194525596,
-    },
-    "RON_Avento.RO": {
-      totalBet: 1065.9048034067107,
-      totalWin: 1062.5215412919179,
-    },
-    "RON_bilion.RO": {
-      totalBet: 9.108025192617294,
-      totalWin: 7.237187585485094,
-    },
-    "RON_Cashpot.RO": {
-      totalBet: 2.4123958618283643,
-      totalWin: 1.5360561405927546,
-    },
-    "RON_Favbet.RO": {
-      totalBet: 20.303511294245254,
-      totalWin: 12.737450150453766,
-    },
-    "RON_Gameworld.RO": {
-      totalBet: 52.03882501944044,
-      totalWin: 125.12949637597902,
-    },
-    "RON_Getsbet.RO": {
-      totalBet: 381.0600810316641,
-      totalWin: 630.6239099148668,
-    },
-    "RON_Joker Casino.RO": {
-      totalBet: 36.629031044904146,
-      totalWin: 47.32234494672294,
-    },
-    "RON_lasvegas.RO": {
-      totalBet: 197.12720470940351,
-      totalWin: 243.50428433883857,
-    },
-    "RON_netbet.RO": {
-      totalBet: 329.24772582782384,
-      totalWin: 310.77172748033513,
-    },
-    "RON_Princess.RO": {
-      totalBet: 1093.908288431363,
-      totalWin: 846.1896962196163,
-    },
-    "RON_Seven.RO": {
-      totalBet: 23.82856320663119,
-      totalWin: 30.918053086290058,
-    },
-    "RON_Stanleybet.RO": {
-      totalBet: 135.4387962426496,
-      totalWin: 141.49637148426922,
-    },
-    "RON_Superbet.RO": {
-      totalBet: 1398.8548183939122,
-      totalWin: 1317.5206457495256,
-    },
-    "RON_Winner.RO": {
-      totalBet: 6.656243275901936,
-      totalWin: 1.5754421954797482,
-    },
-    "RushStreet.MX (CU)": {
-      totalBet: 21.14590846550329,
-      totalWin: 17.719488112296737,
-    },
-    "Sesame.BG": {
-      totalBet: 2551.9500000000003,
-      totalWin: 2687.94,
-    },
-    "Slotino.BG": {
-      totalBet: 126.30000000000001,
-      totalWin: 122.75,
-    },
-    "Slots del Sol (CU)": {
-      totalBet: 290.83031533148534,
-      totalWin: 255.9907974535327,
-    },
-    "Solbet.PY": {
-      totalBet: 49.546231697525805,
-      totalWin: 36.77337665001038,
-    },
-    "SPS Supersports 2.HR": {
-      totalBet: 23,
-      totalWin: 11.1,
-    },
-    "Synottip.CZ": {
-      totalBet: 20.83911914351136,
-      totalWin: 11.14170726484766,
-    },
-    "Synottip.SK": {
-      totalBet: 32.699999999999996,
-      totalWin: 21.320000000000004,
-    },
-    "Tipos.SK": {
-      totalBet: 796.02,
-      totalWin: 559.9699999999999,
-    },
-    "tonybet.NL": {
-      totalBet: 0.8,
-      totalWin: 0,
-    },
-    "TopSport.LT": {
-      totalBet: 5130.4,
-      totalWin: 5355.159999999999,
-    },
-    "Topwin.BG": {
-      totalBet: 47.4,
-      totalWin: 37.9,
-    },
-    "TRY_Artemisbet.com (CU)": {
-      totalBet: 4.402287897241951,
-      totalWin: 2.456013247934983,
-    },
-    "TRY_batery.in (CU)": {
-      totalBet: 7.709094538925488,
-      totalWin: 0.4655250325438096,
-    },
-    "TRY_BlueOcean General (CU)": {
-      totalBet: 273.6505033668571,
-      totalWin: 242.00941845661438,
-    },
-    "TRY_Jojobet (CU)": {
-      totalBet: 62.964301898710545,
-      totalWin: 42.621097826192475,
-    },
-    "TRY_MrSlotty-IRE(Europe) (CU)": {
-      totalBet: 1814.5543323855532,
-      totalWin: 1889.4103841793544,
-    },
-    "TRY_Slotegrator Curacao NEW (CU)": {
-      totalBet: 638.9280324591781,
-      totalWin: 341.80293102165695,
-    },
-    "TRY_Slotegrator Free Market NEW (CU)": {
-      totalBet: 4102.1278405522335,
-      totalWin: 4380.553938016834,
-    },
-    "Vbet (CU)": {
-      totalBet: 310.62097731753346,
-      totalWin: 398.61847935770413,
-    },
-    "vulkanvegas.com (CU)": {
-      totalBet: 61376.571358523244,
-      totalWin: 60881.240468059135,
-    },
-    "WeAreCasino (CU)": {
-      totalBet: 30.166022108838863,
-      totalWin: 16.852006178085908,
-    },
-    "Winbet.BG": {
-      totalBet: 7876.789999999999,
-      totalWin: 6530.55,
-    },
+  start: "2026-03-26T03:00:36.662Z",
+  end: "2026-03-26T09:00:36.662Z",
+  groupBy: "platform",
+  metric: "totalLost",
+  mode: "period",
+  total: 17502.99868361697,
+  groups: {
+    iSOFTBET: 4718.311337486626,
+    "Baby Leopard": 4183.300000000001,
+    "EGT New Platform": 2486.7850638072114,
+    Reevo: 1775.1999194235007,
+    Intralot: 1606.442225820197,
+    ORYX: 1583.0629317545151,
+    MrSlotty: 1051.220353590555,
+    Virtualsoft: 939.2125983510311,
+    BlueOcean: 567.9688801755502,
+    Asvla: 483.45085940121123,
+    Efbet: 385.79,
+    Evoplay: 355.8996212138032,
+    BtoBet: 294.43446935606306,
+    Easit: 256.9960346172559,
+    Gaming1: 241.79999999999998,
+    Leopard: 215.25546616688473,
+    Optimus: 157.85938929949506,
+    Crystalbet: 157.49887365856432,
+    BetConstruct: 114.5495110701771,
+    Avento: 107.0526031018728,
+    Betmexico: 80.26034547308734,
+    SoftSwiss: 78.53343180589128,
+    TopSport: 71.05000000000001,
+    Everymatrix: 68.34004499020247,
+    Newton: 60.87160086840006,
+    Admiralbet: 49.11641146321037,
+    Peppermill: 38.49000000000001,
+    Leris: 26.066351568050067,
+    TGLab: 25.332710975757248,
+    Pariplay: 16.20720091724622,
+    Dench: 12.45,
+    Digitain: 4.16169479834737,
+    "universal-casinotech": 0.5798372366697612,
+    Goldrush: 0,
+    Comtrade: -28.610359030626825,
+    Ondiss: -31.545039769820356,
+    WeAreCasino: -47.32053975849814,
+    Skywind360: -48.486079087166786,
+    Slotegrator: -245.54167427363407,
+    BetB2B: -800.9840124409816,
+    "Calimaco Apuesta": -3508.063380413677,
   },
   periods: [
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "Bet.BG",
-          totalBet: 1.25,
-          totalWin: 0.4,
+          name: "WeAreCasino",
+          value: -9.106358166583835,
         },
         {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 9.817716710089229,
-          totalWin: 6.875450677407208,
+          name: "Evoplay",
+          value: 37.8,
         },
         {
-          endpoint: "TopSport.LT",
-          totalBet: 118.8,
-          totalWin: 102.48,
+          name: "Easit",
+          value: -27.41,
         },
         {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 16.866505005483077,
-          totalWin: 15.785986150664954,
+          name: "BetB2B",
+          value: 693.2921948847059,
         },
         {
-          endpoint: "Vbet (CU)",
-          totalBet: 8.477903854003948,
-          totalWin: 1.946777922030536,
+          name: "MrSlotty",
+          value: 36.990770664080976,
         },
         {
-          endpoint: "TRY_Slotegrator Curacao NEW (CU)",
-          totalBet: 52.5,
-          totalWin: 24,
+          name: "Efbet",
+          value: 0.45,
         },
         {
-          endpoint: "palmsbet.BG",
-          totalBet: 904.7,
-          totalWin: 724.99,
+          name: "EGT New Platform",
+          value: -82.18,
         },
         {
-          endpoint: "Inbet.BG",
-          totalBet: 217.55,
-          totalWin: 156.06,
+          name: "iSOFTBET",
+          value: -19.83382431446142,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 5.642838522230188,
-          totalWin: 8.06873171870298,
+          name: "Optimus",
+          value: 15.738773055568235,
         },
         {
-          endpoint: "Topwin.BG",
-          totalBet: 3.6,
-          totalWin: 3.2,
+          name: "Intralot",
+          value: 24.9298129617366,
         },
         {
-          endpoint: "Betano.BG (New)",
-          totalBet: 9.4,
-          totalWin: 0.5,
+          name: "Calimaco Apuesta",
+          value: 18.30584995556909,
         },
         {
-          endpoint: "PEN_Betsafe.PE",
-          totalBet: 7.212178896819689,
-          totalWin: 9.869297437753259,
+          name: "Virtualsoft",
+          value: 66.44396534345782,
         },
         {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 5.110340621587434,
-          totalWin: 8.379383177207911,
+          name: "Leopard",
+          value: -2.2321817554772254,
         },
         {
-          endpoint: "carousel.BE",
-          totalBet: 18.3,
-          totalWin: 41.11,
+          name: "Everymatrix",
+          value: -1.8360118117305437,
         },
         {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 6.43048911285875,
-          totalWin: 1.7474155197985735,
+          name: "Asvla",
+          value: 2.472310755759312,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 40.89431963951094,
-          totalWin: 21.535313126994932,
+          name: "TopSport",
+          value: -2.8,
         },
         {
-          endpoint: "Europebet_betsson (CU)",
-          totalBet: 1.5875062357542598,
-          totalWin: 0,
+          name: "TGLab",
+          value: -3.2443004988137005,
         },
         {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 18.49860622307085,
-          totalWin: 18.16962964181241,
+          name: "Pariplay",
+          value: 5.317640526936806,
         },
         {
-          endpoint: "Casino770 (CU)",
-          totalBet: 414,
-          totalWin: 283.75,
+          name: "Newton",
+          value: -13.445455499437003,
         },
         {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 48.96444753311594,
-          totalWin: 70.0834591924235,
+          name: "Avento",
+          value: 6.98771117926945,
         },
         {
-          endpoint: "Crocobet.GE",
-          totalBet: 1.9685077323352822,
-          totalWin: 0.7620029931620447,
+          name: "Reevo",
+          value: 89.44000000000001,
         },
         {
-          endpoint: "RON_Princess.RO",
-          totalBet: 20.08688799236679,
-          totalWin: 18.432673687113056,
+          name: "Ondiss",
+          value: 14.299021328758041,
         },
         {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 18.08589096095465,
-          totalWin: 12.727776631375068,
+          name: "Baby Leopard",
+          value: -80.93,
         },
         {
-          endpoint: "G8star (CU)",
-          totalBet: 1.8849709025294414,
-          totalWin: 0.8541274402086532,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 35.24263843374457,
-          totalWin: 14.382806495933593,
-        },
-        {
-          endpoint: "Peppermill.BE",
-          totalBet: 1.9,
-          totalWin: 0,
-        },
-        {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 1.4171298884979038,
-          totalWin: 2.1256948327468557,
-        },
-        {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 29.60789231325978,
-          totalWin: 13.285592704667849,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 2.4293655231392637,
-          totalWin: 1.3766404631122495,
-        },
-        {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 4.04894253856544,
-          totalWin: 0.404894253856544,
-        },
-        {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 9.2360484091992,
-          totalWin: 12.728333021269624,
-        },
-        {
-          endpoint: "MagicBet.BG",
-          totalBet: 21.3,
-          totalWin: 16,
-        },
-        {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 136.85425780351187,
-          totalWin: 36.82007121007947,
-        },
-        {
-          endpoint: "GapaGroup.CZ",
-          totalBet: 1.2379674738719622,
-          totalWin: 0.08253116492479748,
-        },
-        {
-          endpoint: "EM (CU)",
-          totalBet: 1.1192014733768558,
-          totalWin: 1.07207720081362,
-        },
-        {
-          endpoint: "BetHub.BG",
-          totalBet: 7,
-          totalWin: 37.4,
-        },
-        {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 1.4793446970556423,
-          totalWin: 0.3968973577466357,
-        },
-        {
-          endpoint: "Winbet.BG",
-          totalBet: 114.62,
-          totalWin: 91.61,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 5.668519553991615,
-          totalWin: 11.134591981054959,
-        },
-        {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 5.18770762753697,
-          totalWin: 6.253085632997001,
-        },
-        {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 55.048928899276525,
-          totalWin: 26.274934316993193,
-        },
-        {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 2.02447126928272,
-          totalWin: 8.502779330987423,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 12.930874846509443,
-          totalWin: 8.667180978200923,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 7.483350428528804,
-          totalWin: 1.4966700857057609,
-        },
-        {
-          endpoint: "RON_netbet.RO",
-          totalBet: 10.397918490166338,
-          totalWin: 94.76284805810685,
-        },
-        {
-          endpoint: "RON_Getsbet.RO",
-          totalBet: 2.264698156002138,
-          totalWin: 6.892559605223899,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 7.605905197277281,
-          totalWin: 21.767266642471373,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 9.560964823817722,
-          totalWin: 4.096149708247346,
-        },
-        {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 17.2,
-          totalWin: 10.46,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 52.55,
-          totalWin: 25.05,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 13.335052380335782,
-          totalWin: 7.3660289338997655,
-        },
-        {
-          endpoint: "alphawin.BG",
-          totalBet: 88.75,
-          totalWin: 58.4,
+          name: "ORYX",
+          value: 15.59929324697854,
         },
       ],
-      totalBet: 2609.130290169658,
-      totalWin: 2050.537659295695,
-      totalLost: 2050.537659295695,
-      rounds: 50,
-      period: "2026-03-23T11:10:00.000Z",
+      total: 785.049211856317,
+      period: "2026-03-26T03:00:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 29.915753698951576,
-          totalWin: 17.823638301945447,
+          name: "Everymatrix",
+          value: 3.410011444662185,
         },
         {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 205.90831788421968,
-          totalWin: 207.89466031887005,
+          name: "TGLab",
+          value: -5.561571497126513,
         },
         {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 7.996661513666743,
-          totalWin: 4.959954609742663,
+          name: "Leopard",
+          value: 11.03731905307157,
         },
         {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 9.068503264877677,
-          totalWin: 2.5509675629715587,
+          name: "TopSport",
+          value: 6.2,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 31.958506023098074,
-          totalWin: 11.021993001365507,
+          name: "Evoplay",
+          value: 18.992112194379803,
         },
         {
-          endpoint: "MagicBet.BG",
-          totalBet: 311.9,
-          totalWin: 583.58,
+          name: "ORYX",
+          value: 78.24124694663314,
         },
         {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 718.1432239417458,
-          totalWin: 289.32225027136667,
+          name: "EGT New Platform",
+          value: -149.87,
         },
         {
-          endpoint: "Goldpari (CU)",
-          totalBet: 13.110615482417291,
-          totalWin: 13.186839991035997,
+          name: "Easit",
+          value: 117.04,
         },
         {
-          endpoint: "Casino770 (CU)",
-          totalBet: 2281.85,
-          totalWin: 1259.39,
+          name: "BetConstruct",
+          value: 6.179538584157043,
         },
         {
-          endpoint: "GapaGroup.CZ",
-          totalBet: 20.22013540657538,
-          totalWin: 13.163720805505198,
+          name: "Reevo",
+          value: 152.81,
         },
         {
-          endpoint: "Synottip.SK",
-          totalBet: 9.7,
-          totalWin: 5.3,
+          name: "Ondiss",
+          value: 4.026614094272326,
         },
         {
-          endpoint: "Sesame.BG",
-          totalBet: 357.70000000000005,
-          totalWin: 367.44,
+          name: "Intralot",
+          value: -38.99381914087899,
         },
         {
-          endpoint: "Winbet.BG",
-          totalBet: 481.43,
-          totalWin: 448.96999999999997,
+          name: "Betmexico",
+          value: -0.06598322513459035,
         },
         {
-          endpoint: "RON_netbet.RO",
-          totalBet: 69.00436816201297,
-          totalWin: 81.29281728675501,
+          name: "Optimus",
+          value: 7.617162600611549,
         },
         {
-          endpoint: "Europebet_betsson (CU)",
-          totalBet: 7.143778060894169,
-          totalWin: 2.3495092289163044,
+          name: "Pariplay",
+          value: 6.51953934812756,
         },
         {
-          endpoint: "helabet.com (CU)",
-          totalBet: 0.13910359348007326,
-          totalWin: 0.30602790565616117,
+          name: "MrSlotty",
+          value: -20.69867385903732,
         },
         {
-          endpoint: "BetHub.BG",
-          totalBet: 99.85,
-          totalWin: 87.57000000000001,
+          name: "Virtualsoft",
+          value: 125.53768342272367,
         },
         {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 8.705226457915696,
-          totalWin: 11.883646350689565,
+          name: "iSOFTBET",
+          value: 180.24442136842072,
         },
         {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 43.3996028352483,
-          totalWin: 63.69492730980757,
+          name: "Calimaco Apuesta",
+          value: 76.64875130335217,
         },
         {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 0.36081577976966883,
-          totalWin: 0,
+          name: "Avento",
+          value: -10.756364399549604,
         },
         {
-          endpoint: "carousel.BE",
-          totalBet: 78.9,
-          totalWin: 29.7,
+          name: "Baby Leopard",
+          value: 283.13,
         },
         {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 26.7,
-          totalWin: 5.1,
+          name: "BetB2B",
+          value: 1014.9660061385532,
         },
         {
-          endpoint: "RON_Getsbet.RO",
-          totalBet: 54.845081430138734,
-          totalWin: 9.161196366714737,
+          name: "Skywind360",
+          value: -4.141592861870376,
         },
         {
-          endpoint: "RON_Winner.RO",
-          totalBet: 6.656243275901936,
-          totalWin: 1.5754421954797482,
+          name: "Newton",
+          value: 10.010485116369155,
         },
         {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 68.40902713564293,
-          totalWin: 47.67385223344331,
+          name: "Admiralbet",
+          value: 1.9499999999999997,
         },
         {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 45.292603021234626,
-          totalWin: 44.524259974358074,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 29.190345113970217,
-          totalWin: 48.33425155412493,
-        },
-        {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 7.337146495403252,
-          totalWin: 1.3515796175742834,
-        },
-        {
-          endpoint: "Logrand.MX (CU)",
-          totalBet: 2.202698798489926,
-          totalWin: 0.8076562261129728,
-        },
-        {
-          endpoint: "TRY_Artemisbet.com (CU)",
-          totalBet: 0.5792484075318357,
-          totalWin: 1.62189554108914,
-        },
-        {
-          endpoint: "Tipos.SK",
-          totalBet: 72,
-          totalWin: 94.5,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 15.113059364380554,
-          totalWin: 21.945686203066884,
-        },
-        {
-          endpoint: "Topwin.BG",
-          totalBet: 16.9,
-          totalWin: 14.9,
-        },
-        {
-          endpoint: "Betano.BG (New)",
-          totalBet: 106.63,
-          totalWin: 47.14,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 15.51810562547552,
-          totalWin: 3.8992194338123767,
-        },
-        {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 283.2867952998176,
-          totalWin: 226.578824458122,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 11.944380488768047,
-          totalWin: 6.8427128901755925,
-        },
-        {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 11.33703910798323,
-          totalWin: 11.944380488768047,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 88.71858664903208,
-          totalWin: 147.61514774046807,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 273.52732442045897,
-          totalWin: 217.7868054706554,
-        },
-        {
-          endpoint: "TRY_Slotegrator Curacao NEW (CU)",
-          totalBet: 273,
-          totalWin: 115.75,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 97.28238212702104,
-          totalWin: 85.43958560829427,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 196.5761602473521,
-          totalWin: 195.42727280203414,
-        },
-        {
-          endpoint: "RON_Princess.RO",
-          totalBet: 148.8792874728362,
-          totalWin: 145.09822620368482,
-        },
-        {
-          endpoint: "RON_Cashpot.RO",
-          totalBet: 0.04923256860874213,
-          totalWin: 0,
-        },
-        {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 76.5834496887806,
-          totalWin: 53.699758573746735,
-        },
-        {
-          endpoint: "dbbet.com (CU)",
-          totalBet: 0.024463817277180028,
-          totalWin: 0.027958648316777173,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 481.2,
-          totalWin: 493.78,
-        },
-        {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 961.7476459558754,
-          totalWin: 786.8844376002618,
-        },
-        {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 4172.233866664668,
-          totalWin: 11962.511154946198,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 11.133109393064515,
-          totalWin: 10.220076612151816,
-        },
-        {
-          endpoint: "palmsbet.BG",
-          totalBet: 4293.5599999999995,
-          totalWin: 3411.84,
-        },
-        {
-          endpoint: "PEN_Betsafe.PE",
-          totalBet: 35.68130612110794,
-          totalWin: 41.75471992895609,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 50.276299063247464,
-          totalWin: 71.00124114478356,
-        },
-        {
-          endpoint: "RON_lasvegas.RO",
-          totalBet: 26.58558704872075,
-          totalWin: 23.631632932196222,
-        },
-        {
-          endpoint: "Inbet.BG",
-          totalBet: 777.85,
-          totalWin: 752.4200000000001,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 26.684052185938235,
-          totalWin: 15.805623826150574,
-        },
-        {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 218.97632152044682,
-          totalWin: 249.32223766557968,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 64.4553209460459,
-          totalWin: 95.61569826261015,
-        },
-        {
-          endpoint: "Vbet (CU)",
-          totalBet: 39.563551318685086,
-          totalWin: 44.05370039691681,
-        },
-        {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 62.644732838867164,
-          totalWin: 42.17479771733226,
-        },
-        {
-          endpoint: "EM (CU)",
-          totalBet: 5.537102026180234,
-          totalWin: 3.6933648621436244,
-        },
-        {
-          endpoint: "Bet.BG",
-          totalBet: 32.65,
-          totalWin: 18.8,
-        },
-        {
-          endpoint: "TRY_batery.in (CU)",
-          totalBet: 1.0753628251762002,
-          totalWin: 0.2560387678990953,
-        },
-        {
-          endpoint: "alphawin.BG",
-          totalBet: 376.25,
-          totalWin: 427.95,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 51.37959071200536,
-          totalWin: 24.045186878300534,
+          name: "Slotegrator",
+          value: 10,
         },
       ],
-      totalBet: 18404.471121281007,
-      totalWin: 23525.906576716152,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:15:00.000Z",
+      total: 1884.4728866317366,
+      period: "2026-03-26T03:05:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "Bet.BG",
-          totalBet: 34.45,
-          totalWin: 38,
+          name: "Avento",
+          value: 1.9628402188959129,
         },
         {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 75.57622956072146,
-          totalWin: 47.28445486092907,
+          name: "Calimaco Apuesta",
+          value: -132.51509594846908,
         },
         {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 38.48017562459285,
-          totalWin: 44.890256057451076,
+          name: "Leopard",
+          value: 2.1640812951406323,
         },
         {
-          endpoint: "RON_Favbet.RO",
-          totalBet: 1.5754421954797482,
-          totalWin: 1.8550831851774037,
+          name: "MrSlotty",
+          value: 23.414264998662063,
         },
         {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 28.517821283112717,
-          totalWin: 20.68939975441511,
+          name: "Easit",
+          value: 33.06,
         },
         {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 21.45939545439683,
-          totalWin: 20.649606946683743,
+          name: "Crystalbet",
+          value: -2.7575773814238476,
         },
         {
-          endpoint: "IceCasino (CU)",
-          totalBet: 25.75,
-          totalWin: 13.45,
+          name: "TopSport",
+          value: 0.3,
         },
         {
-          endpoint: "crystalbet.GE",
-          totalBet: 125.92099462002788,
-          totalWin: 74.8667940781709,
+          name: "iSOFTBET",
+          value: 56.012181087706736,
         },
         {
-          endpoint: "Betano.AR (LOTBA)",
-          totalBet: 0.3367613944516909,
-          totalWin: 0.045101972471208604,
+          name: "BetConstruct",
+          value: -5.173241795214194,
         },
         {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 343.08461541625593,
-          totalWin: 249.41232978654446,
+          name: "Skywind360",
+          value: 2.6890910998874014,
         },
         {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 630.9517769628256,
-          totalWin: 331.4565585633133,
+          name: "ORYX",
+          value: 142.09248391646605,
         },
         {
-          endpoint: "Slotino.BG",
-          totalBet: 23.25,
-          totalWin: 21.15,
+          name: "Virtualsoft",
+          value: 24.75861241957144,
         },
         {
-          endpoint: "Betano.BG (New)",
-          totalBet: 93.25,
-          totalWin: 69.38,
+          name: "TGLab",
+          value: 11.297528687358355,
         },
         {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 59.66220832056775,
-          totalWin: 54.74737430952431,
+          name: "Everymatrix",
+          value: 5.945299105847282,
         },
         {
-          endpoint: "Casino770 (CU)",
-          totalBet: 2151.2,
-          totalWin: 2012.94,
+          name: "Evoplay",
+          value: 25.016014111590806,
         },
         {
-          endpoint: "BetHub.BG",
-          totalBet: 117.25,
-          totalWin: 86.89999999999999,
+          name: "BetB2B",
+          value: -121.27829273761654,
         },
         {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 2.9466622014522956,
-          totalWin: 0.2814363082203417,
+          name: "Optimus",
+          value: 11.53924466814498,
         },
         {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 1146.3254769979121,
-          totalWin: 1204.61321311645,
+          name: "Reevo",
+          value: -126,
         },
         {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 25.229973193435896,
-          totalWin: 15.998384205506694,
+          name: "Intralot",
+          value: -143.13960090970397,
         },
         {
-          endpoint: "Betano.CL (MGA)",
-          totalBet: 16.612004793783303,
-          totalWin: 17.5834670624256,
+          name: "Baby Leopard",
+          value: -552.98,
         },
         {
-          endpoint: "Peppermill.BE",
-          totalBet: 8,
-          totalWin: 3.31,
+          name: "WeAreCasino",
+          value: -11.1506426529598,
         },
         {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 7.692990823274336,
-          totalWin: 6.275860934776432,
+          name: "Ondiss",
+          value: -1.6348658728624483,
         },
         {
-          endpoint: "TopSport.LT",
-          totalBet: 274.9,
-          totalWin: 347.4,
+          name: "EGT New Platform",
+          value: 120.42959526129087,
         },
         {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 8.60400289445156,
-          totalWin: 3.6440482847088957,
+          name: "Admiralbet",
+          value: 6.05,
         },
         {
-          endpoint: "Winbet.BG",
-          totalBet: 438.78,
-          totalWin: 276.78,
-        },
-        {
-          endpoint: "helabet.com (CU)",
-          totalBet: 7.23338686096381,
-          totalWin: 12.602785569294635,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 111.75066059099593,
-          totalWin: 95.773737862795,
-        },
-        {
-          endpoint: "TRY_Artemisbet.com (CU)",
-          totalBet: 3.8230394897101156,
-          totalWin: 0.8341177068458434,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 165.3546495161637,
-          totalWin: 86.29683897560156,
-        },
-        {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 167.2747261074653,
-          totalWin: 374.8724022958042,
-        },
-        {
-          endpoint: "EM (CU)",
-          totalBet: 6.2145134442767525,
-          totalWin: 4.135154917423963,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 266.7240897279983,
-          totalWin: 241.899010788419,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 9.413791402164648,
-          totalWin: 6.225249153044364,
-        },
-        {
-          endpoint: "alphawin.BG",
-          totalBet: 225.29999999999998,
-          totalWin: 237.68,
-        },
-        {
-          endpoint: "carousel.BE",
-          totalBet: 48.5,
-          totalWin: 35.8,
-        },
-        {
-          endpoint: "TRY_Slotegrator Curacao NEW (CU)",
-          totalBet: 184.5,
-          totalWin: 175.25,
-        },
-        {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 25.245435873808365,
-          totalWin: 113.56074125551932,
-        },
-        {
-          endpoint: "Tipos.SK",
-          totalBet: 133.9,
-          totalWin: 115.45,
-        },
-        {
-          endpoint: "Vbet (CU)",
-          totalBet: 37.365576245424805,
-          totalWin: 14.192639044480682,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 457.55,
-          totalWin: 357.04,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 64.02530464541972,
-          totalWin: 23.764851069260597,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 3.180888398018433,
-          totalWin: 1.8849709025294414,
-        },
-        {
-          endpoint: "Synottip.SK",
-          totalBet: 7.85,
-          totalWin: 6.5,
-        },
-        {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 2.6571185409335696,
-          totalWin: 1.5183534519620399,
-        },
-        {
-          endpoint: "RON_Princess.RO",
-          totalBet: 140.60821594656753,
-          totalWin: 189.05306345756978,
-        },
-        {
-          endpoint: "Topwin.BG",
-          totalBet: 13.3,
-          totalWin: 13.4,
-        },
-        {
-          endpoint: "Merkurxtip.RS",
-          totalBet: 1.6722088842572504,
-          totalWin: 0.7132482792036028,
-        },
-        {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 28.020129368236027,
-          totalWin: 22.275850398730405,
-        },
-        {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 12.087328622283906,
-          totalWin: 5.592644586429867,
-        },
-        {
-          endpoint: "PEN_Betsafe.PE",
-          totalBet: 0.37958836299050996,
-          totalWin: 0,
-        },
-        {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 24.6,
-          totalWin: 26.53,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 0.19693027443496852,
-          totalWin: 23.53316779497874,
-        },
-        {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 7620.712878907914,
-          totalWin: 3571.2193207901264,
-        },
-        {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 23.054086619767062,
-          totalWin: 27.3887955361303,
-        },
-        {
-          endpoint: "MagicBet.BG",
-          totalBet: 273.9,
-          totalWin: 175.29,
-        },
-        {
-          endpoint: "RON_Getsbet.RO",
-          totalBet: 47.263265864392444,
-          totalWin: 378.10612691513955,
-        },
-        {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 22.980064355717797,
-          totalWin: 22.228564832897423,
-        },
-        {
-          endpoint: "Ganaplay El Salvador (CU)",
-          totalBet: 5.348688898214789,
-          totalWin: 2.716794360997988,
-        },
-        {
-          endpoint: "Inbet.BG",
-          totalBet: 935.7,
-          totalWin: 991.79,
-        },
-        {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 2.3754450153046323,
-          totalWin: 1.5103138060270194,
-        },
-        {
-          endpoint: "RON_netbet.RO",
-          totalBet: 82.23808260404286,
-          totalWin: 54.58907207337327,
-        },
-        {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 42.36206130974091,
-          totalWin: 13.260286813801816,
-        },
-        {
-          endpoint: "palmsbet.BG",
-          totalBet: 4927.24,
-          totalWin: 5452.610000000001,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 24.51109628004577,
-          totalWin: 30.854771198119792,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 4.453836792421983,
-          totalWin: 2.2269183962109915,
-        },
-        {
-          endpoint: "RON_AdmiralBet.RO",
-          totalBet: 2.3631632932196225,
-          totalWin: 0,
+          name: "Pariplay",
+          value: 2.925797555201787,
         },
       ],
-      totalBet: 21863.036783979638,
-      totalWin: 17873.773161659487,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:20:00.000Z",
+      total: -626.9722828724856,
+      period: "2026-03-26T03:10:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "RON_Princess.RO",
-          totalBet: 201.5778289116338,
-          totalWin: 136.4332941285462,
+          name: "Peppermill",
+          value: 0.5,
         },
         {
-          endpoint: "RON_Avento.RO",
-          totalBet: 39.386054886993705,
-          totalWin: 101.14338894979984,
+          name: "Easit",
+          value: 1.44,
         },
         {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 75.7,
-          totalWin: 60.37,
+          name: "Ondiss",
+          value: 4.553404208861338,
         },
         {
-          endpoint: "crystalbet.GE",
-          totalBet: 235.2684241387813,
-          totalWin: 308.3889613576225,
+          name: "Slotegrator",
+          value: -5.583383851806299,
         },
         {
-          endpoint: "Inbet.BG",
-          totalBet: 1293.55,
-          totalWin: 939.36,
+          name: "Everymatrix",
+          value: -4.185370049396232,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 25.920141436225585,
-          totalWin: 21.6748283423982,
+          name: "WeAreCasino",
+          value: -10.964798608743802,
         },
         {
-          endpoint: "Merkurxtip.RS",
-          totalBet: 2.013476003493424,
-          totalWin: 0.5758882637110428,
+          name: "Virtualsoft",
+          value: -12.815499920396467,
         },
         {
-          endpoint: "Peppermill.BE",
-          totalBet: 57.2,
-          totalWin: 64.24000000000001,
+          name: "Crystalbet",
+          value: -1.6799034622467115,
         },
         {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 2.02447126928272,
-          totalWin: 1.2956616123409408,
+          name: "Baby Leopard",
+          value: 292.52,
         },
         {
-          endpoint: "Bet.BG",
-          totalBet: 75.77000000000001,
-          totalWin: 59.04,
+          name: "Optimus",
+          value: 17.204194072440856,
         },
         {
-          endpoint: "TRY_Slotegrator Curacao NEW (CU)",
-          totalBet: 125.72622437331086,
-          totalWin: 25.10495088250284,
+          name: "TGLab",
+          value: 5.521608109123209,
         },
         {
-          endpoint: "Vbet (CU)",
-          totalBet: 41.76152639194537,
-          totalWin: 69.61301053454352,
+          name: "Reevo",
+          value: 78.5,
         },
         {
-          endpoint: "Solbet.PY",
-          totalBet: 21.885775576874092,
-          totalWin: 20.791486798030387,
+          name: "TopSport",
+          value: 3.9000000000000004,
         },
         {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 48.498739844754155,
-          totalWin: 21.99588034075675,
+          name: "Pariplay",
+          value: 1.6712081021599219,
         },
         {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 8.806450021379831,
-          totalWin: 4.1501661020295755,
+          name: "Intralot",
+          value: 363.8103147929836,
         },
         {
-          endpoint: "Betano.CL (MGA)",
-          totalBet: 64.1165097303917,
-          totalWin: 57.89915121108099,
+          name: "MrSlotty",
+          value: 8.652585202531546,
         },
         {
-          endpoint: "Topwin.BG",
-          totalBet: 13.6,
-          totalWin: 6.4,
+          name: "Leopard",
+          value: 11.007052181810863,
         },
         {
-          endpoint: "Slotino.BG",
-          totalBet: 2.5,
-          totalWin: 1.1,
+          name: "EGT New Platform",
+          value: 55.250404738709136,
         },
         {
-          endpoint: "RON_Favbet.RO",
-          totalBet: 3.899219433812377,
-          totalWin: 1.114625353301922,
+          name: "ORYX",
+          value: -280.7152307579348,
         },
         {
-          endpoint: "Betano.BG (New)",
-          totalBet: 122.45,
-          totalWin: 57.44,
+          name: "BetB2B",
+          value: 730.204575128734,
         },
         {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 365.8725701411195,
-          totalWin: 296.428144426549,
+          name: "BetConstruct",
+          value: -2.8217682519350147,
         },
         {
-          endpoint: "EM (CU)",
-          totalBet: 0.47124272563236036,
-          totalWin: 0.17671602211213513,
+          name: "Evoplay",
+          value: -5.48314174023607,
         },
         {
-          endpoint: "MagicBet.BG",
-          totalBet: 89.8,
-          totalWin: 79.62,
+          name: "Calimaco Apuesta",
+          value: 22.26624502865654,
         },
         {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 8123.003398635643,
-          totalWin: 4752.179685504629,
+          name: "Goldrush",
+          value: 0,
         },
         {
-          endpoint: "Crocobet.GE",
-          totalBet: 28.130610497565485,
-          totalWin: 31.473898630063953,
+          name: "iSOFTBET",
+          value: 166.5568699139215,
         },
         {
-          endpoint: "Linebet (CU)",
-          totalBet: 2.674545562077416,
-          totalWin: 3.0539786605906545,
-        },
-        {
-          endpoint: "22bet.com (CU)",
-          totalBet: 0.3301246596991899,
-          totalWin: 19.807479581951394,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 16.398217281190032,
-          totalWin: 5.263625300135072,
-        },
-        {
-          endpoint: "megapari.com (CU)",
-          totalBet: 4.340032116578286,
-          totalWin: 2.559506120033348,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 9.008897148308103,
-          totalWin: 8.907673584843966,
-        },
-        {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 39.983307568333714,
-          totalWin: 90.99998355425825,
-        },
-        {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 2.3453025685028477,
-          totalWin: 63.50357723946172,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 171.70000000000002,
-          totalWin: 146.84,
-        },
-        {
-          endpoint: "helabet.com (CU)",
-          totalBet: 15.996913250208426,
-          totalWin: 9.108503301075197,
-        },
-        {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 129.56616123409407,
-          totalWin: 84.01555767523287,
-        },
-        {
-          endpoint: "alphawin.BG",
-          totalBet: 454.45,
-          totalWin: 250.8,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 36.51087288024316,
-          totalWin: 46.48539128037432,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 13.686654073230313,
-          totalWin: 14.671305445405157,
-        },
-        {
-          endpoint: "Admiralbet.BG",
-          totalBet: 47,
-          totalWin: 21.3,
-        },
-        {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 24.714598721358325,
-          totalWin: 35.14107005693137,
-        },
-        {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 4.329789357236026,
-          totalWin: 1.5635350456685648,
-        },
-        {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 235.37512105316063,
-          totalWin: 237.95514930850263,
-        },
-        {
-          endpoint: "PEN_AtlanticCity.PE",
-          totalBet: 0.101223563464136,
-          totalWin: 0.404894253856544,
-        },
-        {
-          endpoint: "RON_netbet.RO",
-          totalBet: 120.1471604327743,
-          totalWin: 61.61948287070165,
-        },
-        {
-          endpoint: "Napoleon.BE (CU)",
-          totalBet: 14.2,
-          totalWin: 16.8,
-        },
-        {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 439.19638892545305,
-          totalWin: 576.4656633391679,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 220.91736776756278,
-          totalWin: 176.0988917197485,
-        },
-        {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 13.196916751692402,
-          totalWin: 26.393833503384805,
-        },
-        {
-          endpoint: "Winbet.BG",
-          totalBet: 698.6,
-          totalWin: 421.55,
-        },
-        {
-          endpoint: "Madridbet (CU)",
-          totalBet: 0.1930828025106119,
-          totalWin: 0.07723312100424476,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 241.08922228070588,
-          totalWin: 192.3247705818584,
-        },
-        {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 32.991205013797064,
-          totalWin: 40.0507637137833,
-        },
-        {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 253.9970488769444,
-          totalWin: 318.9056968580032,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 37.7,
-          totalWin: 42.75,
-        },
-        {
-          endpoint: "Casino770 (CU)",
-          totalBet: 2027,
-          totalWin: 2928.88,
-        },
-        {
-          endpoint: "RushStreet.MX (CU)",
-          totalBet: 8.321306572073054,
-          totalWin: 8.272357709884389,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 475.2,
-          totalWin: 421.63,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 0.8246747698566307,
-          totalWin: 0,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 46.48692152090445,
-          totalWin: 30.164621912312526,
-        },
-        {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 25.80078640061465,
-          totalWin: 21.591826695866544,
-        },
-        {
-          endpoint: "palmsbet.BG",
-          totalBet: 6018.95,
-          totalWin: 5351.17,
-        },
-        {
-          endpoint: "carousel.BE",
-          totalBet: 108.4,
-          totalWin: 68.2,
-        },
-        {
-          endpoint: "Synottip.SK",
-          totalBet: 10.899999999999999,
-          totalWin: 6.87,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 108.48347370518158,
-          totalWin: 144.09779524734677,
-        },
-        {
-          endpoint: "BetHub.BG",
-          totalBet: 18.74,
-          totalWin: 11.36,
-        },
-        {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 62.04274539241045,
-          totalWin: 66.30688259959564,
-        },
-        {
-          endpoint: "Betano.AR (LOTBA)",
-          totalBet: 0.9471414218953806,
-          totalWin: 0.36081577976966883,
-        },
-        {
-          endpoint: "Monacobetsk.SK",
-          totalBet: 8.2,
-          totalWin: 3.3,
-        },
-        {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 57.94435986610948,
-          totalWin: 48.50152626478148,
-        },
-        {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 1972.0684053438658,
-          totalWin: 1447.4068240667864,
+          name: "Skywind360",
+          value: -109.25168658374652,
         },
       ],
-      totalBet: 25299.982632900876,
-      totalWin: 20591.539954852335,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:25:00.000Z",
+      total: 1330.0576782534906,
+      period: "2026-03-26T03:15:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "Bet.BG",
-          totalBet: 35.3,
-          totalWin: 56.3,
+          name: "Slotegrator",
+          value: -52.38527790371204,
         },
         {
-          endpoint: "RON_Princess.RO",
-          totalBet: 225.78055963969143,
-          totalWin: 191.19960344891095,
+          name: "Optimus",
+          value: 20.039191013860517,
         },
         {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 2.4655744950927367,
-          totalWin: 0.21047587153230682,
+          name: "BetB2B",
+          value: -8407.475812888413,
         },
         {
-          endpoint: "TopSport.LT",
-          totalBet: 590.1,
-          totalWin: 497.48,
+          name: "TGLab",
+          value: 7.530676615107507,
         },
         {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 94.92039227765483,
-          totalWin: 260.1488311340821,
+          name: "Skywind360",
+          value: -7.242880407725922,
         },
         {
-          endpoint: "Grandwin.CZ",
-          totalBet: 0.9903739790975696,
-          totalWin: 0.41265582462398737,
+          name: "Ondiss",
+          value: 3.100190099650272,
         },
         {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 4.55506035588612,
-          totalWin: 1.7106782225438983,
+          name: "Reevo",
+          value: 230.5,
         },
         {
-          endpoint: "RON_Getsbet.RO",
-          totalBet: 114.21955917228175,
-          totalWin: 151.14398562883835,
+          name: "Everymatrix",
+          value: -0.09335631580160841,
         },
         {
-          endpoint: "Inbet.BG",
-          totalBet: 1211.47,
-          totalWin: 950.85,
+          name: "Leopard",
+          value: 9.957800644772979,
         },
         {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 1575.466871676147,
-          totalWin: 1593.1981205733696,
+          name: "MrSlotty",
+          value: 16.205301612378975,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 20.672828978637696,
-          totalWin: 14.924516839169563,
+          name: "Calimaco Apuesta",
+          value: -351.7197106620417,
         },
         {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 355.20613714108623,
-          totalWin: 273.4858237674026,
+          name: "TopSport",
+          value: 9.65,
         },
         {
-          endpoint: "carousel.BE",
-          totalBet: 57.7,
-          totalWin: 55.7,
+          name: "Baby Leopard",
+          value: -547.63,
         },
         {
-          endpoint: "Winbet.BG",
-          totalBet: 457.4,
-          totalWin: 380.57,
+          name: "BlueOcean",
+          value: 2.6270804425254672,
         },
         {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 1.8701443561046693,
-          totalWin: 0.8147595981518447,
+          name: "ORYX",
+          value: 163.0879347956976,
         },
         {
-          endpoint: "Solbet.PY",
-          totalBet: 23.78430068715715,
-          totalWin: 14.953522083909998,
+          name: "Pariplay",
+          value: -11.79583587429345,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 26.115679373747085,
-          totalWin: 44.94326217807638,
+          name: "Virtualsoft",
+          value: 6.047081792729733,
         },
         {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 53.142370818671395,
-          totalWin: 35.15494359109443,
+          name: "BetConstruct",
+          value: -1.9987525117873024,
         },
         {
-          endpoint: "palmsbet.BG",
-          totalBet: 4627.65,
-          totalWin: 4262.65,
+          name: "iSOFTBET",
+          value: 10.617436073275378,
         },
         {
-          endpoint: "alphawin.BG",
-          totalBet: 234.45,
-          totalWin: 156.1,
+          name: "WeAreCasino",
+          value: 6.8762296359918755,
         },
         {
-          endpoint: "Admiralbet.BG",
-          totalBet: 13.8,
-          totalWin: 17,
+          name: "Peppermill",
+          value: 6,
         },
         {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 255.55361014455184,
-          totalWin: 345.72334721879054,
+          name: "BtoBet",
+          value: 0.2948324932219126,
         },
         {
-          endpoint: "Napoleon.BE (CU)",
-          totalBet: 60,
-          totalWin: 67.2,
+          name: "Easit",
+          value: 4.04,
         },
         {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 100.6796297483966,
-          totalWin: 194.38829863164318,
+          name: "Crystalbet",
+          value: 5.6799754798983155,
         },
         {
-          endpoint: "Monacobetsk.SK",
-          totalBet: 6,
-          totalWin: 2.8,
+          name: "Intralot",
+          value: 61.95880770994128,
         },
         {
-          endpoint: "RON_Avento.RO",
-          totalBet: 106.34234819488302,
-          totalWin: 173.69250205164224,
-        },
-        {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 263.2824885702177,
-          totalWin: 305.46234746572316,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 8.423463720678441,
-          totalWin: 3.1808883980184324,
-        },
-        {
-          endpoint: "22bet.com (CU)",
-          totalBet: 14.1,
-          totalWin: 74.3,
-        },
-        {
-          endpoint: "megapari.com (CU)",
-          totalBet: 0.9459044356644981,
-          totalWin: 0.4451314991362344,
-        },
-        {
-          endpoint: "helabet.com (CU)",
-          totalBet: 4.72952217832249,
-          totalWin: 4.963216215369014,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 0.202447126928272,
-          totalWin: 0.6073413807848159,
-        },
-        {
-          endpoint: "Casino770 (CU)",
-          totalBet: 1203.21,
-          totalWin: 876.8100000000001,
-        },
-        {
-          endpoint: "Vbet (CU)",
-          totalBet: 36.73758336735044,
-          totalWin: 47.94725624097788,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 94.04386940608235,
-          totalWin: 184.9127263406562,
-        },
-        {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 81.01078111485901,
-          totalWin: 89.44749267777365,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 46.30978028484222,
-          totalWin: 60.37985560635712,
-        },
-        {
-          endpoint: "BetHub.BG",
-          totalBet: 14.04,
-          totalWin: 11.5,
-        },
-        {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 24.883197001931684,
-          totalWin: 68.70837823847991,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 9.432960145434993,
-          totalWin: 9.078485651452048,
-        },
-        {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 27.40574933483542,
-          totalWin: 36.584066459842106,
-        },
-        {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 51.117899549388675,
-          totalWin: 57.697431174557515,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 20.383580067084697,
-          totalWin: 37.5286474132307,
-        },
-        {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 87.52488454539105,
-          totalWin: 63.755771151509514,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 167.92989178700162,
-          totalWin: 140.74124264053467,
-        },
-        {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 27.3,
-          totalWin: 18.7,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 33.15,
-          totalWin: 30.85,
-        },
-        {
-          endpoint: "RON_Cashpot.RO",
-          totalBet: 1.9299166894626916,
-          totalWin: 1.5360561405927546,
-        },
-        {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 137.9171052198853,
-          totalWin: 98.6929743775326,
-        },
-        {
-          endpoint: "Peppermill.BE",
-          totalBet: 57.2,
-          totalWin: 19.1,
-        },
-        {
-          endpoint: "RON_Favbet.RO",
-          totalBet: 5.31711740974415,
-          totalWin: 2.560093567654591,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 3.8914785560080682,
-          totalWin: 2.9448551587522367,
-        },
-        {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 275.97483495557697,
-          totalWin: 311.55503149766076,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 166.60000000000002,
-          totalWin: 259.53,
-        },
-        {
-          endpoint: "RushStreet.MX (CU)",
-          totalBet: 2.251647660678591,
-          totalWin: 1.1747726925279605,
-        },
-        {
-          endpoint: "MagicBet.BG",
-          totalBet: 87.80000000000001,
-          totalWin: 86.85,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 281.75060672166603,
-          totalWin: 328.6487159383184,
-        },
-        {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 6697.667504758765,
-          totalWin: 3004.596303650447,
-        },
-        {
-          endpoint: "PEN_AtlanticCity.PE",
-          totalBet: 1.2146827615696318,
-          totalWin: 0,
-        },
-        {
-          endpoint: "Betano.BG (New)",
-          totalBet: 60.35,
-          totalWin: 105.47999999999999,
-        },
-        {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 4.959954609742663,
-          totalWin: 6.6807551886329755,
-        },
-        {
-          endpoint: "RON_netbet.RO",
-          totalBet: 7.562122538302791,
-          totalWin: 1.6542143052537357,
+          name: "EGT New Platform",
+          value: 44.645136087558356,
         },
       ],
-      totalBet: 20264.1864155565,
-      totalWin: 16097.359377735558,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:30:00.000Z",
+      total: -8771.483952067165,
+      period: "2026-03-26T03:20:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 16.21601602373076,
-          totalWin: 42.706835303877135,
+          name: "iSOFTBET",
+          value: 9.266718463236124,
         },
         {
-          endpoint: "Inbet.BG",
-          totalBet: 1368.8,
-          totalWin: 1687.47,
+          name: "Ondiss",
+          value: 1.5379849322483772,
         },
         {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 3.9477189751013038,
-          totalWin: 2.02447126928272,
+          name: "Pariplay",
+          value: 14.366308541462722,
         },
         {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 25.938538137684848,
-          totalWin: 16.62090912081113,
+          name: "Easit",
+          value: 3.5650105419932205,
         },
         {
-          endpoint: "alphawin.BG",
-          totalBet: 166.85,
-          totalWin: 159.32,
+          name: "Skywind360",
+          value: 4.3575052859489265,
         },
         {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 260.87353454400284,
-          totalWin: 164.57659964804753,
+          name: "TGLab",
+          value: 23.285334076591965,
         },
         {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 53.3701238364657,
-          totalWin: 51.19381722198678,
+          name: "Virtualsoft",
+          value: -40.92717564610502,
         },
         {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 216.11230799593034,
-          totalWin: 337.5552782620275,
+          name: "Calimaco Apuesta",
+          value: 37.9196410744256,
         },
         {
-          endpoint: "RON_Cashpot.RO",
-          totalBet: 0.43324660375693075,
-          totalWin: 0,
+          name: "Crystalbet",
+          value: -19.379112770144143,
         },
         {
-          endpoint: "MagicBet.BG",
-          totalBet: 91.45,
-          totalWin: 100.73,
+          name: "Intralot",
+          value: 407.13229652414384,
         },
         {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 3606.819701367998,
-          totalWin: 4343.713249713118,
+          name: "Optimus",
+          value: -10.157057547239308,
         },
         {
-          endpoint: "RushStreet.MX (CU)",
-          totalBet: 1.5663635900372808,
-          totalWin: 0.6363352084526452,
+          name: "Everymatrix",
+          value: 1.8407136208127355,
         },
         {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 338.1626196428123,
-          totalWin: 674.854967026308,
+          name: "TopSport",
+          value: -4.950000000000001,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 16.61209471497672,
-          totalWin: 13.289675771981377,
+          name: "Gaming1",
+          value: 9.6,
         },
         {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 41.790236380359275,
-          totalWin: 16.10023843706473,
+          name: "Evoplay",
+          value: -10.76,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 47.01834522909117,
-          totalWin: 26.90016199059414,
+          name: "BetB2B",
+          value: 56.37114740343138,
         },
         {
-          endpoint: "RON_Favbet.RO",
-          totalBet: 1.1815816466098112,
-          totalWin: 0.31508843909594964,
+          name: "Betmexico",
+          value: -16.322600317669284,
         },
         {
-          endpoint: "BetHub.BG",
-          totalBet: 31.5,
-          totalWin: 32,
+          name: "Reevo",
+          value: 75,
         },
         {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 13.600000000000001,
-          totalWin: 8.95,
+          name: "MrSlotty",
+          value: 23.168276306446195,
         },
         {
-          endpoint: "RON_Princess.RO",
-          totalBet: 185.21292310608789,
-          totalWin: 88.81555377017081,
+          name: "WeAreCasino",
+          value: 1.11506426529598,
         },
         {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 6.883202315561247,
-          totalWin: 4.55506035588612,
+          name: "Baby Leopard",
+          value: -177.57,
         },
         {
-          endpoint: "RON_Getsbet.RO",
-          totalBet: 157.54421954797482,
-          totalWin: 80.7414125183371,
+          name: "BtoBet",
+          value: 2.3586599457753006,
         },
         {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 131.98862660929203,
-          totalWin: 92.24136586815857,
+          name: "Slotegrator",
+          value: 24.683486176680464,
         },
         {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 26.532503011017564,
-          totalWin: 24.45324189667309,
+          name: "BetConstruct",
+          value: 4.702947086558359,
         },
         {
-          endpoint: "carousel.BE",
-          totalBet: 77.6,
-          totalWin: 46.7,
+          name: "Goldrush",
+          value: 0,
         },
         {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 2.1648946786180128,
-          totalWin: 0.16838069722584548,
+          name: "Leopard",
+          value: 3.2536886605261257,
         },
         {
-          endpoint: "Synottip.SK",
-          totalBet: 2.7,
-          totalWin: 2.3,
+          name: "EGT New Platform",
+          value: 35.12,
         },
         {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 31.885422491202835,
-          totalWin: 10.709453014505588,
+          name: "BlueOcean",
+          value: 0.5416062899313111,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 244.32837631155826,
-          totalWin: 263.11040851232866,
+          name: "ORYX",
+          value: 80.3131160182835,
         },
         {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 250.9571121817233,
-          totalWin: 244.0539669491144,
-        },
-        {
-          endpoint: "Peppermill.BE",
-          totalBet: 4.2,
-          totalWin: 4.9,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 113.47122412942886,
-          totalWin: 91.56470040128296,
-        },
-        {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 206.21770466731104,
-          totalWin: 182.91857094695357,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 10.171448674566125,
-          totalWin: 26.821903378042713,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 440.3,
-          totalWin: 482.93,
-        },
-        {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 6.13386825608437,
-          totalWin: 4.901081008538002,
-        },
-        {
-          endpoint: "Monacobetsk.SK",
-          totalBet: 4.2,
-          totalWin: 6,
-        },
-        {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 1653.4870689653105,
-          totalWin: 1029.7500047608364,
-        },
-        {
-          endpoint: "Grandwin.CZ",
-          totalBet: 15.02067201631314,
-          totalWin: 9.037162559265324,
-        },
-        {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 17.867024820224497,
-          totalWin: 19.6506783219022,
-        },
-        {
-          endpoint: "Circus.BE (CU)",
-          totalBet: 3.5999999999999996,
-          totalWin: 0.25,
-        },
-        {
-          endpoint: "Bet.BG",
-          totalBet: 62.7,
-          totalWin: 78.85000000000001,
-        },
-        {
-          endpoint: "Solbet.PY",
-          totalBet: 2.1358407490684357,
-          totalWin: 0.553736490499224,
-        },
-        {
-          endpoint: "Admiralbet.BG",
-          totalBet: 20.8,
-          totalWin: 17.3,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 37.87789878509664,
-          totalWin: 143.2946628641225,
-        },
-        {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 41.19799032990335,
-          totalWin: 38.826828355755964,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 34.0996339440015,
-          totalWin: 4.483117609770029,
-        },
-        {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 449.3619375652464,
-          totalWin: 446.98736832283464,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 3.750245824040295,
-          totalWin: 5.793062655021594,
-        },
-        {
-          endpoint: "Betano.BG (New)",
-          totalBet: 38.85,
-          totalWin: 31.59,
-        },
-        {
-          endpoint: "Doradobet",
-          totalBet: 0.2546994713435614,
-          totalWin: 0.16979964756237426,
-        },
-        {
-          endpoint: "SPS Supersports 2.HR",
-          totalBet: 6,
-          totalWin: 4.6,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 32.6,
-          totalWin: 17.45,
-        },
-        {
-          endpoint: "1xslot.com (CU)",
-          totalBet: 25.328414794907367,
-          totalWin: 25.328414794907367,
-        },
-        {
-          endpoint: "palmsbet.BG",
-          totalBet: 4536.43,
-          totalWin: 4516.01,
-        },
-        {
-          endpoint: "Vbet (CU)",
-          totalBet: 36.73758336735044,
-          totalWin: 42.57791713344204,
-        },
-        {
-          endpoint: "Betano.CL (MGA)",
-          totalBet: 12.43471703862142,
-          totalWin: 33.418302041295064,
-        },
-        {
-          endpoint: "Betano.AR (LOTBA)",
-          totalBet: 1.2628552291938409,
-          totalWin: 1.5334670640210928,
-        },
-        {
-          endpoint: "Napoleon.BE (CU)",
-          totalBet: 121.2,
-          totalWin: 93.6,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 284.4334922600907,
-          totalWin: 207.50294007543928,
-        },
-        {
-          endpoint: "Winbet.BG",
-          totalBet: 556.2,
-          totalWin: 437.97,
-        },
-        {
-          endpoint: "Logrand.MX (CU)",
-          totalBet: 1.4684658656599505,
-          totalWin: 0.2447443109433251,
-        },
-        {
-          endpoint: "Casino770 (CU)",
-          totalBet: 1667.5,
-          totalWin: 1393.6100000000001,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 269.8,
-          totalWin: 519.28,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 130.9129852949301,
-          totalWin: 181.34841635076737,
-        },
-        {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 15.639707003359565,
-          totalWin: 12.357299360679162,
+          name: "Peppermill",
+          value: 3,
         },
       ],
-      totalBet: 18283.685187993644,
-      totalWin: 18650.21064944893,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:35:00.000Z",
+      total: 542.4335589326344,
+      period: "2026-03-26T03:25:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "Vbet (CU)",
-          totalBet: 43.645505026168465,
-          totalWin: 69.11061623208403,
+          name: "Crystalbet",
+          value: 2.0158841546960544,
         },
         {
-          endpoint: "Crocobet.GE",
-          totalBet: 101.52102377648491,
-          totalWin: 69.15494664192707,
+          name: "Betmexico",
+          value: 46.73261920157361,
         },
         {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 418.7729482014173,
-          totalWin: 456.262803250277,
+          name: "TopSport",
+          value: 23.4,
         },
         {
-          endpoint: "RON_Princess.RO",
-          totalBet: 128.7923994804694,
-          totalWin: 56.83407720193192,
+          name: "Easit",
+          value: 11.188129561439373,
         },
         {
-          endpoint: "Bet.BG",
-          totalBet: 83.5,
-          totalWin: 139.47,
+          name: "BtoBet",
+          value: 2.137535575858866,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 9.515014965628783,
-          totalWin: 4.7575074828143915,
+          name: "Calimaco Apuesta",
+          value: 162.51661443655004,
         },
         {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 4.959954609742663,
-          totalWin: 1.442435779363938,
+          name: "Intralot",
+          value: -127.83465300887258,
         },
         {
-          endpoint: "EM (CU)",
-          totalBet: 3.5932257829467478,
-          totalWin: 1.178106814080901,
+          name: "Everymatrix",
+          value: 7.0998953945634105,
         },
         {
-          endpoint: "IceCasino (CU)",
-          totalBet: 10.6,
-          totalWin: 17.6,
+          name: "ORYX",
+          value: -159.07758801155637,
         },
         {
-          endpoint: "Synottip.CZ",
-          totalBet: 3.0949186846799055,
-          totalWin: 2.4759349477439243,
+          name: "Virtualsoft",
+          value: -21.391907568480725,
         },
         {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 221.85674522252006,
-          totalWin: 267.7413865408129,
+          name: "BetConstruct",
+          value: 9.758615204608594,
         },
         {
-          endpoint: "alphawin.BG",
-          totalBet: 356.2,
-          totalWin: 262.01,
+          name: "EGT New Platform",
+          value: 106.39,
         },
         {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 25.680012733911383,
-          totalWin: 14.28812738578528,
+          name: "BetB2B",
+          value: 43.36503148067325,
         },
         {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 3.8968104215124235,
-          totalWin: 0.601359632949448,
+          name: "Peppermill",
+          value: 18.95,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 291.75161579450594,
-          totalWin: 236.66575255732315,
+          name: "TGLab",
+          value: 15.900936418917773,
         },
         {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 4762.566046756957,
-          totalWin: 4671.309910470227,
+          name: "Skywind360",
+          value: 9.48051825726726,
         },
         {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 13.988731756793946,
-          totalWin: 18.38770400735808,
+          name: "Reevo",
+          value: -67,
         },
         {
-          endpoint: "Betano.EC",
-          totalBet: 1.1885975329366198,
-          totalWin: 0.23771950658732396,
+          name: "Leopard",
+          value: 1.9925690246632857,
         },
         {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 3.0721122811855093,
-          totalWin: 0.6301768781918993,
+          name: "Slotegrator",
+          value: 48.0486008057355,
         },
         {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 7.2880965694177915,
-          totalWin: 2.4293655231392637,
+          name: "BlueOcean",
+          value: -1.320465045767078,
         },
         {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 36.90541577814587,
-          totalWin: 22.366918653421738,
+          name: "Ondiss",
+          value: 1.8286277540905902,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 21.25293387344641,
-          totalWin: 12.34041321683985,
+          name: "Pariplay",
+          value: 3.685406165273907,
         },
         {
-          endpoint: "TRY_Jojobet (CU)",
-          totalBet: 17.454685346959316,
-          totalWin: 12.743464965700385,
+          name: "Optimus",
+          value: -125.00470054599637,
         },
         {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 12.450498306088727,
-          totalWin: 7.566461368944165,
+          name: "Gaming1",
+          value: 24.7,
         },
         {
-          endpoint: "Admiralbet.BG",
-          totalBet: 5.2,
-          totalWin: 3.15,
+          name: "MrSlotty",
+          value: 13.242849169055694,
         },
         {
-          endpoint: "Betano.AR (LOTBA)",
-          totalBet: 2.029588761204387,
-          totalWin: 1.1576172934276876,
+          name: "iSOFTBET",
+          value: 141.5167489290507,
         },
         {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 589.3444182368961,
-          totalWin: 586.3756793241266,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 148.09156637509633,
-          totalWin: 73.98276549972898,
-        },
-        {
-          endpoint: "Winbet.BG",
-          totalBet: 572.49,
-          totalWin: 489.56,
-        },
-        {
-          endpoint: "Logrand.MX (CU)",
-          totalBet: 12.335113271543584,
-          totalWin: 4.56203395598358,
-        },
-        {
-          endpoint: "1xslot.com (CU)",
-          totalBet: 41.846946182890434,
-          totalWin: 31.054839009408163,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 4.3656421483242145,
-          totalWin: 5.568971875025944,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 1.1044751382008446,
-          totalWin: 1.6022252671500254,
-        },
-        {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 5.652780549724811,
-          totalWin: 2.796322293214933,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 37.553942045194454,
-          totalWin: 36.91623359537039,
-        },
-        {
-          endpoint: "MagicBet.BG",
-          totalBet: 111,
-          totalWin: 63.38,
-        },
-        {
-          endpoint: "BetHub.BG",
-          totalBet: 49.3,
-          totalWin: 31.9,
-        },
-        {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 388.63521897511714,
-          totalWin: 365.1943722659098,
-        },
-        {
-          endpoint: "Inbet.BG",
-          totalBet: 1602.1,
-          totalWin: 1930.2,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 379.9868110359935,
-          totalWin: 366.5738900442278,
-        },
-        {
-          endpoint: "Casino770 (CU)",
-          totalBet: 3454.65,
-          totalWin: 3349.5244000000002,
-        },
-        {
-          endpoint: "Circus.BE (CU)",
-          totalBet: 20.1,
-          totalWin: 16.25,
-        },
-        {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 27.431585698780854,
-          totalWin: 22.127470973260127,
-        },
-        {
-          endpoint: "Solbet.PY",
-          totalBet: 1.34478861978383,
-          totalWin: 0.47463127757076345,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 250.8,
-          totalWin: 280.05,
-        },
-        {
-          endpoint: "carousel.BE",
-          totalBet: 57.3,
-          totalWin: 39.75,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 515,
-          totalWin: 588.07,
-        },
-        {
-          endpoint: "TRY_Slotegrator Curacao NEW (CU)",
-          totalBet: 2.554634111064267,
-          totalWin: 1.5923885958967268,
-        },
-        {
-          endpoint: "RON_Getsbet.RO",
-          totalBet: 2.953954116524528,
-          totalWin: 3.9386054886993707,
-        },
-        {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 16.591116889658135,
-          totalWin: 23.813721625945178,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 29.60789231325978,
-          totalWin: 29.466179324409985,
-        },
-        {
-          endpoint: "RON_Gameworld.RO",
-          totalBet: 14.651612417961658,
-          totalWin: 21.563865050629055,
-        },
-        {
-          endpoint: "Tipos.SK",
-          totalBet: 16.15,
-          totalWin: 10.97,
-        },
-        {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 18.67500461158277,
-          totalWin: 17.70695335212522,
-        },
-        {
-          endpoint: "palmsbet.BG",
-          totalBet: 6179.26,
-          totalWin: 5445.21,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 117.27715561780136,
-          totalWin: 75.93187677362796,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 385.63701478942477,
-          totalWin: 287.6910550558585,
-        },
-        {
-          endpoint: "RON_Favbet.RO",
-          totalBet: 2.048074854123673,
-          totalWin: 0.31508843909594964,
-        },
-        {
-          endpoint: "RON_lasvegas.RO",
-          totalBet: 53.95889519518138,
-          totalWin: 46.770940178305025,
-        },
-        {
-          endpoint: "Betano.BG (New)",
-          totalBet: 49.5,
-          totalWin: 36.14,
-        },
-        {
-          endpoint: "Grandwin.CZ",
-          totalBet: 0.6602493193983798,
-          totalWin: 0,
-        },
-        {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 19.8,
-          totalWin: 14.82,
-        },
-        {
-          endpoint: "Synottip.SK",
-          totalBet: 0.35,
-          totalWin: 0,
-        },
-        {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 229.90401851791887,
-          totalWin: 210.21603542414442,
-        },
-        {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 5.362471722905488,
-          totalWin: 0.40801415282976533,
-        },
-        {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 142.5951108821148,
-          totalWin: 141.12971378891766,
-        },
-        {
-          endpoint: "Casino777.ES",
-          totalBet: 61.05,
-          totalWin: 53.85,
-        },
-        {
-          endpoint: "Europebet_betsson (CU)",
-          totalBet: 0.317501247150852,
-          totalWin: 0,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 8.72282273095082,
-          totalWin: 9.413551769664057,
+          name: "Baby Leopard",
+          value: -29.93000000000002,
         },
       ],
-      totalBet: 22218.83769927769,
-      totalWin: 21068.774630752057,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:40:00.000Z",
+      total: 162.39126735334474,
+      period: "2026-03-26T03:30:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "Bet.BG",
-          totalBet: 53.25,
-          totalWin: 38.35,
+          name: "Slotegrator",
+          value: 35.50257625712038,
         },
         {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 0.30367069039240796,
-          totalWin: 0,
+          name: "TopSport",
+          value: 4.95,
         },
         {
-          endpoint: "EM (CU)",
-          totalBet: 10.426245304615973,
-          totalWin: 11.969565231061953,
+          name: "Peppermill",
+          value: -25.659999999999997,
         },
         {
-          endpoint: "RON_netbet.RO",
-          totalBet: 0.23631632932196223,
-          totalWin: 0,
+          name: "Easit",
+          value: 1.1,
         },
         {
-          endpoint: "Lightbet24.com (CU)",
-          totalBet: 3.2397937387224776,
-          totalWin: 1.7671602211213513,
+          name: "BetConstruct",
+          value: 5.996257535361907,
         },
         {
-          endpoint: "alphawin.BG",
-          totalBet: 134.7,
-          totalWin: 129.41,
+          name: "BetB2B",
+          value: 80.27575700669396,
         },
         {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 8.192299416494691,
-          totalWin: 10.417611517609835,
+          name: "Calimaco Apuesta",
+          value: -215.8233326415686,
         },
         {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 314.50161168307056,
-          totalWin: 265.7346293951364,
+          name: "Intralot",
+          value: 134.55642066802153,
         },
         {
-          endpoint: "Admiralbet.RS",
-          totalBet: 3.6728873707793177,
-          totalWin: 4.436472550070256,
+          name: "MrSlotty",
+          value: 86.96765776746795,
         },
         {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 17.2729894898011,
-          totalWin: 15.26530112632021,
+          name: "EGT New Platform",
+          value: 147.75,
         },
         {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 26.129761554492138,
-          totalWin: 35.99321296975259,
+          name: "Ondiss",
+          value: 3.2455115105713785,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 22.043986002731017,
-          totalWin: 13.68520183662368,
+          name: "BlueOcean",
+          value: 3.324438265684675,
         },
         {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 21.23910827616731,
-          totalWin: 14.09504458327467,
+          name: "Leopard",
+          value: -23.159200992985184,
         },
         {
-          endpoint: "1xslot.com (CU)",
-          totalBet: 52.22609007167313,
-          totalWin: 57.59461277276762,
+          name: "Virtualsoft",
+          value: -10.883833896732698,
         },
         {
-          endpoint: "RushStreet.MX (CU)",
-          totalBet: 0.5873863462639802,
-          totalWin: 0.4894886218866502,
+          name: "Pariplay",
+          value: 4.619042393809964,
         },
         {
-          endpoint: "G8star (CU)",
-          totalBet: 6.361776796036865,
-          totalWin: 9.027243462894903,
+          name: "iSOFTBET",
+          value: 170.17612458614846,
         },
         {
-          endpoint: "MagicBet.BG",
-          totalBet: 87.6,
-          totalWin: 75.31,
+          name: "Baby Leopard",
+          value: -602.8299999999999,
         },
         {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 238.6446453648554,
-          totalWin: 445.71298492150476,
+          name: "Optimus",
+          value: 15.44367106077633,
         },
         {
-          endpoint: "Vbet (CU)",
-          totalBet: 35.79559405023889,
-          totalWin: 41.00793493825613,
+          name: "Reevo",
+          value: -48,
         },
         {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 181.13885461104297,
-          totalWin: 151.33439220909725,
+          name: "Betmexico",
+          value: 16.495806283647585,
         },
         {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 13.462733940730086,
-          totalWin: 12.298662960892523,
+          name: "Skywind360",
+          value: -0.8832780985031609,
         },
         {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 369.2414190371744,
-          totalWin: 495.8581515767819,
+          name: "ORYX",
+          value: 164.74260910224467,
         },
         {
-          endpoint: "Peppermill.BE",
-          totalBet: 22.2,
-          totalWin: 4.4,
+          name: "Crystalbet",
+          value: -8.317106952708249,
         },
         {
-          endpoint: "Casino777.ES",
-          totalBet: 25.5,
-          totalWin: 5.7,
-        },
-        {
-          endpoint: "RON_lasvegas.RO",
-          totalBet: 70.40257311050125,
-          totalWin: 165.56912823119978,
-        },
-        {
-          endpoint: "RON_Favbet.RO",
-          totalBet: 1.5754421954797482,
-          totalWin: 3.0563578592307117,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 23.281419596751277,
-          totalWin: 17.612900042759662,
-        },
-        {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 1.9571053821744022,
-          totalWin: 0,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 12.858800509609503,
-          totalWin: 15.240059863240894,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 54.8,
-          totalWin: 78.35,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 126.1043012344321,
-          totalWin: 26.071599032445484,
-        },
-        {
-          endpoint: "Tipos.SK",
-          totalBet: 87.4,
-          totalWin: 50.050000000000004,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 312.3759168503237,
-          totalWin: 257.43682778016387,
-        },
-        {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 13.020957861669837,
-          totalWin: 9.839034600428446,
-        },
-        {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 547.3410495655644,
-          totalWin: 529.1254838547386,
-        },
-        {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 26.216902937211223,
-          totalWin: 17.106782225438984,
-        },
-        {
-          endpoint: "RON_Gameworld.RO",
-          totalBet: 22.863604861899844,
-          totalWin: 62.30873883122405,
-        },
-        {
-          endpoint: "RON_Getsbet.RO",
-          totalBet: 1.9693027443496853,
-          totalWin: 0.6400233919136478,
-        },
-        {
-          endpoint: "Betano.BG (New)",
-          totalBet: 109.05,
-          totalWin: 75.5,
-        },
-        {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 4.1501661020295755,
-          totalWin: 0.7085649442489519,
-        },
-        {
-          endpoint: "Casino770 (CU)",
-          totalBet: 2389.8,
-          totalWin: 2839.98,
-        },
-        {
-          endpoint: "Betano.AR (LOTBA)",
-          totalBet: 0.12027192658988961,
-          totalWin: 0,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 0.8731284296648428,
-          totalWin: 0.09525037414525558,
-        },
-        {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 1657.9028389562409,
-          totalWin: 6141.729804048465,
-        },
-        {
-          endpoint: "carousel.BE",
-          totalBet: 75.5,
-          totalWin: 68.55,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 238.76093785744067,
-          totalWin: 194.86004041389236,
-        },
-        {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 209.50747047989546,
-          totalWin: 150.8661295760349,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 115.7950013677615,
-          totalWin: 195.19728801994083,
-        },
-        {
-          endpoint: "Inbet.BG",
-          totalBet: 1015.17,
-          totalWin: 899.71,
-        },
-        {
-          endpoint: "palmsbet.BG",
-          totalBet: 4311.85,
-          totalWin: 5699.3099999999995,
-        },
-        {
-          endpoint: "TRY_Jojobet (CU)",
-          totalBet: 8.881808915488147,
-          totalWin: 3.08932484016979,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 242.7,
-          totalWin: 282.15999999999997,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 17.6,
-          totalWin: 6.800000000000001,
-        },
-        {
-          endpoint: "RON_Joker Casino.RO",
-          totalBet: 21.2684696389766,
-          totalWin: 41.82799028998732,
-        },
-        {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 357.42040259186416,
-          totalWin: 300.0114585731794,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 9.241149389558016,
-          totalWin: 4.6678588087336905,
-        },
-        {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 15.8,
-          totalWin: 10.61,
-        },
-        {
-          endpoint: "Winbet.BG",
-          totalBet: 1165.47,
-          totalWin: 1031.75,
-        },
-        {
-          endpoint: "PEN_AtlanticCity.PE",
-          totalBet: 0.809788507713088,
-          totalWin: 2.935483340459944,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 91.54197012572973,
-          totalWin: 124.74243410123582,
-        },
-        {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 7.216315595393377,
-          totalWin: 0.9922433943665894,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 56.9382544485765,
-          totalWin: 45.82390718021436,
-        },
-        {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 2.0927315226640792,
-          totalWin: 1.7319157428944103,
+          name: "TGLab",
+          value: 2.379638103833119,
         },
       ],
-      totalBet: 15075.595252780158,
-      totalWin: 21195.914300255805,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:45:00.000Z",
+      total: -58.0312420411159,
+      period: "2026-03-26T03:35:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 12.651220198074475,
-          totalWin: 18.76059841601775,
+          name: "Pariplay",
+          value: 5.700094868956976,
         },
         {
-          endpoint: "palmsbet.BG",
-          totalBet: 4796.42,
-          totalWin: 4188.28,
+          name: "BetB2B",
+          value: 43.780615037985235,
         },
         {
-          endpoint: "RON_Favbet.RO",
-          totalBet: 4.7066335589957475,
-          totalWin: 3.5211133068972376,
+          name: "Virtualsoft",
+          value: 28.006180057639526,
         },
         {
-          endpoint: "IceCasino (CU)",
-          totalBet: 10.4,
-          totalWin: 9.6,
+          name: "BetConstruct",
+          value: -6.936846952673578,
         },
         {
-          endpoint: "alphawin.BG",
-          totalBet: 213.49,
-          totalWin: 174.94,
+          name: "Calimaco Apuesta",
+          value: 195.23773500236817,
         },
         {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 14.13195137431203,
-          totalWin: 19.256136806674277,
+          name: "Easit",
+          value: 14.2,
         },
         {
-          endpoint: "RON_AdmiralBet.RO",
-          totalBet: 9.45265317287849,
-          totalWin: 1.7723724699147168,
+          name: "Crystalbet",
+          value: 4.031768309392108,
         },
         {
-          endpoint: "Inbet.BG",
-          totalBet: 981.6600000000001,
-          totalWin: 906.45,
+          name: "TopSport",
+          value: -50.5,
         },
         {
-          endpoint: "Casino770 (CU)",
-          totalBet: 2343.04,
-          totalWin: 1481.85,
+          name: "Reevo",
+          value: 22.5,
         },
         {
-          endpoint: "RushStreet.MX (CU)",
-          totalBet: 4.307499872602522,
-          totalWin: 5.482272565130482,
+          name: "Everymatrix",
+          value: 0.29442603283438695,
         },
         {
-          endpoint: "Betano.BG (New)",
-          totalBet: 179.35,
-          totalWin: 133.12,
+          name: "Evoplay",
+          value: 1,
         },
         {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 17.37745222595507,
-          totalWin: 10.619554138083654,
+          name: "Baby Leopard",
+          value: 852.29,
         },
         {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 3873.758203921083,
-          totalWin: 2579.1611176405095,
+          name: "TGLab",
+          value: 15.124931347492998,
         },
         {
-          endpoint: "Asvla.GE",
-          totalBet: 7.969281303486385,
-          totalWin: 9.191661105017165,
+          name: "Peppermill",
+          value: 41.2,
         },
         {
-          endpoint: "EM (CU)",
-          totalBet: 15.786631308684072,
-          totalWin: 8.806348435254733,
+          name: "Intralot",
+          value: -0.23709049154221873,
         },
         {
-          endpoint: "RON_netbet.RO",
-          totalBet: 15.793808009684478,
-          totalWin: 2.241066523069942,
+          name: "ORYX",
+          value: -179.97403981490277,
         },
         {
-          endpoint: "MagicBet.BG",
-          totalBet: 98.95,
-          totalWin: 71.22,
+          name: "Optimus",
+          value: 38.943374355444476,
         },
         {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 17.005558661974845,
-          totalWin: 18.746603953557987,
+          name: "Slotegrator",
+          value: 42.52143952263335,
         },
         {
-          endpoint: "G8star (CU)",
-          totalBet: 3.652131123650793,
-          totalWin: 1.225231086644137,
+          name: "MrSlotty",
+          value: 43.203669838950226,
         },
         {
-          endpoint: "PEN_AtlanticCity.PE",
-          totalBet: 7.794214386738471,
-          totalWin: 1.113459198105496,
+          name: "BlueOcean",
+          value: -2.289675137009217,
         },
         {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 75.94871484335054,
-          totalWin: 131.31108537194262,
+          name: "Leopard",
+          value: 12.792797586192641,
         },
         {
-          endpoint: "Betano.AR (LOTBA)",
-          totalBet: 0.6464616054206567,
-          totalWin: 0.150339908237362,
+          name: "Ondiss",
+          value: 3.5785397439322475,
         },
         {
-          endpoint: "Logrand.MX (CU)",
-          totalBet: 7.342329328299753,
-          totalWin: 193.40674427985323,
+          name: "iSOFTBET",
+          value: 108.79923252983787,
         },
         {
-          endpoint: "Bet.BG",
-          totalBet: 49.25,
-          totalWin: 82.15,
-        },
-        {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 422.1275655363131,
-          totalWin: 425.56663610500715,
-        },
-        {
-          endpoint: "Admiralbet.RS",
-          totalBet: 4.4791309399747785,
-          totalWin: 1.25842250218339,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 305.4,
-          totalWin: 351.95,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 192.7073819582096,
-          totalWin: 210.8652782827668,
-        },
-        {
-          endpoint: "RON_lasvegas.RO",
-          totalBet: 39.287589749776224,
-          totalWin: 5.169419703917924,
-        },
-        {
-          endpoint: "carousel.BE",
-          totalBet: 65.6,
-          totalWin: 36,
-        },
-        {
-          endpoint: "Vbet (CU)",
-          totalBet: 21.351757854528458,
-          totalWin: 62.04569635374741,
-        },
-        {
-          endpoint: "Winbet.BG",
-          totalBet: 820,
-          totalWin: 701.24,
-        },
-        {
-          endpoint: "RON_Joker Casino.RO",
-          totalBet: 15.360561405927546,
-          totalWin: 5.494354656735622,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 25.325233292336954,
-          totalWin: 16.611068648589594,
-        },
-        {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 407.64499716768125,
-          totalWin: 243.18614970922658,
-        },
-        {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 10.324803473341872,
-          totalWin: 9.008897148308103,
-        },
-        {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 22.228564832897423,
-          totalWin: 24.311668773346884,
-        },
-        {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 165.89958185235346,
-          totalWin: 119.28232205247376,
-        },
-        {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 0.03494831039597147,
-          totalWin: 0,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 150.45472966831596,
-          totalWin: 87.0431813002561,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 383.2830230569509,
-          totalWin: 319.3400980166562,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 7.50049164808059,
-          totalWin: 6.8906955791309485,
-        },
-        {
-          endpoint: "RON_Gameworld.RO",
-          totalBet: 3.150884390959497,
-          totalWin: 1.3785119210447798,
-        },
-        {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 333.26099822580824,
-          totalWin: 394.38573117758614,
-        },
-        {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 33.675052728413114,
-          totalWin: 43.593125374612434,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 19.839818438970653,
-          totalWin: 13.361510377265951,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 77.3246722568904,
-          totalWin: 66.85782817067182,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 23.145840917297107,
-          totalWin: 30.162618479330934,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 226,
-          totalWin: 138.28,
-        },
-        {
-          endpoint: "Tipos.SK",
-          totalBet: 83.8,
-          totalWin: 80.05,
-        },
-        {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 7.617073150676234,
-          totalWin: 7.338708351149859,
-        },
-        {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 335.6446835016419,
-          totalWin: 179.12015672796184,
-        },
-        {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 488.5855521948284,
-          totalWin: 700.0633565863457,
-        },
-        {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 4.871013026890529,
-          totalWin: 0.9742026053781059,
-        },
-        {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 28.85725796370072,
-          totalWin: 85.57467351430762,
-        },
-        {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 209.70991760682375,
-          totalWin: 102.03335197184907,
-        },
-        {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 53.60107446067349,
-          totalWin: 66.0332918163843,
-        },
-        {
-          endpoint: "RON_Princess.RO",
-          totalBet: 1.6739073326972325,
-          totalWin: 0.19693027443496852,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 45.17101519587068,
-          totalWin: 57.45449462224359,
-        },
-        {
-          endpoint: "1xslot.com (CU)",
-          totalBet: 40.93842695655137,
-          totalWin: 39.396697360339616,
+          name: "EGT New Platform",
+          value: 206.7,
         },
       ],
-      totalBet: 17836.762293990967,
-      totalWin: 14683.894783368163,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:50:00.000Z",
+      total: 1439.9671518375324,
+      period: "2026-03-26T03:40:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 10.9,
-          totalWin: 5.05,
+          name: "Efbet",
+          value: 0.5,
         },
         {
-          endpoint: "Bet.BG",
-          totalBet: 400.6,
-          totalWin: 465.85,
+          name: "Pariplay",
+          value: 2.309521196904982,
         },
         {
-          endpoint: "carousel.BE",
-          totalBet: 114.6,
-          totalWin: 192.85,
+          name: "Intralot",
+          value: 64.2086451403206,
         },
         {
-          endpoint: "Inbet.BG",
-          totalBet: 1441.0900000000001,
-          totalWin: 1911.06,
+          name: "Optimus",
+          value: -8.121610454956688,
         },
         {
-          endpoint: "1xslot.com (CU)",
-          totalBet: 29.32039321366994,
-          totalWin: 25.355945680554008,
+          name: "BetB2B",
+          value: 43.03876687102084,
         },
         {
-          endpoint: "alphawin.BG",
-          totalBet: 369.95,
-          totalWin: 304.32,
+          name: "Crystalbet",
+          value: 0.22821330053162878,
         },
         {
-          endpoint: "Betano.BG (New)",
-          totalBet: 206.75,
-          totalWin: 202.95,
+          name: "BlueOcean",
+          value: 0.38081692260795297,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 18.22024142354448,
-          totalWin: 11.944380488768045,
+          name: "Everymatrix",
+          value: -0.21192161520499456,
         },
         {
-          endpoint: "palmsbet.BG",
-          totalBet: 5185.7,
-          totalWin: 4757.66,
+          name: "Ondiss",
+          value: -8.810110537092083,
         },
         {
-          endpoint: "Logrand.MX (CU)",
-          totalBet: 18.551618769504042,
-          totalWin: 10.719800819317639,
+          name: "Slotegrator",
+          value: 27.22615247764351,
         },
         {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 56.938254448576494,
-          totalWin: 56.573849620105605,
+          name: "universal-casinotech",
+          value: 0.27517699367378506,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 378.095315429414,
-          totalWin: 273.4858237674026,
+          name: "TGLab",
+          value: -45.86101526318586,
         },
         {
-          endpoint: "Sesame.BG",
-          totalBet: 170.25,
-          totalWin: 208.89000000000001,
+          name: "Evoplay",
+          value: 1.70375015549571,
         },
         {
-          endpoint: "Slotino.BG",
-          totalBet: 23.6,
-          totalWin: 21.5,
+          name: "BetConstruct",
+          value: 3.7623576692466867,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 39.39439603837337,
-          totalWin: 43.88757213270993,
+          name: "Leopard",
+          value: 12.89368715706167,
         },
         {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 31.14060763476229,
-          totalWin: 23.795164250278066,
+          name: "TopSport",
+          value: -9.8,
         },
         {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 436.37478209389025,
-          totalWin: 224.486027283501,
+          name: "iSOFTBET",
+          value: -78.73739693463355,
         },
         {
-          endpoint: "RON_AdmiralBet.RO",
-          totalBet: 71.09182907102364,
-          totalWin: 38.99219433812377,
+          name: "MrSlotty",
+          value: 10.070074967280696,
         },
         {
-          endpoint: "PEN_Betsafe.PE",
-          totalBet: 32.64459921718386,
-          totalWin: 26.333310035194977,
+          name: "EGT New Platform",
+          value: 110.85000000000001,
         },
         {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 580.0707592052677,
-          totalWin: 413.8097080377823,
+          name: "Comtrade",
+          value: -88.13152582842649,
         },
         {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 16.99128662093385,
-          totalWin: 7.337146495403252,
+          name: "Calimaco Apuesta",
+          value: 301.3110809907677,
         },
         {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 209.35955741937883,
-          totalWin: 203.68627119318344,
+          name: "ORYX",
+          value: 110.27529428273938,
         },
         {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 24.900996612177455,
-          totalWin: 13.766404631122494,
+          name: "Virtualsoft",
+          value: 78.35895763835347,
         },
         {
-          endpoint: "mscasino.com (CU)",
-          totalBet: 11.600000000000001,
-          totalWin: 24,
+          name: "Easit",
+          value: 5.2812502027306385,
         },
         {
-          endpoint: "SPS Supersports 2.HR",
-          totalBet: 1,
-          totalWin: 0,
+          name: "Baby Leopard",
+          value: 525.99,
         },
         {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 64.29936581534807,
-          totalWin: 55.594149386804546,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 556.9,
-          totalWin: 616.84,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 217.09593453710931,
-          totalWin: 299.192227343559,
-        },
-        {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 6.6807551886329755,
-          totalWin: 2.02447126928272,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 4.234000900351823,
-          totalWin: 4.874024292265471,
-        },
-        {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 3576.2004571411444,
-          totalWin: 4895.988721086091,
-        },
-        {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 23.078972469823007,
-          totalWin: 5.506561852448998,
-        },
-        {
-          endpoint: "Ganaplay El Salvador (CU)",
-          totalBet: 1.358397180498994,
-          totalWin: 0,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 20.480550106820246,
-          totalWin: 7.805389682555411,
-        },
-        {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 8.502779330987423,
-          totalWin: 17.815347169687936,
-        },
-        {
-          endpoint: "EM (CU)",
-          totalBet: 11.8988788222171,
-          totalWin: 21.323733334864308,
-        },
-        {
-          endpoint: "RushStreet.MX (CU)",
-          totalBet: 4.111704423847862,
-          totalWin: 1.6642613144146108,
-        },
-        {
-          endpoint: "TRY_batery.in (CU)",
-          totalBet: 6.633731713749287,
-          totalWin: 0.20948626464471434,
-        },
-        {
-          endpoint: "Admiralbet.BG",
-          totalBet: 6.9,
-          totalWin: 1.9000000000000001,
-        },
-        {
-          endpoint: "Tipos.SK",
-          totalBet: 29,
-          totalWin: 9.15,
-        },
-        {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 87.43160417780686,
-          totalWin: 134.45037798009412,
-        },
-        {
-          endpoint: "RON_netbet.RO",
-          totalBet: 23.867949261518184,
-          totalWin: 14.612226363074663,
-        },
-        {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 435.91046636429974,
-          totalWin: 749.5006491488635,
-        },
-        {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 100.29656731286227,
-          totalWin: 111.44063034762473,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 308.54771198119795,
-          totalWin: 306.0648522284783,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 3.2397937387224776,
-          totalWin: 1.3813302395098563,
-        },
-        {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 19.43594333692616,
-          totalWin: 35.39001439907502,
-        },
-        {
-          endpoint: "PEN_AtlanticCity.PE",
-          totalBet: 2.4293655231392637,
-          totalWin: 1.4171298884979038,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 56.19743575507513,
-          totalWin: 45.412069297030406,
-        },
-        {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 261.78944100912173,
-          totalWin: 177.11086899319875,
-        },
-        {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 12.015165466329973,
-          totalWin: 7.516995411868101,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 19.700952385710362,
-          totalWin: 9.5409124768831,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 100.0996584952945,
-          totalWin: 68.52779689788035,
-        },
-        {
-          endpoint: "Casino770 (CU)",
-          totalBet: 1907.38,
-          totalWin: 871.14,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 13.970054874637487,
-          totalWin: 7.302528684469595,
-        },
-        {
-          endpoint: "Winbet.BG",
-          totalBet: 649.95,
-          totalWin: 735.3800000000001,
-        },
-        {
-          endpoint: "MagicBet.BG",
-          totalBet: 57.85,
-          totalWin: 29.84,
-        },
-        {
-          endpoint: "BetHub.BG",
-          totalBet: 28.65,
-          totalWin: 24.05,
-        },
-        {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 412.23296220769384,
-          totalWin: 657.8898977897188,
-        },
-        {
-          endpoint: "TRY_Jojobet (CU)",
-          totalBet: 5.213235667786522,
-          totalWin: 4.247821655233462,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 158.44924288768533,
-          totalWin: 231.46452544150847,
+          name: "Reevo",
+          value: -48.657077977892,
         },
       ],
-      totalBet: 19081.167715274038,
-      totalWin: 19631.872599013073,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T11:55:00.000Z",
+      total: 1010.3330873549876,
+      period: "2026-03-26T03:45:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 3.643210077046918,
-          totalWin: 3.7022891593774085,
+          name: "Comtrade",
+          value: 177.44075578819053,
         },
         {
-          endpoint: "Tipos.SK",
-          totalBet: 34,
-          totalWin: 0,
+          name: "Reevo",
+          value: 98.38275921002598,
         },
         {
-          endpoint: "Slotino.BG",
-          totalBet: 36.8,
-          totalWin: 62.15,
+          name: "Leopard",
+          value: 3.5967132014808176,
         },
         {
-          endpoint: "EM (CU)",
-          totalBet: 9.424854512647208,
-          totalWin: 9.919659374561187,
+          name: "Pariplay",
+          value: 1.8509055287339136,
         },
         {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 127.84536065520376,
-          totalWin: 109.14430730520462,
+          name: "BetConstruct",
+          value: 3.797748531060614,
         },
         {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 5.409525929752334,
-          totalWin: 2.1231098565552666,
+          name: "ORYX",
+          value: 39.13478918167716,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 27.2912984603189,
-          totalWin: 44.532015934033794,
+          name: "BetB2B",
+          value: -10.968068244949862,
         },
         {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 41.48137759029937,
-          totalWin: 41.36551633719893,
+          name: "TopSport",
+          value: -0.8999999999999999,
         },
         {
-          endpoint: "Betano.CL (MGA)",
-          totalBet: 1.5543396298276775,
-          totalWin: 0,
+          name: "Calimaco Apuesta",
+          value: 121.01705073108388,
         },
         {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 136.54409865751072,
-          totalWin: 121.55826652392224,
+          name: "Easit",
+          value: 9.950000000000001,
         },
         {
-          endpoint: "Casino770 (CU)",
-          totalBet: 935.3,
-          totalWin: 1665.24,
+          name: "Baby Leopard",
+          value: 254.07,
         },
         {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 4652.834950124778,
-          totalWin: 3559.8075843493393,
+          name: "MrSlotty",
+          value: 5.361351869675013,
         },
         {
-          endpoint: "TRY_Jojobet (CU)",
-          totalBet: 13.264788532479038,
-          totalWin: 9.480365603271045,
+          name: "iSOFTBET",
+          value: 46.016659511938,
         },
         {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 19.628378419469986,
-          totalWin: 13.067544823991506,
+          name: "Everymatrix",
+          value: -0.6985757326196531,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 18.42268855047275,
-          totalWin: 17.86595895142,
+          name: "Ondiss",
+          value: -8.17130183491805,
         },
         {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 11.33703910798323,
-          totalWin: 3.707313011873981,
+          name: "BlueOcean",
+          value: 2.172001475627444,
         },
         {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 269.77344957735545,
-          totalWin: 320.76228908332735,
+          name: "Optimus",
+          value: -33.9947409043187,
         },
         {
-          endpoint: "BetHub.BG",
-          totalBet: 25.400000000000002,
-          totalWin: 11.799999999999999,
+          name: "Evoplay",
+          value: 4.2263592411111155,
         },
         {
-          endpoint: "dbbet.com (CU)",
-          totalBet: 0.00262112327969786,
-          totalWin: 0.0022716401757381455,
+          name: "Intralot",
+          value: 49.20636595209626,
         },
         {
-          endpoint: "RON_Gameworld.RO",
-          totalBet: 0.04923256860874213,
-          totalWin: 0,
+          name: "Virtualsoft",
+          value: 12.558273403508657,
         },
         {
-          endpoint: "Asvla.GE",
-          totalBet: 6.096023945296358,
-          totalWin: 1.4605057368939192,
+          name: "EGT New Platform",
+          value: -122.6,
         },
         {
-          endpoint: "mscasino.com (CU)",
-          totalBet: 39.6,
-          totalWin: 30.4,
-        },
-        {
-          endpoint: "PEN_Betsafe.PE",
-          totalBet: 32.8976581258442,
-          totalWin: 24.804834226886527,
-        },
-        {
-          endpoint: "Doradobet",
-          totalBet: 1.1036977091554327,
-          totalWin: 2.3771950658732397,
-        },
-        {
-          endpoint: "Logrand.MX (CU)",
-          totalBet: 22.02698798489926,
-          totalWin: 16.887357455089433,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 46.41100384830635,
-          totalWin: 52.93486251356992,
-        },
-        {
-          endpoint: "MagicBet.BG",
-          totalBet: 46.05,
-          totalWin: 36.47,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 219.45268559024683,
-          totalWin: 223.55730108871757,
-        },
-        {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 1.165754722370758,
-          totalWin: 0.6994528334224549,
-        },
-        {
-          endpoint: "carousel.BE",
-          totalBet: 143.2,
-          totalWin: 154.65,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 3.9370154646705644,
-          totalWin: 2.4257095282325087,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 92.64584760793095,
-          totalWin: 83.12820744448891,
-        },
-        {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 8.964923432133533,
-          totalWin: 7.194386610792764,
-        },
-        {
-          endpoint: "Inbet.BG",
-          totalBet: 1333.65,
-          totalWin: 1260.93,
-        },
-        {
-          endpoint: "alphawin.BG",
-          totalBet: 313.2,
-          totalWin: 414.51,
-        },
-        {
-          endpoint: "RON_AdmiralBet.RO",
-          totalBet: 0.09846513721748426,
-          totalWin: 0,
-        },
-        {
-          endpoint: "Synottip.SK",
-          totalBet: 0.95,
-          totalWin: 0.35,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 6.24415952834168,
-          totalWin: 6.811810394554561,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 113.27429385499389,
-          totalWin: 11.284104725123697,
-        },
-        {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 390.7920822262107,
-          totalWin: 360.80279989000655,
-        },
-        {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 2.8865262381573507,
-          totalWin: 0.48108770635955844,
-        },
-        {
-          endpoint: "1xslot.com (CU)",
-          totalBet: 6.056794842260457,
-          totalWin: 18.39063161195448,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 194.88226550119293,
-          totalWin: 121.28865142409695,
-        },
-        {
-          endpoint: "Lightbet24.com (CU)",
-          totalBet: 4.948048619139784,
-          totalWin: 11.604352118696873,
-        },
-        {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 2.429365523139264,
-          totalWin: 0,
-        },
-        {
-          endpoint: "RON_Princess.RO",
-          totalBet: 29.244145753592825,
-          totalWin: 12.524765454064,
-        },
-        {
-          endpoint: "Peppermill.BE",
-          totalBet: 1.5,
-          totalWin: 17.5,
-        },
-        {
-          endpoint: "Betano.BG (New)",
-          totalBet: 279.05,
-          totalWin: 325.65,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 25.96931400296994,
-          totalWin: 40.48042014181351,
-        },
-        {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 14.481210188295893,
-          totalWin: 18.14978343599752,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 114.8,
-          totalWin: 45.17,
-        },
-        {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 211.28611243313114,
-          totalWin: 209.46494405944443,
-        },
-        {
-          endpoint: "Monacobetsk.SK",
-          totalBet: 3.4,
-          totalWin: 3.1,
-        },
-        {
-          endpoint: "palmsbet.BG",
-          totalBet: 4084.7,
-          totalWin: 4200.22,
-        },
-        {
-          endpoint: "PEN_AtlanticCity.PE",
-          totalBet: 10.830921290662552,
-          totalWin: 23.73692563233989,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 20.2447126928272,
-          totalWin: 19.839818438970656,
-        },
-        {
-          endpoint: "Bet.BG",
-          totalBet: 47.5,
-          totalWin: 76.8,
-        },
-        {
-          endpoint: "TRY_Slotegrator Curacao NEW (CU)",
-          totalBet: 0.6471739748029477,
-          totalWin: 0.10559154325732305,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 183.8446601871405,
-          totalWin: 118.45161098095164,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 362.5,
-          totalWin: 331.19,
-        },
-        {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 3.3909893760485557,
-          totalWin: 1.8220241423544479,
-        },
-        {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 13.563957504194223,
-          totalWin: 5.486317139756171,
-        },
-        {
-          endpoint: "RON_Seven.RO",
-          totalBet: 19.102236620191945,
-          totalWin: 28.751820067505406,
-        },
-        {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 3.834689108971639,
-          totalWin: 0,
-        },
-        {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 173.65531928073267,
-          totalWin: 275.649142151405,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 5.389838674420122,
-          totalWin: 7.2011779010695065,
-        },
-        {
-          endpoint: "Winbet.BG",
-          totalBet: 567.65,
-          totalWin: 586.14,
-        },
-        {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 321.3088963260337,
-          totalWin: 329.1663754399372,
-        },
-        {
-          endpoint: "Casino777.NL",
-          totalBet: 4.8,
-          totalWin: 1.6,
+          name: "TGLab",
+          value: 6.675096808309492,
         },
       ],
-      totalBet: 15905.664990832556,
-      totalWin: 15517.872458857879,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T12:00:00.000Z",
+      total: 658.1241437177126,
+      period: "2026-03-26T03:50:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 0.36081577976966883,
-          totalWin: 0,
+          name: "MrSlotty",
+          value: 0.18254258468022933,
         },
         {
-          endpoint: "Casino770 (CU)",
-          totalBet: 824.6,
-          totalWin: 602.11,
+          name: "Intralot",
+          value: 95.86527023974959,
         },
         {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 334.7599372013371,
-          totalWin: 272.7766429771364,
+          name: "BetConstruct",
+          value: 7.99501004714921,
         },
         {
-          endpoint: "Winbet.BG",
-          totalBet: 555.95,
-          totalWin: 541.56,
+          name: "iSOFTBET",
+          value: -136.34287586407416,
         },
         {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 92.53541623936222,
-          totalWin: 83.32439074147553,
+          name: "ORYX",
+          value: 92.36399140976033,
         },
         {
-          endpoint: "BetHub.BG",
-          totalBet: 46.2,
-          totalWin: 40.599999999999994,
+          name: "Ondiss",
+          value: 2.022389635318733,
         },
         {
-          endpoint: "MagicBet.BG",
-          totalBet: 20.5,
-          totalWin: 13.530000000000001,
+          name: "Easit",
+          value: 0.75,
         },
         {
-          endpoint: "palmsbet.BG",
-          totalBet: 4765.72,
-          totalWin: 4341.22,
+          name: "Comtrade",
+          value: -86.56125365330976,
         },
         {
-          endpoint: "Inbet.BG",
-          totalBet: 1108.2,
-          totalWin: 1526.6,
+          name: "Optimus",
+          value: 0.5750705539534557,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 253.9699207315172,
-          totalWin: 311.3636812156823,
+          name: "Goldrush",
+          value: 0,
         },
         {
-          endpoint: "Tipos.SK",
-          totalBet: 255.36999999999998,
-          totalWin: 126.65,
+          name: "EGT New Platform",
+          value: 76.19999999999999,
         },
         {
-          endpoint: "RON_Seven.RO",
-          totalBet: 4.726326586439245,
-          totalWin: 2.166233018784654,
+          name: "Reevo",
+          value: 86.15,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 416.38312830972336,
-          totalWin: 486.30330477257536,
+          name: "BlueOcean",
+          value: 4.320206196357554,
         },
         {
-          endpoint: "dbbet.com (CU)",
-          totalBet: 0.03984107385140747,
-          totalWin: 0.02297851408535124,
+          name: "Crystalbet",
+          value: 0.34231995079744315,
         },
         {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 64.1165097303917,
-          totalWin: 21.968657457699624,
+          name: "Baby Leopard",
+          value: 43.13000000000001,
         },
         {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 24.720379040143932,
-          totalWin: 14.054359496956495,
+          name: "Everymatrix",
+          value: -5.028591663336079,
         },
         {
-          endpoint: "Sesame.BG",
-          totalBet: 104.05,
-          totalWin: 131.20000000000002,
+          name: "Pariplay",
+          value: -20.29430328344165,
         },
         {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 1.01223563464136,
-          totalWin: 0,
+          name: "Peppermill",
+          value: -9.15,
         },
         {
-          endpoint: "Peppermill.BE",
-          totalBet: 60.8,
-          totalWin: 170.86,
+          name: "BetB2B",
+          value: -9.649277223297982,
         },
         {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 233.54806680262777,
-          totalWin: 318.23423058581056,
+          name: "Leopard",
+          value: -21.035475526192158,
         },
         {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 236.62518878863526,
-          totalWin: 213.79926221923608,
+          name: "TGLab",
+          value: -13.58634090936578,
         },
         {
-          endpoint: "playcet_TgLab.AR (MGA)",
-          totalBet: 5.195747228683231,
-          totalWin: 10.752310237136133,
+          name: "Virtualsoft",
+          value: 6.7514282467685645,
         },
         {
-          endpoint: "alphawin.BG",
-          totalBet: 178.35,
-          totalWin: 232.3,
+          name: "Evoplay",
+          value: 8.033102368669025,
         },
         {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 13.890152367372169,
-          totalWin: 1.7807887650477139,
+          name: "Calimaco Apuesta",
+          value: -104.09050092386585,
         },
         {
-          endpoint: "Vbet (CU)",
-          totalBet: 9.18439584183761,
-          totalWin: 6.122930561225074,
-        },
-        {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 20.85294267114609,
-          totalWin: 6.564815285360805,
-        },
-        {
-          endpoint: "Betano.BG (New)",
-          totalBet: 318.6,
-          totalWin: 265.95,
-        },
-        {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 44.14923539195405,
-          totalWin: 46.426823709480956,
-        },
-        {
-          endpoint: "TRY_Jojobet (CU)",
-          totalBet: 16.9140534999296,
-          totalWin: 8.287113883755463,
-        },
-        {
-          endpoint: "Casino777.NL",
-          totalBet: 0.6,
-          totalWin: 0,
-        },
-        {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 6166.832048795268,
-          totalWin: 6534.176151857934,
-        },
-        {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 5.870966680919887,
-          totalWin: 6.124025589580228,
-        },
-        {
-          endpoint: "Logrand.MX (CU)",
-          totalBet: 42.09602148225192,
-          totalWin: 40.872299927535295,
-        },
-        {
-          endpoint: "RON_Gameworld.RO",
-          totalBet: 7.631048134355031,
-          totalWin: 12.652770132446728,
-        },
-        {
-          endpoint: "mscasino.com (CU)",
-          totalBet: 58.4,
-          totalWin: 68.8,
-        },
-        {
-          endpoint: "888starz.bet (CU)",
-          totalBet: 1.1532942430670585,
-          totalWin: 1.5027773470267731,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 4.064015963530905,
-          totalWin: 0.317501247150852,
-        },
-        {
-          endpoint: "Lightbet24.com (CU)",
-          totalBet: 34.16509760834613,
-          totalWin: 18.731898343886325,
-        },
-        {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 300.91234828801026,
-          totalWin: 460.4406843074886,
-        },
-        {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 23.902895445923214,
-          totalWin: 62.45430328811808,
-        },
-        {
-          endpoint: "RON_Princess.RO",
-          totalBet: 8.50738785559064,
-          totalWin: 3.0327262262985153,
-        },
-        {
-          endpoint: "Admiralbet.BG",
-          totalBet: 5.2,
-          totalWin: 3.6,
-        },
-        {
-          endpoint: "TopSport.LT",
-          totalBet: 365.5,
-          totalWin: 487.88,
-        },
-        {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 8.60400289445156,
-          totalWin: 10.109703400980582,
-        },
-        {
-          endpoint: "Belarus /Slotegrator/ .BY",
-          totalBet: 122.29142856568293,
-          totalWin: 64.51825967494064,
-        },
-        {
-          endpoint: "Bet.BG",
-          totalBet: 42.45,
-          totalWin: 30.8,
-        },
-        {
-          endpoint: "PEN_AtlanticCity.PE",
-          totalBet: 49.093428280105954,
-          totalWin: 54.76194783409757,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 50.86484064072833,
-          totalWin: 46.51222741177049,
-        },
-        {
-          endpoint: "Slotino.BG",
-          totalBet: 35.65,
-          totalWin: 13.05,
-        },
-        {
-          endpoint: "carousel.BE",
-          totalBet: 194.2,
-          totalWin: 276.2,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 1.4635105654791396,
-          totalWin: 0.39026948412777057,
-        },
-        {
-          endpoint: "PEN_Betsson.PE",
-          totalBet: 9.61623852909292,
-          totalWin: 3.978086044140545,
-        },
-        {
-          endpoint: "Monacobetsk.SK",
-          totalBet: 5.2,
-          totalWin: 4.5,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 46.24907495105236,
-          totalWin: 31.571861597414156,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 8.7633972123561,
-          totalWin: 3.347814665394465,
-        },
-        {
-          endpoint: "EM (CU)",
-          totalBet: 5.360386004068099,
-          totalWin: 4.252965598832052,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 5.4192913447721445,
-          totalWin: 16.640758748892726,
-        },
-        {
-          endpoint: "crystalbet.GE",
-          totalBet: 61.49999157312003,
-          totalWin: 64.75120434394475,
-        },
-        {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 238.67616704826074,
-          totalWin: 224.0985156689859,
-        },
-        {
-          endpoint: "RON_Avento.RO",
-          totalBet: 24.22242375550113,
-          totalWin: 12.01274674053308,
-        },
-        {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 274.32850993324155,
-          totalWin: 199.44584827156035,
-        },
-        {
-          endpoint: "PEN_Betsafe.PE",
-          totalBet: 34.922129395126916,
-          totalWin: 19.834757260797446,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 20.852054073612013,
-          totalWin: 34.61845870473451,
+          name: "TopSport",
+          value: 2.3,
         },
       ],
-      totalBet: 18275.886292183277,
-      totalWin: 18612.509087160062,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T12:05:00.000Z",
+      total: 21.242712186320723,
+      period: "2026-03-26T03:55:00.000Z",
     },
     {
-      endpoints: [
+      items: [
         {
-          endpoint: "PEN_RushStreet.PE",
-          totalBet: 7.692990823274336,
-          totalWin: 5.3648488635992075,
+          name: "Peppermill",
+          value: 18.15,
         },
         {
-          endpoint: "PEN_AtlanticCity.PE",
-          totalBet: 46.056721376181876,
-          totalWin: 35.73191790284,
+          name: "EGT New Platform",
+          value: -306.59999999999997,
         },
         {
-          endpoint: "dbbet.com (CU)",
-          totalBet: 0.011008717774731011,
-          totalWin: 0.0006115954319295007,
+          name: "Evoplay",
+          value: 0.31845797298985234,
         },
         {
-          endpoint: "Monacobetsk.SK",
-          totalBet: 13.05,
-          totalWin: 7.5,
+          name: "ORYX",
+          value: -152.981664855568,
         },
         {
-          endpoint: "Winbet.BG",
-          totalBet: 798.25,
-          totalWin: 387.47,
+          name: "iSOFTBET",
+          value: 131.69606526111906,
         },
         {
-          endpoint: "RON_AdmiralBet.RO",
-          totalBet: 0.34462798026119495,
-          totalWin: 0.09846513721748426,
+          name: "Easit",
+          value: -26.95,
         },
         {
-          endpoint: "PEN_Calimaco Apuesta 2",
-          totalBet: 422.2034832089112,
-          totalWin: 379.61366888137604,
+          name: "Pariplay",
+          value: 7.1773600487640135,
         },
         {
-          endpoint: "PEN_LaTinka.PE",
-          totalBet: 268.52080797948673,
-          totalWin: 284.76718991548057,
+          name: "Skywind360",
+          value: 0.08832780985031613,
         },
         {
-          endpoint: "Admiralbet.BG",
-          totalBet: 2.4,
-          totalWin: 0,
+          name: "Everymatrix",
+          value: 3.0824962211635567,
         },
         {
-          endpoint: "Bet.BG",
-          totalBet: 47.6,
-          totalWin: 56.15,
+          name: "BetB2B",
+          value: -1.5262619878152934,
         },
         {
-          endpoint: "crystalbet.GE",
-          totalBet: 50.244572361622325,
-          totalWin: 40.830660383599565,
+          name: "Reevo",
+          value: 114,
         },
         {
-          endpoint: "TopSport.LT",
-          totalBet: 401.9,
-          totalWin: 351.37,
+          name: "MrSlotty",
+          value: 25.771492360319463,
         },
         {
-          endpoint: "1xbet.com (CU)",
-          totalBet: 267.6049742487156,
-          totalWin: 224.83838379118635,
+          name: "Comtrade",
+          value: 7.066224788025287,
         },
         {
-          endpoint: "OffsideLA (CU)",
-          totalBet: 14.066773649940481,
-          totalWin: 16.23119158447552,
+          name: "Ondiss",
+          value: -27.33556290013897,
         },
         {
-          endpoint: "RON_Gameworld.RO",
-          totalBet: 3.69244264565566,
-          totalWin: 27.225610440634398,
+          name: "Baby Leopard",
+          value: 280.28999999999996,
         },
         {
-          endpoint: "TRY_Slotegrator Free Market NEW (CU)",
-          totalBet: 234.40675176619519,
-          totalWin: 117.14845533004922,
+          name: "Optimus",
+          value: -0.8121610454956691,
         },
         {
-          endpoint: "RON_bilion.RO",
-          totalBet: 9.108025192617294,
-          totalWin: 7.237187585485094,
+          name: "TopSport",
+          value: 1.7,
         },
         {
-          endpoint: "WeAreCasino (CU)",
-          totalBet: 30.166022108838863,
-          totalWin: 16.852006178085908,
+          name: "Leopard",
+          value: 34.37307679507755,
         },
         {
-          endpoint: "Betano.BG (New)",
-          totalBet: 40,
-          totalWin: 24.67,
+          name: "Intralot",
+          value: 80.31818736883251,
         },
         {
-          endpoint: "betwinner.com (CU)",
-          totalBet: 15.702248775453269,
-          totalWin: 8.011195855825916,
+          name: "Calimaco Apuesta",
+          value: 24.150441026773382,
         },
         {
-          endpoint: "RON_Avento.RO",
-          totalBet: 14.76977058262264,
-          totalWin: 12.01274674053308,
+          name: "BlueOcean",
+          value: 1.1847637592247429,
         },
         {
-          endpoint: "OffsideROW (CU)",
-          totalBet: 0.1930828025106119,
-          totalWin: 0,
+          name: "TGLab",
+          value: 7.080785747130914,
         },
         {
-          endpoint: "EM (CU)",
-          totalBet: 30.45406114399129,
-          totalWin: 118.12287971382153,
+          name: "Virtualsoft",
+          value: 4.623163783054749,
         },
         {
-          endpoint: "Slotino.BG",
-          totalBet: 4.5,
-          totalWin: 3.8,
-        },
-        {
-          endpoint: "Synottip.SK",
-          totalBet: 0.25,
-          totalWin: 0,
-        },
-        {
-          endpoint: "TRY_MrSlotty-IRE(Europe) (CU)",
-          totalBet: 195.7437204034873,
-          totalWin: 182.89033178507907,
-        },
-        {
-          endpoint: "Synottip.CZ",
-          totalBet: 17.744200458831457,
-          totalWin: 8.665772317103736,
-        },
-        {
-          endpoint: "PEN_Baby Palms Peru",
-          totalBet: 6.3264727165084995,
-          totalWin: 2.02447126928272,
-        },
-        {
-          endpoint: "palmsbet.BG",
-          totalBet: 5051.59,
-          totalWin: 4332.83,
-        },
-        {
-          endpoint: "RON_Superbet.RO",
-          totalBet: 85.82221359875929,
-          totalWin: 83.59099358941108,
-        },
-        {
-          endpoint: "Sesame.BG",
-          totalBet: 155.35,
-          totalWin: 130.82,
-        },
-        {
-          endpoint: "7starswin.com (CU)",
-          totalBet: 2.128284980245121,
-          totalWin: 1.7972184277625465,
-        },
-        {
-          endpoint: "carousel.BE",
-          totalBet: 226,
-          totalWin: 178.05,
-        },
-        {
-          endpoint: "TRY_Jojobet (CU)",
-          totalBet: 1.2357299360679161,
-          totalWin: 4.7730068780623265,
-        },
-        {
-          endpoint: "Asvla.GE",
-          totalBet: 0.0635002494301704,
-          totalWin: 0.012700049886034077,
-        },
-        {
-          endpoint: "RON_lasvegas.RO",
-          totalBet: 6.892559605223898,
-          totalWin: 2.3631632932196225,
-        },
-        {
-          endpoint: "Melbet.com (CU)",
-          totalBet: 11.040890343295827,
-          totalWin: 14.638083648692207,
-        },
-        {
-          endpoint: "Slots del Sol (CU)",
-          totalBet: 10.11228305268821,
-          totalWin: 11.971255556507034,
-        },
-        {
-          endpoint: "Tipos.SK",
-          totalBet: 84.4,
-          totalWin: 73.14999999999999,
-        },
-        {
-          endpoint: "Inbet.BG",
-          totalBet: 1360.75,
-          totalWin: 1471.06,
-        },
-        {
-          endpoint: "PEN_LaFija.PE",
-          totalBet: 57.697431174557515,
-          totalWin: 43.45527579515358,
-        },
-        {
-          endpoint: "BetHub.BG",
-          totalBet: 5.2,
-          totalWin: 3,
-        },
-        {
-          endpoint: "PEN_Betsafe.PE",
-          totalBet: 42.51389665493711,
-          totalWin: 32.39154030852352,
-        },
-        {
-          endpoint: "PEN_Doradobet.PE",
-          totalBet: 24.091208104464364,
-          totalWin: 12.754168996481136,
-        },
-        {
-          endpoint: "Solbet.PY",
-          totalBet: 0.3955260646423029,
-          totalWin: 0,
-        },
-        {
-          endpoint: "TRY_BlueOcean General (CU)",
-          totalBet: 1.6616986138877101,
-          totalWin: 0.20451675247848738,
-        },
-        {
-          endpoint: "tonybet.NL",
-          totalBet: 0.8,
-          totalWin: 0,
-        },
-        {
-          endpoint: "Betano.AR (MGA)",
-          totalBet: 83.25643710295223,
-          totalWin: 53.93293868107125,
-        },
-        {
-          endpoint: "PEN_Inkabet.PE",
-          totalBet: 1.13876508897153,
-          totalWin: 0.328976581258442,
-        },
-        {
-          endpoint: "Peppermill.BE",
-          totalBet: 62.2,
-          totalWin: 114.57,
-        },
-        {
-          endpoint: "Casino770 (CU)",
-          totalBet: 979.8100000000001,
-          totalWin: 885.4,
-        },
-        {
-          endpoint: "IceCasino (CU)",
-          totalBet: 5.676508662128801,
-          totalWin: 0,
-        },
-        {
-          endpoint: "SPS Supersports 2.HR",
-          totalBet: 16,
-          totalWin: 6.5,
-        },
-        {
-          endpoint: "mscasino.com (CU)",
-          totalBet: 35.2,
-          totalWin: 3.2,
-        },
-        {
-          endpoint: "MagicBet.BG",
-          totalBet: 41.7,
-          totalWin: 42.3,
-        },
-        {
-          endpoint: "Casinomagiconline.AR (MGA)",
-          totalBet: 6.855499815623708,
-          totalWin: 18.43768634623008,
-        },
-        {
-          endpoint: "vulkanvegas.com (CU)",
-          totalBet: 6466.039462492791,
-          totalWin: 4864.84746400204,
-        },
-        {
-          endpoint: "PEN_OlimpoBet.PE",
-          totalBet: 326.44599217183855,
-          totalWin: 126.68128967536619,
-        },
-        {
-          endpoint: "Logrand.MX (CU)",
-          totalBet: 22.516476606785908,
-          totalWin: 23.98494247244586,
-        },
-        {
-          endpoint: "RON_Stanleybet.RO",
-          totalBet: 16.926157087685546,
-          totalWin: 3.623517049603421,
-        },
-        {
-          endpoint: "Linebet (CU)",
-          totalBet: 0.6178649680339581,
-          totalWin: 0.81094777054457,
-        },
-        {
-          endpoint: "Betano.EC",
-          totalBet: 0.16979964756237426,
-          totalWin: 0.20375957707484912,
-        },
-        {
-          endpoint: "G8star (CU)",
-          totalBet: 21.58880736803251,
-          totalWin: 13.680765378514462,
-        },
-        {
-          endpoint: "PEN_Calimaco Apuesta",
-          totalBet: 213.58171890932692,
-          totalWin: 226.46747853831144,
-        },
-        {
-          endpoint: "alphawin.BG",
-          totalBet: 137.2,
-          totalWin: 66.95,
-        },
-        {
-          endpoint: "Crocobet.GE",
-          totalBet: 15.303560112671065,
-          totalWin: 10.604541654838455,
-        },
-        {
-          endpoint: "PEN_Betano.PE",
-          totalBet: 321.61256701642606,
-          totalWin: 200.35179916456437,
-        },
-        {
-          endpoint: "RON_Princess.RO",
-          totalBet: 3.5447449398294335,
-          totalWin: 4.56878236689127,
+          name: "Crystalbet",
+          value: 0.12678516696201597,
         },
       ],
-      totalBet: 18848.13234331174,
-      totalWin: 15382.93440782604,
-      totalLost: 23525.906576716152,
-      rounds: 60,
-      period: "2026-03-23T12:10:00.000Z",
+      total: 224.99197732026948,
+      period: "2026-03-26T04:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: -49.057553835064446,
+        },
+        {
+          name: "Intralot",
+          value: 94.29643741273622,
+        },
+        {
+          name: "TopSport",
+          value: 2.0999999999999996,
+        },
+        {
+          name: "ORYX",
+          value: 176.32243005900162,
+        },
+        {
+          name: "EGT New Platform",
+          value: 54.980000000000004,
+        },
+        {
+          name: "Everymatrix",
+          value: 4.546681926216247,
+        },
+        {
+          name: "Peppermill",
+          value: 9.600000000000001,
+        },
+        {
+          name: "TGLab",
+          value: 1.2697458279231677,
+        },
+        {
+          name: "Easit",
+          value: -17.3,
+        },
+        {
+          name: "Comtrade",
+          value: -0.23554082626750955,
+        },
+        {
+          name: "iSOFTBET",
+          value: 28.0445349991867,
+        },
+        {
+          name: "MrSlotty",
+          value: 35.71357307380535,
+        },
+        {
+          name: "Skywind360",
+          value: -2.3554082626750956,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 308.71704238067963,
+        },
+        {
+          name: "BetB2B",
+          value: 2.283115972658692,
+        },
+        {
+          name: "Reevo",
+          value: 118,
+        },
+        {
+          name: "Baby Leopard",
+          value: 52.42,
+        },
+        {
+          name: "Leopard",
+          value: 5.49848161236198,
+        },
+        {
+          name: "Ondiss",
+          value: -2.434133632928532,
+        },
+        {
+          name: "Evoplay",
+          value: 1.4356750735374861,
+        },
+        {
+          name: "Pariplay",
+          value: -0.12537600273265825,
+        },
+        {
+          name: "Virtualsoft",
+          value: 27.17134666998493,
+        },
+      ],
+      total: 850.8910524484238,
+      period: "2026-03-26T04:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "MrSlotty",
+          value: 42.93275141583095,
+        },
+        {
+          name: "iSOFTBET",
+          value: 39.85795343675522,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.4256545022881453,
+        },
+        {
+          name: "Evoplay",
+          value: 4.919891598808338,
+        },
+        {
+          name: "TopSport",
+          value: 2.5,
+        },
+        {
+          name: "Baby Leopard",
+          value: -222.93,
+        },
+        {
+          name: "Peppermill",
+          value: -71.2,
+        },
+        {
+          name: "Efbet",
+          value: 0.25,
+        },
+        {
+          name: "Optimus",
+          value: -16.626601279215674,
+        },
+        {
+          name: "Reevo",
+          value: 7.9,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.570533251329072,
+        },
+        {
+          name: "Virtualsoft",
+          value: -7.44939002241387,
+        },
+        {
+          name: "Ondiss",
+          value: 8.913046536494532,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "BlueOcean",
+          value: 2.1918129545657745,
+        },
+        {
+          name: "Easit",
+          value: 7.55,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -213.85866692157,
+        },
+        {
+          name: "EGT New Platform",
+          value: 23.849999999999998,
+        },
+        {
+          name: "Pariplay",
+          value: 14.835659293717654,
+        },
+        {
+          name: "Intralot",
+          value: 63.613396672193346,
+        },
+        {
+          name: "Leopard",
+          value: -1.8437569076314717,
+        },
+        {
+          name: "ORYX",
+          value: -50.837858237130476,
+        },
+        {
+          name: "BetB2B",
+          value: 48.46825294400581,
+        },
+        {
+          name: "Comtrade",
+          value: 4.102336057492458,
+        },
+        {
+          name: "TGLab",
+          value: 56.829754258335214,
+        },
+      ],
+      total: -254.035230446145,
+      period: "2026-03-26T04:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TopSport",
+          value: 0.3999999999999999,
+        },
+        {
+          name: "BetConstruct",
+          value: -7.218160140739934,
+        },
+        {
+          name: "Virtualsoft",
+          value: -7.2132015033843935,
+        },
+        {
+          name: "Optimus",
+          value: 61.59308301554107,
+        },
+        {
+          name: "Baby Leopard",
+          value: 118.38,
+        },
+        {
+          name: "BtoBet",
+          value: 1.1989854724357778,
+        },
+        {
+          name: "Leopard",
+          value: 3.745525318512633,
+        },
+        {
+          name: "TGLab",
+          value: -3.6027599790857643,
+        },
+        {
+          name: "Efbet",
+          value: 101.75999999999999,
+        },
+        {
+          name: "Ondiss",
+          value: -1.344223051020235,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -308.3309625104698,
+        },
+        {
+          name: "Easit",
+          value: -19.5,
+        },
+        {
+          name: "ORYX",
+          value: -130.24196519267224,
+        },
+        {
+          name: "BetB2B",
+          value: -58.048830639469244,
+        },
+        {
+          name: "Peppermill",
+          value: 25.8,
+        },
+        {
+          name: "Pariplay",
+          value: 2.4422462858837686,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.3808169226079531,
+        },
+        {
+          name: "EGT New Platform",
+          value: -47.379999999999995,
+        },
+        {
+          name: "Reevo",
+          value: 7.05,
+        },
+        {
+          name: "MrSlotty",
+          value: -4.129493584401767,
+        },
+        {
+          name: "Intralot",
+          value: 21.133842857789464,
+        },
+        {
+          name: "Everymatrix",
+          value: -3.055524379228376,
+        },
+        {
+          name: "iSOFTBET",
+          value: 251.48465440995332,
+        },
+      ],
+      total: 5.304033302252208,
+      period: "2026-03-26T04:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TGLab",
+          value: 45.82468491045559,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -140.23046353854764,
+        },
+        {
+          name: "Easit",
+          value: 21.1,
+        },
+        {
+          name: "MrSlotty",
+          value: 28.74950319926849,
+        },
+        {
+          name: "Ondiss",
+          value: 4.408082797940231,
+        },
+        {
+          name: "EGT New Platform",
+          value: -39.27000000000001,
+        },
+        {
+          name: "BetConstruct",
+          value: 3.3516237447896935,
+        },
+        {
+          name: "Baby Leopard",
+          value: -38.00999999999999,
+        },
+        {
+          name: "Skywind360",
+          value: 0.31405443502334607,
+        },
+        {
+          name: "BtoBet",
+          value: 1.7198562104611566,
+        },
+        {
+          name: "Virtualsoft",
+          value: -5.309796328355759,
+        },
+        {
+          name: "ORYX",
+          value: 71.72095623423591,
+        },
+        {
+          name: "TopSport",
+          value: 2.1,
+        },
+        {
+          name: "Optimus",
+          value: -5.675038361382778,
+        },
+        {
+          name: "Leopard",
+          value: 8.610924873671467,
+        },
+        {
+          name: "Everymatrix",
+          value: 3.0497446988136945,
+        },
+        {
+          name: "Peppermill",
+          value: 2.6,
+        },
+        {
+          name: "BetB2B",
+          value: 86.18279951931906,
+        },
+        {
+          name: "Dench",
+          value: 1.55,
+        },
+        {
+          name: "iSOFTBET",
+          value: -179.75140290737932,
+        },
+        {
+          name: "Pariplay",
+          value: 4.690138443987053,
+        },
+        {
+          name: "Intralot",
+          value: 34.63791191860875,
+        },
+      ],
+      total: -87.63642014909104,
+      period: "2026-03-26T04:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: -32.334013929946195,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 394.31112931258025,
+        },
+        {
+          name: "EGT New Platform",
+          value: -441.5,
+        },
+        {
+          name: "Virtualsoft",
+          value: 32.77977189544579,
+        },
+        {
+          name: "Betmexico",
+          value: -0.38765144766571824,
+        },
+        {
+          name: "TGLab",
+          value: 19.987749060440525,
+        },
+        {
+          name: "ORYX",
+          value: 36.93516944641713,
+        },
+        {
+          name: "Intralot",
+          value: 136.7558133129663,
+        },
+        {
+          name: "Pariplay",
+          value: -25.686916498962365,
+        },
+        {
+          name: "Avento",
+          value: 0.16291573816836075,
+        },
+        {
+          name: "iSOFTBET",
+          value: -17.37344121305856,
+        },
+        {
+          name: "TopSport",
+          value: -2.6,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.7492758946428772,
+        },
+        {
+          name: "Slotegrator",
+          value: 0.9853030326716998,
+        },
+        {
+          name: "universal-casinotech",
+          value: 0.1867272457072113,
+        },
+        {
+          name: "BetConstruct",
+          value: -8.136890016252435,
+        },
+        {
+          name: "MrSlotty",
+          value: 39.44340356050329,
+        },
+        {
+          name: "Everymatrix",
+          value: -4.781722263079968,
+        },
+        {
+          name: "Easit",
+          value: 10.7,
+        },
+        {
+          name: "BetB2B",
+          value: 6.351597177789698,
+        },
+        {
+          name: "Optimus",
+          value: -11.85452457711069,
+        },
+        {
+          name: "Baby Leopard",
+          value: 103.82000000000001,
+        },
+        {
+          name: "Leopard",
+          value: 15.80687351590483,
+        },
+        {
+          name: "Dench",
+          value: -3.6,
+        },
+        {
+          name: "Comtrade",
+          value: 5.8885206566877395,
+        },
+      ],
+      total: 256.6090899038498,
+      period: "2026-03-26T04:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetB2B",
+          value: 43.208489580487935,
+        },
+        {
+          name: "TopSport",
+          value: 2.9,
+        },
+        {
+          name: "Virtualsoft",
+          value: -39.035760886433486,
+        },
+        {
+          name: "Leopard",
+          value: 11.677967828089892,
+        },
+        {
+          name: "Betmexico",
+          value: 0.15671015969465207,
+        },
+        {
+          name: "Pariplay",
+          value: -4.083906187636294,
+        },
+        {
+          name: "BetConstruct",
+          value: 5.5629329430512096,
+        },
+        {
+          name: "Skywind360",
+          value: 8.715010571897853,
+        },
+        {
+          name: "Comtrade",
+          value: -17.469277948173627,
+        },
+        {
+          name: "Everymatrix",
+          value: 3.3522146405153688,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -122.44192792061286,
+        },
+        {
+          name: "Intralot",
+          value: -156.49233561421974,
+        },
+        {
+          name: "iSOFTBET",
+          value: 150.03873033602113,
+        },
+        {
+          name: "EGT New Platform",
+          value: 69.93,
+        },
+        {
+          name: "TGLab",
+          value: 20.236969225111434,
+        },
+        {
+          name: "WeAreCasino",
+          value: 0.9756812321339825,
+        },
+        {
+          name: "Easit",
+          value: 22.15,
+        },
+        {
+          name: "Dench",
+          value: 1.9000000000000001,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.9825850439556238,
+        },
+        {
+          name: "MrSlotty",
+          value: 26.59244841668719,
+        },
+        {
+          name: "Optimus",
+          value: -1.816012275642489,
+        },
+        {
+          name: "Ondiss",
+          value: 12.909385336824961,
+        },
+        {
+          name: "Baby Leopard",
+          value: 226.14,
+        },
+        {
+          name: "ORYX",
+          value: 46.73532693759634,
+        },
+        {
+          name: "Slotegrator",
+          value: 10.335769118877367,
+        },
+      ],
+      total: 323.16100053822646,
+      period: "2026-03-26T04:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "WeAreCasino",
+          value: -26.622159333941518,
+        },
+        {
+          name: "iSOFTBET",
+          value: 30.88728266697859,
+        },
+        {
+          name: "MrSlotty",
+          value: 9.372745676336951,
+        },
+        {
+          name: "Slotegrator",
+          value: 16.94377587379698,
+        },
+        {
+          name: "Intralot",
+          value: 119.02447123273477,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.6814702724208359,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "BetConstruct",
+          value: 2.2473315282982913,
+        },
+        {
+          name: "BetB2B",
+          value: 5.601875593746016,
+        },
+        {
+          name: "TGLab",
+          value: 20.219657812035457,
+        },
+        {
+          name: "Comtrade",
+          value: 3.5331123940126434,
+        },
+        {
+          name: "Everymatrix",
+          value: 2.7896590801530197,
+        },
+        {
+          name: "Peppermill",
+          value: 1.2,
+        },
+        {
+          name: "Virtualsoft",
+          value: 4.2418252686656315,
+        },
+        {
+          name: "Skywind360",
+          value: 1.3151029466602617,
+        },
+        {
+          name: "Efbet",
+          value: -0.63,
+        },
+        {
+          name: "Pariplay",
+          value: 4.77201104953377,
+        },
+        {
+          name: "Ondiss",
+          value: 5.434415262570545,
+        },
+        {
+          name: "TopSport",
+          value: 5.699999999999999,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Leopard",
+          value: 7.940009227392436,
+        },
+        {
+          name: "ORYX",
+          value: 167.94545281735992,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 134.1502047783812,
+        },
+        {
+          name: "Reevo",
+          value: 2.66,
+        },
+        {
+          name: "EGT New Platform",
+          value: -6.150000000000005,
+        },
+        {
+          name: "Baby Leopard",
+          value: -566.09,
+        },
+        {
+          name: "Optimus",
+          value: 45.47597406921399,
+        },
+      ],
+      total: -7.355781783650237,
+      period: "2026-03-26T04:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "EGT New Platform",
+          value: 235.87,
+        },
+        {
+          name: "iSOFTBET",
+          value: -12.142478214732753,
+        },
+        {
+          name: "BetConstruct",
+          value: 1.8598605751434136,
+        },
+        {
+          name: "Virtualsoft",
+          value: -5.920611099572312,
+        },
+        {
+          name: "Ondiss",
+          value: 4.0932197409445,
+        },
+        {
+          name: "Comtrade",
+          value: -18.45069805762158,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Intralot",
+          value: 95.07076486915601,
+        },
+        {
+          name: "Easit",
+          value: 1,
+        },
+        {
+          name: "Baby Leopard",
+          value: 387.42,
+        },
+        {
+          name: "MrSlotty",
+          value: -8.706481899646537,
+        },
+        {
+          name: "Betmexico",
+          value: 0.09897483770188552,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.1713485640421517,
+        },
+        {
+          name: "TopSport",
+          value: 37.65,
+        },
+        {
+          name: "Peppermill",
+          value: -2.2,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -381.0972578443959,
+        },
+        {
+          name: "Pariplay",
+          value: -2.9308420337452388,
+        },
+        {
+          name: "Optimus",
+          value: 51.756349855810925,
+        },
+        {
+          name: "TGLab",
+          value: -29.215658653930788,
+        },
+        {
+          name: "Efbet",
+          value: 5.380000000000001,
+        },
+        {
+          name: "Skywind360",
+          value: 12.16960935715466,
+        },
+        {
+          name: "Slotegrator",
+          value: 5.478245425678976,
+        },
+        {
+          name: "BetB2B",
+          value: 50.100068103922425,
+        },
+        {
+          name: "Reevo",
+          value: 5.359999999999999,
+        },
+        {
+          name: "WeAreCasino",
+          value: -7.20145671336987,
+        },
+        {
+          name: "Crystalbet",
+          value: 2.805121819034604,
+        },
+        {
+          name: "ORYX",
+          value: -335.18585239718203,
+        },
+        {
+          name: "Leopard",
+          value: 19.9786572713391,
+        },
+      ],
+      total: 114.21088350573163,
+      period: "2026-03-26T04:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "WeAreCasino",
+          value: 4.739023127507915,
+        },
+        {
+          name: "Virtualsoft",
+          value: 15.929529586928416,
+        },
+        {
+          name: "iSOFTBET",
+          value: -111.48481411810255,
+        },
+        {
+          name: "MrSlotty",
+          value: -36.242376082922945,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "TGLab",
+          value: -45.633950558621635,
+        },
+        {
+          name: "BetConstruct",
+          value: 4.223433389388169,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.2793512200429473,
+        },
+        {
+          name: "Intralot",
+          value: 78.34327401907132,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.6783006432467855,
+        },
+        {
+          name: "Comtrade",
+          value: 13.425827097248044,
+        },
+        {
+          name: "Slotegrator",
+          value: -6.0864155441431,
+        },
+        {
+          name: "Pariplay",
+          value: -42.73177774157645,
+        },
+        {
+          name: "Baby Leopard",
+          value: 391.58,
+        },
+        {
+          name: "Reevo",
+          value: 2.113976002956962,
+        },
+        {
+          name: "ORYX",
+          value: -28.480174068353772,
+        },
+        {
+          name: "EGT New Platform",
+          value: 61.71000000000001,
+        },
+        {
+          name: "TopSport",
+          value: -0.7200000000000002,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 170.46301004133988,
+        },
+        {
+          name: "Optimus",
+          value: 25.827730142470948,
+        },
+        {
+          name: "BetB2B",
+          value: 36.90123649721241,
+        },
+        {
+          name: "Ondiss",
+          value: 2.349362809891222,
+        },
+        {
+          name: "Leopard",
+          value: 17.60270787737351,
+        },
+        {
+          name: "Betmexico",
+          value: -0.2309412879710662,
+        },
+      ],
+      total: 554.556313052987,
+      period: "2026-03-26T04:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetB2B",
+          value: 31.125907756071868,
+        },
+        {
+          name: "Virtualsoft",
+          value: -1.3988097480782626,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.7163361933353902,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 818.6571391124012,
+        },
+        {
+          name: "Slotegrator",
+          value: 2.5545256481638554,
+        },
+        {
+          name: "Skywind360",
+          value: 1.244440698780009,
+        },
+        {
+          name: "Optimus",
+          value: 57.507055395345475,
+        },
+        {
+          name: "Pariplay",
+          value: -3.7632328634156567,
+        },
+        {
+          name: "Comtrade",
+          value: -1.2562177400933843,
+        },
+        {
+          name: "Leopard",
+          value: 5.039434064907906,
+        },
+        {
+          name: "ORYX",
+          value: 20.979788278188853,
+        },
+        {
+          name: "Intralot",
+          value: 76.70886297099307,
+        },
+        {
+          name: "BtoBet",
+          value: 14.704770599442888,
+        },
+        {
+          name: "BlueOcean",
+          value: -5.627627856317528,
+        },
+        {
+          name: "Peppermill",
+          value: 7.09,
+        },
+        {
+          name: "Reevo",
+          value: 9.563701801028015,
+        },
+        {
+          name: "EGT New Platform",
+          value: 46.01,
+        },
+        {
+          name: "TopSport",
+          value: 8.7,
+        },
+        {
+          name: "TGLab",
+          value: 18.74212489801234,
+        },
+        {
+          name: "Baby Leopard",
+          value: -442.16,
+        },
+        {
+          name: "Betmexico",
+          value: 0.28042870682200893,
+        },
+        {
+          name: "Evoplay",
+          value: 2.8,
+        },
+        {
+          name: "Ondiss",
+          value: 5.5948743204626,
+        },
+        {
+          name: "MrSlotty",
+          value: -7.5591009618845195,
+        },
+        {
+          name: "iSOFTBET",
+          value: 218.32941223005759,
+        },
+      ],
+      total: 884.5838135042236,
+      period: "2026-03-26T04:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Comtrade",
+          value: 18.058130013842398,
+        },
+        {
+          name: "Intralot",
+          value: 61.204658167695314,
+        },
+        {
+          name: "Easit",
+          value: 1.6500000000000001,
+        },
+        {
+          name: "TopSport",
+          value: 6,
+        },
+        {
+          name: "TGLab",
+          value: -7.52401605044029,
+        },
+        {
+          name: "iSOFTBET",
+          value: 199.7725340398435,
+        },
+        {
+          name: "Betmexico",
+          value: 0.16495806283647585,
+        },
+        {
+          name: "Leopard",
+          value: 17.89528763289369,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "WeAreCasino",
+          value: -1.3938303316199745,
+        },
+        {
+          name: "BetB2B",
+          value: -14.427436732393984,
+        },
+        {
+          name: "BtoBet",
+          value: 18.033920835406988,
+        },
+        {
+          name: "Skywind360",
+          value: 1.4721301641719347,
+        },
+        {
+          name: "EGT New Platform",
+          value: 202.7,
+        },
+        {
+          name: "Slotegrator",
+          value: 6.361039887615614,
+        },
+        {
+          name: "Ondiss",
+          value: -0.2603675279003159,
+        },
+        {
+          name: "Asvla",
+          value: 0.2535703339240323,
+        },
+        {
+          name: "Optimus",
+          value: -4.0128826813155545,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.63392583481008,
+        },
+        {
+          name: "MrSlotty",
+          value: 163.80170894599343,
+        },
+        {
+          name: "Baby Leopard",
+          value: 150.35,
+        },
+        {
+          name: "Efbet",
+          value: 1.0499999999999998,
+        },
+        {
+          name: "Reevo",
+          value: 30.43149099485992,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.9308858108194409,
+        },
+        {
+          name: "ORYX",
+          value: -21.362312673763217,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -355.2973068970772,
+        },
+        {
+          name: "Pariplay",
+          value: -5.852673116683542,
+        },
+        {
+          name: "Virtualsoft",
+          value: 16.57001410468902,
+        },
+      ],
+      total: 487.2034288182077,
+      period: "2026-03-26T04:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: -14.174984707098314,
+        },
+        {
+          name: "Virtualsoft",
+          value: -2.1945841556715764,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -567.8383118226777,
+        },
+        {
+          name: "Pariplay",
+          value: 2.8087449049933384,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Digitain",
+          value: 0.7566717815177036,
+        },
+        {
+          name: "Dench",
+          value: 6,
+        },
+        {
+          name: "Asvla",
+          value: -9.128532021265151,
+        },
+        {
+          name: "Easit",
+          value: 2.8999999999999995,
+        },
+        {
+          name: "MrSlotty",
+          value: 8.049270523341999,
+        },
+        {
+          name: "Efbet",
+          value: 0.05,
+        },
+        {
+          name: "Slotegrator",
+          value: 11.887940311430034,
+        },
+        {
+          name: "Baby Leopard",
+          value: -107.87,
+        },
+        {
+          name: "Betmexico",
+          value: -0.008247903141823776,
+        },
+        {
+          name: "ORYX",
+          value: 173.15088518019166,
+        },
+        {
+          name: "TopSport",
+          value: 1.4000000000000001,
+        },
+        {
+          name: "BetB2B",
+          value: 30.467166325613814,
+        },
+        {
+          name: "Comtrade",
+          value: 17.07670990439444,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.5692519656035347,
+        },
+        {
+          name: "Intralot",
+          value: -234.0940712874037,
+        },
+        {
+          name: "TGLab",
+          value: 26.945617114167334,
+        },
+        {
+          name: "Optimus",
+          value: -4.918366579865076,
+        },
+        {
+          name: "Reevo",
+          value: -4.22,
+        },
+        {
+          name: "Crystalbet",
+          value: -2.2567759719238847,
+        },
+        {
+          name: "EGT New Platform",
+          value: 174.5,
+        },
+        {
+          name: "BtoBet",
+          value: 10.72453194094707,
+        },
+        {
+          name: "iSOFTBET",
+          value: 277.3524824570373,
+        },
+        {
+          name: "Skywind360",
+          value: 0.3434970383067847,
+        },
+        {
+          name: "Ondiss",
+          value: -6.515243256296276,
+        },
+      ],
+      total: -208.2363482577985,
+      period: "2026-03-26T05:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 85.92008079133524,
+        },
+        {
+          name: "EGT New Platform",
+          value: -349.65999999999997,
+        },
+        {
+          name: "Betmexico",
+          value: 0.10722274084370931,
+        },
+        {
+          name: "BtoBet",
+          value: -13.316600943856384,
+        },
+        {
+          name: "Reevo",
+          value: -17.32,
+        },
+        {
+          name: "BetConstruct",
+          value: 17.557669123151204,
+        },
+        {
+          name: "Leopard",
+          value: -5.725483146817291,
+        },
+        {
+          name: "Slotegrator",
+          value: 13.600000000000001,
+        },
+        {
+          name: "Efbet",
+          value: 3,
+        },
+        {
+          name: "MrSlotty",
+          value: -22.56446236635356,
+        },
+        {
+          name: "TGLab",
+          value: 11.20185875850196,
+        },
+        {
+          name: "Pariplay",
+          value: -5.555211260332925,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 184.5384881801431,
+        },
+        {
+          name: "Dench",
+          value: 2,
+        },
+        {
+          name: "Asvla",
+          value: 13.946368365821758,
+        },
+        {
+          name: "Digitain",
+          value: 0.5044478543451357,
+        },
+        {
+          name: "Crystalbet",
+          value: 5.496136987803393,
+        },
+        {
+          name: "BetB2B",
+          value: -8.68318309333564,
+        },
+        {
+          name: "Evoplay",
+          value: 0.47361656583772604,
+        },
+        {
+          name: "Ondiss",
+          value: 16.40012672832571,
+        },
+        {
+          name: "WeAreCasino",
+          value: 1.4402913426739739,
+        },
+        {
+          name: "iSOFTBET",
+          value: 50.997688002883244,
+        },
+        {
+          name: "Virtualsoft",
+          value: 10.695669046925651,
+        },
+        {
+          name: "Baby Leopard",
+          value: -217.11999999999998,
+        },
+        {
+          name: "Skywind360",
+          value: -0.34349703830678485,
+        },
+        {
+          name: "ORYX",
+          value: 224.8674467533243,
+        },
+        {
+          name: "Optimus",
+          value: -130.50065991908662,
+        },
+      ],
+      total: -128.04198652617305,
+      period: "2026-03-26T05:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Crystalbet",
+          value: -12.6975344712459,
+        },
+        {
+          name: "TopSport",
+          value: 14.399999999999999,
+        },
+        {
+          name: "iSOFTBET",
+          value: 185.86295147876132,
+        },
+        {
+          name: "Leopard",
+          value: 23.250001606767306,
+        },
+        {
+          name: "Ondiss",
+          value: -12.494613809820969,
+        },
+        {
+          name: "Skywind360",
+          value: -10.251914463293353,
+        },
+        {
+          name: "Evoplay",
+          value: -98.37055337366492,
+        },
+        {
+          name: "Virtualsoft",
+          value: -0.7524514514267395,
+        },
+        {
+          name: "WeAreCasino",
+          value: -0.06969151658099904,
+        },
+        {
+          name: "Intralot",
+          value: 65.93890128072442,
+        },
+        {
+          name: "Asvla",
+          value: 5.467610325236939,
+        },
+        {
+          name: "ORYX",
+          value: 35.20333957760208,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 368.5607735004176,
+        },
+        {
+          name: "Pariplay",
+          value: 5.742475404722094,
+        },
+        {
+          name: "Optimus",
+          value: 15.763995448285492,
+        },
+        {
+          name: "BtoBet",
+          value: 22.22299917660166,
+        },
+        {
+          name: "Reevo",
+          value: -13.259999999999998,
+        },
+        {
+          name: "TGLab",
+          value: -74.89017810643456,
+        },
+        {
+          name: "MrSlotty",
+          value: 29.573942561518923,
+        },
+        {
+          name: "BetB2B",
+          value: 429.12382532616834,
+        },
+        {
+          name: "BetConstruct",
+          value: 23.518777634100758,
+        },
+        {
+          name: "EGT New Platform",
+          value: -214.66000000000003,
+        },
+        {
+          name: "Baby Leopard",
+          value: -930.82,
+        },
+      ],
+      total: -143.63734387156057,
+      period: "2026-03-26T05:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 18.891572145225332,
+        },
+        {
+          name: "Baby Leopard",
+          value: 489.48,
+        },
+        {
+          name: "Skywind360",
+          value: 4.865880902642968,
+        },
+        {
+          name: "BetB2B",
+          value: 403.6846648928423,
+        },
+        {
+          name: "Optimus",
+          value: 103.5379221043391,
+        },
+        {
+          name: "WeAreCasino",
+          value: -9.617429288177826,
+        },
+        {
+          name: "iSOFTBET",
+          value: 192.85799343589795,
+        },
+        {
+          name: "Comtrade",
+          value: 1.0795621203927521,
+        },
+        {
+          name: "Pariplay",
+          value: -1.7403450974907178,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 440.21565442792274,
+        },
+        {
+          name: "MrSlotty",
+          value: 2.1910651298787442,
+        },
+        {
+          name: "Crystalbet",
+          value: 5.334485899926823,
+        },
+        {
+          name: "Reevo",
+          value: -12.899999999999999,
+        },
+        {
+          name: "ORYX",
+          value: -9.231994381038664,
+        },
+        {
+          name: "Evoplay",
+          value: 40.10527668683246,
+        },
+        {
+          name: "Virtualsoft",
+          value: 27.75891229704997,
+        },
+        {
+          name: "EGT New Platform",
+          value: 49.400000000000006,
+        },
+        {
+          name: "BetConstruct",
+          value: -10.346483590428388,
+        },
+        {
+          name: "Intralot",
+          value: -48.949097546380244,
+        },
+        {
+          name: "Ondiss",
+          value: -10.251214528726386,
+        },
+        {
+          name: "TGLab",
+          value: 12.909990842703799,
+        },
+        {
+          name: "TopSport",
+          value: 4.8,
+        },
+        {
+          name: "Asvla",
+          value: -5.499306616977443,
+        },
+        {
+          name: "Easit",
+          value: -3.6,
+        },
+      ],
+      total: 1684.9771098364354,
+      period: "2026-03-26T05:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 62.85420265140392,
+        },
+        {
+          name: "EGT New Platform",
+          value: 319.15999999999997,
+        },
+        {
+          name: "MrSlotty",
+          value: 10.761011985997172,
+        },
+        {
+          name: "Asvla",
+          value: 22.900570782514137,
+        },
+        {
+          name: "Crystalbet",
+          value: 1.0174509648701782,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Easit",
+          value: 0,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 51.31925204786492,
+        },
+        {
+          name: "Peppermill",
+          value: 2.9,
+        },
+        {
+          name: "ORYX",
+          value: -193.74517421573682,
+        },
+        {
+          name: "TGLab",
+          value: -74.61247621176156,
+        },
+        {
+          name: "BetB2B",
+          value: -173.8621531461299,
+        },
+        {
+          name: "universal-casinotech",
+          value: -0.09827749774063753,
+        },
+        {
+          name: "Baby Leopard",
+          value: 699.31,
+        },
+        {
+          name: "Leopard",
+          value: 0.3026687126070815,
+        },
+        {
+          name: "Evoplay",
+          value: 48.112707636605556,
+        },
+        {
+          name: "Virtualsoft",
+          value: 0.9373484989654521,
+        },
+        {
+          name: "WeAreCasino",
+          value: 0.8362981989719849,
+        },
+        {
+          name: "TopSport",
+          value: -189.65,
+        },
+        {
+          name: "Intralot",
+          value: -173.33584947080382,
+        },
+        {
+          name: "Skywind360",
+          value: 1.2051838944020905,
+        },
+        {
+          name: "BetConstruct",
+          value: 21.57085063701434,
+        },
+        {
+          name: "iSOFTBET",
+          value: -56.15731993558899,
+        },
+        {
+          name: "BtoBet",
+          value: -4.74188926598576,
+        },
+        {
+          name: "Ondiss",
+          value: -23.60261915710305,
+        },
+        {
+          name: "Pariplay",
+          value: -4.136472405630113,
+        },
+        {
+          name: "Reevo",
+          value: 64.18,
+        },
+      ],
+      total: 413.4253147047361,
+      period: "2026-03-26T05:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Asvla",
+          value: -7.2584508085754145,
+        },
+        {
+          name: "Crystalbet",
+          value: 1.5689664411549478,
+        },
+        {
+          name: "TopSport",
+          value: 1.65,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -74.7450516107669,
+        },
+        {
+          name: "Comtrade",
+          value: 0.608480467857733,
+        },
+        {
+          name: "TGLab",
+          value: -12.917558256823574,
+        },
+        {
+          name: "BlueOcean",
+          value: 4.7390550368989715,
+        },
+        {
+          name: "Skywind360",
+          value: 1.12863312586515,
+        },
+        {
+          name: "Ondiss",
+          value: 6.805886078138488,
+        },
+        {
+          name: "ORYX",
+          value: -3.718047522011613,
+        },
+        {
+          name: "Reevo",
+          value: 31.159999999999997,
+        },
+        {
+          name: "Betmexico",
+          value: 0.19794967540377104,
+        },
+        {
+          name: "EGT New Platform",
+          value: -13.430000000000003,
+        },
+        {
+          name: "iSOFTBET",
+          value: 181.03860254699975,
+        },
+        {
+          name: "WeAreCasino",
+          value: 1.3009083095119764,
+        },
+        {
+          name: "Optimus",
+          value: 23.910828295959433,
+        },
+        {
+          name: "BetConstruct",
+          value: 38.6582250515097,
+        },
+        {
+          name: "MrSlotty",
+          value: 6.5935360677236075,
+        },
+        {
+          name: "universal-casinotech",
+          value: 0.45207648960693264,
+        },
+        {
+          name: "Leopard",
+          value: -3.7833589075885183,
+        },
+        {
+          name: "BtoBet",
+          value: 10.589400381553693,
+        },
+        {
+          name: "Intralot",
+          value: 25.391382748462412,
+        },
+        {
+          name: "Pariplay",
+          value: 5.246257685189411,
+        },
+        {
+          name: "Virtualsoft",
+          value: 18.718656980923985,
+        },
+        {
+          name: "Evoplay",
+          value: -24.45560695609239,
+        },
+        {
+          name: "Easit",
+          value: 2.5,
+        },
+        {
+          name: "Baby Leopard",
+          value: -843.1600000000001,
+        },
+        {
+          name: "Peppermill",
+          value: 6.9,
+        },
+        {
+          name: "BetB2B",
+          value: 897.7523498763397,
+        },
+      ],
+      total: 283.4431211972412,
+      period: "2026-03-26T05:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Newton",
+          value: 0.8243928919362834,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1154.85,
+        },
+        {
+          name: "Evoplay",
+          value: -221.69991446863952,
+        },
+        {
+          name: "Leopard",
+          value: -2.3709049154221375,
+        },
+        {
+          name: "MrSlotty",
+          value: -3.5452196175405115,
+        },
+        {
+          name: "TopSport",
+          value: -6.35,
+        },
+        {
+          name: "Optimus",
+          value: -153.5741047768331,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -279.5347340068135,
+        },
+        {
+          name: "TGLab",
+          value: -1.1359290286999821,
+        },
+        {
+          name: "universal-casinotech",
+          value: -0.2358659945775302,
+        },
+        {
+          name: "Skywind360",
+          value: 2.2670804528247794,
+        },
+        {
+          name: "Pariplay",
+          value: 3.1477546111136467,
+        },
+        {
+          name: "Crystalbet",
+          value: 1.0269598523923293,
+        },
+        {
+          name: "Ondiss",
+          value: 2.7732169250777825,
+        },
+        {
+          name: "Virtualsoft",
+          value: 17.411594997253076,
+        },
+        {
+          name: "EGT New Platform",
+          value: 159.70999999999998,
+        },
+        {
+          name: "iSOFTBET",
+          value: 30.516596105734113,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.1888028935462679,
+        },
+        {
+          name: "Reevo",
+          value: 205.99,
+        },
+        {
+          name: "BetB2B",
+          value: -71.74588531396748,
+        },
+        {
+          name: "Efbet",
+          value: 2.45,
+        },
+        {
+          name: "BtoBet",
+          value: 8.402726056824509,
+        },
+        {
+          name: "Asvla",
+          value: 4.405784551930058,
+        },
+        {
+          name: "Intralot",
+          value: 116.46187613266149,
+        },
+        {
+          name: "ORYX",
+          value: 8.544907756068058,
+        },
+        {
+          name: "Easit",
+          value: 3.9,
+        },
+      ],
+      total: 982.6791351048686,
+      period: "2026-03-26T05:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: 4.365697386421575,
+        },
+        {
+          name: "Intralot",
+          value: -69.43220267206448,
+        },
+        {
+          name: "TGLab",
+          value: -0.3754136448795251,
+        },
+        {
+          name: "Crystalbet",
+          value: -21.059016232390853,
+        },
+        {
+          name: "Skywind360",
+          value: 2.8755609206825135,
+        },
+        {
+          name: "Easit",
+          value: 0.76,
+        },
+        {
+          name: "Reevo",
+          value: 211.07999999999998,
+        },
+        {
+          name: "Slotegrator",
+          value: -3.6018299749887692,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.0408995884617385,
+        },
+        {
+          name: "EGT New Platform",
+          value: -365.36,
+        },
+        {
+          name: "Optimus",
+          value: -79.90706236754123,
+        },
+        {
+          name: "BetB2B",
+          value: 1875.2745728814134,
+        },
+        {
+          name: "ORYX",
+          value: -196.85016481290086,
+        },
+        {
+          name: "iSOFTBET",
+          value: 84.39009293444303,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 326.7964534804093,
+        },
+        {
+          name: "Asvla",
+          value: -92.7750459244552,
+        },
+        {
+          name: "Virtualsoft",
+          value: 38.8736138400132,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.06935616497618004,
+        },
+        {
+          name: "MrSlotty",
+          value: -4.258940414619289,
+        },
+        {
+          name: "Pariplay",
+          value: -2.1866743247291853,
+        },
+        {
+          name: "Leopard",
+          value: 0.8197277633108455,
+        },
+        {
+          name: "BtoBet",
+          value: 8.501003554565147,
+        },
+        {
+          name: "Evoplay",
+          value: 82.40928245576431,
+        },
+        {
+          name: "Baby Leopard",
+          value: 876,
+        },
+        {
+          name: "TopSport",
+          value: 3.6,
+        },
+      ],
+      total: 2681.049910601892,
+      period: "2026-03-26T05:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BlueOcean",
+          value: -1.9812319853687088,
+        },
+        {
+          name: "WeAreCasino",
+          value: -0.18584404421599665,
+        },
+        {
+          name: "ORYX",
+          value: 283.8093270883115,
+        },
+        {
+          name: "BetB2B",
+          value: 675.9549283358818,
+        },
+        {
+          name: "Baby Leopard",
+          value: 581.07,
+        },
+        {
+          name: "MrSlotty",
+          value: 5.010319480723377,
+        },
+        {
+          name: "Crystalbet",
+          value: -38.16233525556681,
+        },
+        {
+          name: "TopSport",
+          value: -8.399999999999999,
+        },
+        {
+          name: "Ondiss",
+          value: 1.3321129334434763,
+        },
+        {
+          name: "Skywind360",
+          value: 5.260411786641047,
+        },
+        {
+          name: "TGLab",
+          value: 3.9902837415420493,
+        },
+        {
+          name: "Intralot",
+          value: 69.60119270327012,
+        },
+        {
+          name: "Pariplay",
+          value: 3.8355968627262667,
+        },
+        {
+          name: "Reevo",
+          value: 56.400000000000006,
+        },
+        {
+          name: "Efbet",
+          value: 0.6000000000000001,
+        },
+        {
+          name: "Asvla",
+          value: 33.02753599360516,
+        },
+        {
+          name: "EGT New Platform",
+          value: 200.28,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 162.73992229028423,
+        },
+        {
+          name: "Slotegrator",
+          value: 2.935471390995253,
+        },
+        {
+          name: "iSOFTBET",
+          value: 312.60131022885486,
+        },
+        {
+          name: "Evoplay",
+          value: -116.4623135394968,
+        },
+        {
+          name: "Leopard",
+          value: 3.266299856884754,
+        },
+        {
+          name: "Easit",
+          value: 0.09999999999999999,
+        },
+        {
+          name: "Everymatrix",
+          value: -1.4132449576050572,
+        },
+        {
+          name: "Virtualsoft",
+          value: -35.79252880859123,
+        },
+        {
+          name: "BtoBet",
+          value: -21.71932700068089,
+        },
+        {
+          name: "Optimus",
+          value: 13.362823661602645,
+        },
+      ],
+      total: 2191.0607107632413,
+      period: "2026-03-26T05:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Pariplay",
+          value: -4.998850206276067,
+        },
+        {
+          name: "EGT New Platform",
+          value: 225.56,
+        },
+        {
+          name: "BtoBet",
+          value: 10.884232874775606,
+        },
+        {
+          name: "Leopard",
+          value: 3.9851380493265722,
+        },
+        {
+          name: "ORYX",
+          value: 108.70313886425822,
+        },
+        {
+          name: "MrSlotty",
+          value: 9.164550180093366,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -53.68573774180001,
+        },
+        {
+          name: "Asvla",
+          value: -44.406504728446095,
+        },
+        {
+          name: "Virtualsoft",
+          value: 3.850767428232136,
+        },
+        {
+          name: "BlueOcean",
+          value: 3.743778354797823,
+        },
+        {
+          name: "Baby Leopard",
+          value: 404.64,
+        },
+        {
+          name: "Intralot",
+          value: -284.59686822516693,
+        },
+        {
+          name: "Crystalbet",
+          value: 1.6640553163764593,
+        },
+        {
+          name: "Skywind360",
+          value: 2.1100532353131065,
+        },
+        {
+          name: "TopSport",
+          value: 13.7,
+        },
+        {
+          name: "Ondiss",
+          value: -10.778004643315398,
+        },
+        {
+          name: "iSOFTBET",
+          value: -59.6316148687346,
+        },
+        {
+          name: "Everymatrix",
+          value: -1.2562177400933838,
+        },
+        {
+          name: "BetB2B",
+          value: 56.363708354151434,
+        },
+        {
+          name: "Reevo",
+          value: 51.35,
+        },
+        {
+          name: "TGLab",
+          value: -36.47374497170441,
+        },
+        {
+          name: "Betmexico",
+          value: -0.5773532199276655,
+        },
+        {
+          name: "Evoplay",
+          value: 67.96397719771367,
+        },
+        {
+          name: "Efbet",
+          value: 2.8,
+        },
+        {
+          name: "Optimus",
+          value: 37.06682833728057,
+        },
+      ],
+      total: 507.1453318468544,
+      period: "2026-03-26T05:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 130.82,
+        },
+        {
+          name: "BlueOcean",
+          value: 3.63045466219582,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.9235834145179946,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -154.89047383659766,
+        },
+        {
+          name: "Comtrade",
+          value: 2.9364089674682856,
+        },
+        {
+          name: "Crystalbet",
+          value: -41.99758655616779,
+        },
+        {
+          name: "BtoBet",
+          value: 2.948324932219126,
+        },
+        {
+          name: "TGLab",
+          value: -8.206533827747457,
+        },
+        {
+          name: "Optimus",
+          value: 28.713171869325127,
+        },
+        {
+          name: "EGT New Platform",
+          value: -99.98000000000002,
+        },
+        {
+          name: "Virtualsoft",
+          value: 57.13589456236548,
+        },
+        {
+          name: "Leopard",
+          value: 5.624593575948263,
+        },
+        {
+          name: "Pariplay",
+          value: 3.000566394786918,
+        },
+        {
+          name: "Betmexico",
+          value: 0.8247903141823792,
+        },
+        {
+          name: "Ondiss",
+          value: -3.499823979683315,
+        },
+        {
+          name: "Intralot",
+          value: 48.73218496901184,
+        },
+        {
+          name: "Evoplay",
+          value: 124.08754024948419,
+        },
+        {
+          name: "TopSport",
+          value: 5.5,
+        },
+        {
+          name: "iSOFTBET",
+          value: 95.71003105730391,
+        },
+        {
+          name: "Easit",
+          value: 15.350000000000001,
+        },
+        {
+          name: "ORYX",
+          value: 44.55300901276374,
+        },
+        {
+          name: "Asvla",
+          value: 55.341725378919975,
+        },
+        {
+          name: "MrSlotty",
+          value: -16.319897159601766,
+        },
+        {
+          name: "Efbet",
+          value: -0.2999999999999998,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Slotegrator",
+          value: -45.17898212944177,
+        },
+        {
+          name: "Skywind360",
+          value: -3.1209159480445017,
+        },
+        {
+          name: "BetB2B",
+          value: -198.66770181515702,
+        },
+        {
+          name: "Reevo",
+          value: 8.899999999999999,
+        },
+      ],
+      total: 63.57036410805174,
+      period: "2026-03-26T05:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Calimaco Apuesta",
+          value: -50.92674155443198,
+        },
+        {
+          name: "Comtrade",
+          value: 3.855018189911573,
+        },
+        {
+          name: "Leopard",
+          value: 3.1906326787329835,
+        },
+        {
+          name: "MrSlotty",
+          value: -11.140578905088063,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Ondiss",
+          value: 15.561501086135156,
+        },
+        {
+          name: "Skywind360",
+          value: 2.5026212790922893,
+        },
+        {
+          name: "Asvla",
+          value: -17.21108641509367,
+        },
+        {
+          name: "ORYX",
+          value: 107.74632360059792,
+        },
+        {
+          name: "BetConstruct",
+          value: 3.1352980577055725,
+        },
+        {
+          name: "Optimus",
+          value: 49.092865184868614,
+        },
+        {
+          name: "Intralot",
+          value: -85.00198569642708,
+        },
+        {
+          name: "Baby Leopard",
+          value: 349.36,
+        },
+        {
+          name: "Easit",
+          value: -35.7,
+        },
+        {
+          name: "SoftSwiss",
+          value: -7.5,
+        },
+        {
+          name: "TopSport",
+          value: 5.8,
+        },
+        {
+          name: "Newton",
+          value: -0.35331123940126435,
+        },
+        {
+          name: "Slotegrator",
+          value: 10.890722321880114,
+        },
+        {
+          name: "iSOFTBET",
+          value: 183.32159540146154,
+        },
+        {
+          name: "Efbet",
+          value: 0.71,
+        },
+        {
+          name: "Evoplay",
+          value: 126.92923964451055,
+        },
+        {
+          name: "TGLab",
+          value: -33.644934157630345,
+        },
+        {
+          name: "Virtualsoft",
+          value: 35.01409357473561,
+        },
+        {
+          name: "EGT New Platform",
+          value: -182.96,
+        },
+        {
+          name: "Pariplay",
+          value: -5.383021790288032,
+        },
+        {
+          name: "Reevo",
+          value: 80.27076263817499,
+        },
+        {
+          name: "BlueOcean",
+          value: 10.908289183147811,
+        },
+        {
+          name: "Crystalbet",
+          value: -6.206133922790681,
+        },
+        {
+          name: "BetB2B",
+          value: 3.1511493845406697,
+        },
+      ],
+      total: 555.4123185443443,
+      period: "2026-03-26T05:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Comtrade",
+          value: -0.473044492753915,
+        },
+        {
+          name: "Virtualsoft",
+          value: 54.41727966655053,
+        },
+        {
+          name: "BlueOcean",
+          value: 2.2826459246271558,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.38747095315487784,
+        },
+        {
+          name: "Slotegrator",
+          value: 11.706465122645824,
+        },
+        {
+          name: "ORYX",
+          value: 40.98021462846518,
+        },
+        {
+          name: "Easit",
+          value: 57.870000000000005,
+        },
+        {
+          name: "Skywind360",
+          value: -1.5212011696443326,
+        },
+        {
+          name: "Leopard",
+          value: 0.40355828347610856,
+        },
+        {
+          name: "Asvla",
+          value: 57.68725096771727,
+        },
+        {
+          name: "Digitain",
+          value: 2.9005751624845306,
+        },
+        {
+          name: "MrSlotty",
+          value: -2.972157262571317,
+        },
+        {
+          name: "TopSport",
+          value: 2.07,
+        },
+        {
+          name: "Ondiss",
+          value: -7.811025837009474,
+        },
+        {
+          name: "Newton",
+          value: 0.7380279223048634,
+        },
+        {
+          name: "Pariplay",
+          value: 8.504182319549013,
+        },
+        {
+          name: "iSOFTBET",
+          value: 0.18687421262674064,
+        },
+        {
+          name: "Intralot",
+          value: 69.86098334825785,
+        },
+        {
+          name: "Reevo",
+          value: -53.854610110539994,
+        },
+        {
+          name: "Crystalbet",
+          value: 3.0428440070883838,
+        },
+        {
+          name: "WeAreCasino",
+          value: -0.1393830331619975,
+        },
+        {
+          name: "SoftSwiss",
+          value: -23.9,
+        },
+        {
+          name: "BetB2B",
+          value: 11.344595102556664,
+        },
+        {
+          name: "TGLab",
+          value: 37.63461239329356,
+        },
+        {
+          name: "Efbet",
+          value: 12.9,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Baby Leopard",
+          value: 380.73,
+        },
+        {
+          name: "Optimus",
+          value: 0.4540030689106227,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -162.30861937481916,
+        },
+        {
+          name: "EGT New Platform",
+          value: -19.77,
+        },
+      ],
+      total: 483.351541803209,
+      period: "2026-03-26T06:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Slotegrator",
+          value: -5.901721481699037,
+        },
+        {
+          name: "Pariplay",
+          value: -7.043038747795634,
+        },
+        {
+          name: "iSOFTBET",
+          value: 216.49265316381693,
+        },
+        {
+          name: "BetB2B",
+          value: 65.20138720465913,
+        },
+        {
+          name: "BetConstruct",
+          value: -3.292062960590851,
+        },
+        {
+          name: "TopSport",
+          value: -1.8,
+        },
+        {
+          name: "Ondiss",
+          value: 6.2215729050598725,
+        },
+        {
+          name: "Comtrade",
+          value: 2.905003523965951,
+        },
+        {
+          name: "Crystalbet",
+          value: 2.149008580006171,
+        },
+        {
+          name: "EGT New Platform",
+          value: -52.28000000000001,
+        },
+        {
+          name: "Baby Leopard",
+          value: 69.28,
+        },
+        {
+          name: "Newton",
+          value: -0.24535502736198916,
+        },
+        {
+          name: "TGLab",
+          value: 1.9345912828872303,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 238.10525519551135,
+        },
+        {
+          name: "Asvla",
+          value: 31.58535471941223,
+        },
+        {
+          name: "Intralot",
+          value: -28.052345180132995,
+        },
+        {
+          name: "Optimus",
+          value: -1.1097852795592988,
+        },
+        {
+          name: "Reevo",
+          value: 21.35,
+        },
+        {
+          name: "ORYX",
+          value: 94.0277069594373,
+        },
+        {
+          name: "Easit",
+          value: 30.45,
+        },
+        {
+          name: "Leopard",
+          value: 2.3204601299876244,
+        },
+        {
+          name: "Virtualsoft",
+          value: 44.8517708849367,
+        },
+        {
+          name: "Skywind360",
+          value: 0.1962840218895913,
+        },
+        {
+          name: "MrSlotty",
+          value: 18.091535426272934,
+        },
+        {
+          name: "SoftSwiss",
+          value: 34.099999999999994,
+        },
+        {
+          name: "Efbet",
+          value: 0.3,
+        },
+      ],
+      total: 779.8382753207031,
+      period: "2026-03-26T06:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Skywind360",
+          value: -31.425071904523566,
+        },
+        {
+          name: "Efbet",
+          value: 1,
+        },
+        {
+          name: "Optimus",
+          value: 9.73584358886112,
+        },
+        {
+          name: "Intralot",
+          value: 112.38593746955279,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 408.1237138195678,
+        },
+        {
+          name: "Slotegrator",
+          value: -3.5000144944247515,
+        },
+        {
+          name: "EGT New Platform",
+          value: 285.42,
+        },
+        {
+          name: "TopSport",
+          value: 13.08,
+        },
+        {
+          name: "Avento",
+          value: 4.651931318783314,
+        },
+        {
+          name: "Virtualsoft",
+          value: 5.856833798361859,
+        },
+        {
+          name: "Baby Leopard",
+          value: 332.24,
+        },
+        {
+          name: "Comtrade",
+          value: 0.029442603283438694,
+        },
+        {
+          name: "TGLab",
+          value: 0.27247764547707476,
+        },
+        {
+          name: "ORYX",
+          value: -41.11557839139357,
+        },
+        {
+          name: "Ondiss",
+          value: -6.972400194818922,
+        },
+        {
+          name: "Crystalbet",
+          value: 1.7115997539872159,
+        },
+        {
+          name: "Easit",
+          value: 8.076257501033638,
+        },
+        {
+          name: "SoftSwiss",
+          value: 19.3,
+        },
+        {
+          name: "BetB2B",
+          value: -12.487700698896692,
+        },
+        {
+          name: "Pariplay",
+          value: -2.294944054414926,
+        },
+        {
+          name: "BetConstruct",
+          value: -2.5866208976070966,
+        },
+        {
+          name: "Asvla",
+          value: -31.062365905693916,
+        },
+        {
+          name: "MrSlotty",
+          value: 37.54451433904522,
+        },
+        {
+          name: "Reevo",
+          value: 5.705317908329192,
+        },
+        {
+          name: "iSOFTBET",
+          value: 174.46758399225632,
+        },
+        {
+          name: "Leopard",
+          value: 1.311564421297353,
+        },
+        {
+          name: "Newton",
+          value: 2.453550273619891,
+        },
+      ],
+      total: 1291.9218718916827,
+      period: "2026-03-26T06:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "iSOFTBET",
+          value: 53.92303917347673,
+        },
+        {
+          name: "MrSlotty",
+          value: 8.533005814378964,
+        },
+        {
+          name: "Skywind360",
+          value: 6.8895691683246545,
+        },
+        {
+          name: "Slotegrator",
+          value: -6.5703450834605075,
+        },
+        {
+          name: "TGLab",
+          value: 0.7078504545598281,
+        },
+        {
+          name: "Crystalbet",
+          value: -10.589731070502385,
+        },
+        {
+          name: "Intralot",
+          value: 41.20834522145414,
+        },
+        {
+          name: "Leopard",
+          value: -0.23709049154221395,
+        },
+        {
+          name: "Asvla",
+          value: 12.884542592514874,
+        },
+        {
+          name: "Newton",
+          value: 0.7360650820859673,
+        },
+        {
+          name: "Virtualsoft",
+          value: 5.474895047364226,
+        },
+        {
+          name: "Avento",
+          value: 4.308434280476529,
+        },
+        {
+          name: "Baby Leopard",
+          value: -983.8199999999999,
+        },
+        {
+          name: "Optimus",
+          value: 7.213604317135441,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -73.9646666433555,
+        },
+        {
+          name: "Betmexico",
+          value: -3.703308510678883,
+        },
+        {
+          name: "Reevo",
+          value: 16.86425020488591,
+        },
+        {
+          name: "Ondiss",
+          value: -15.770400614334246,
+        },
+        {
+          name: "Easit",
+          value: 230.04125020273065,
+        },
+        {
+          name: "TopSport",
+          value: 12.8,
+        },
+        {
+          name: "SoftSwiss",
+          value: 2.9,
+        },
+        {
+          name: "ORYX",
+          value: 117.90051685345888,
+        },
+        {
+          name: "Pariplay",
+          value: 1.0849843674098687,
+        },
+        {
+          name: "EGT New Platform",
+          value: 110.44,
+        },
+        {
+          name: "BetB2B",
+          value: 10.680112694107011,
+        },
+      ],
+      total: -450.06507693951,
+      period: "2026-03-26T06:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "MrSlotty",
+          value: -1.9329814598526216,
+        },
+        {
+          name: "BetB2B",
+          value: -7.3783528148176485,
+        },
+        {
+          name: "ORYX",
+          value: 5.647232692191377,
+        },
+        {
+          name: "Virtualsoft",
+          value: -10.73919975750367,
+        },
+        {
+          name: "Asvla",
+          value: 24.42199278605833,
+        },
+        {
+          name: "Betmexico",
+          value: 0.18970177226194723,
+        },
+        {
+          name: "Leopard",
+          value: -2.2876710194551904,
+        },
+        {
+          name: "Efbet",
+          value: -6.55,
+        },
+        {
+          name: "Slotegrator",
+          value: 13.807741064684215,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.905483264966795,
+        },
+        {
+          name: "Easit",
+          value: -514.3449975672323,
+        },
+        {
+          name: "Optimus",
+          value: -2.5474616644429355,
+        },
+        {
+          name: "Skywind360",
+          value: -17.066895703299963,
+        },
+        {
+          name: "Pariplay",
+          value: 7.591093739328596,
+        },
+        {
+          name: "Newton",
+          value: 6.0475107144183085,
+        },
+        {
+          name: "Admiralbet",
+          value: 6.279999999999999,
+        },
+        {
+          name: "Crystalbet",
+          value: 18.47893808471383,
+        },
+        {
+          name: "Comtrade",
+          value: 3.5331123940126434,
+        },
+        {
+          name: "EGT New Platform",
+          value: -369.24,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 109.9317986581637,
+        },
+        {
+          name: "Reevo",
+          value: -52.10616966838002,
+        },
+        {
+          name: "Intralot",
+          value: 105.59606935006727,
+        },
+        {
+          name: "Baby Leopard",
+          value: -210.82000000000005,
+        },
+        {
+          name: "Ondiss",
+          value: 5.936985142006039,
+        },
+        {
+          name: "Peppermill",
+          value: -9,
+        },
+        {
+          name: "TopSport",
+          value: 1.7000000000000002,
+        },
+        {
+          name: "iSOFTBET",
+          value: 59.21732745664823,
+        },
+        {
+          name: "TGLab",
+          value: -12.352319928294053,
+        },
+      ],
+      total: -847.0810624637572,
+      period: "2026-03-26T06:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: 7.590016191233625,
+        },
+        {
+          name: "Skywind360",
+          value: 8.175229511701477,
+        },
+        {
+          name: "Pariplay",
+          value: 11.078130941987636,
+        },
+        {
+          name: "Efbet",
+          value: -3.65,
+        },
+        {
+          name: "Baby Leopard",
+          value: 460.90999999999997,
+        },
+        {
+          name: "Optimus",
+          value: 5.069700936168614,
+        },
+        {
+          name: "TGLab",
+          value: 1.792297401360313,
+        },
+        {
+          name: "ORYX",
+          value: 57.09737167731338,
+        },
+        {
+          name: "Avento",
+          value: 1.8607725275133253,
+        },
+        {
+          name: "Intralot",
+          value: 55.17398406899922,
+        },
+        {
+          name: "Leopard",
+          value: 2.106069791890942,
+        },
+        {
+          name: "TopSport",
+          value: -6.6,
+        },
+        {
+          name: "Virtualsoft",
+          value: 26.59701312034728,
+        },
+        {
+          name: "Reevo",
+          value: 92.8,
+        },
+        {
+          name: "BetB2B",
+          value: 19.686669438610625,
+        },
+        {
+          name: "Crystalbet",
+          value: 41.73450733472161,
+        },
+        {
+          name: "iSOFTBET",
+          value: 168.0842289920758,
+        },
+        {
+          name: "Slotegrator",
+          value: -2.08424092056097,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 168.92628215148747,
+        },
+        {
+          name: "Easit",
+          value: 425.1,
+        },
+        {
+          name: "Peppermill",
+          value: -39.46,
+        },
+        {
+          name: "MrSlotty",
+          value: -103.80558305432942,
+        },
+        {
+          name: "Admiralbet",
+          value: 0.23999999999999977,
+        },
+        {
+          name: "EGT New Platform",
+          value: 117.64000000000001,
+        },
+        {
+          name: "Asvla",
+          value: 4.43748084367056,
+        },
+      ],
+      total: 1520.4999309541915,
+      period: "2026-03-26T06:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: -358.5867572612397,
+        },
+        {
+          name: "Easit",
+          value: -3.780001621845111,
+        },
+        {
+          name: "BtoBet",
+          value: -1.4053682176911166,
+        },
+        {
+          name: "Avento",
+          value: 32.327307489941006,
+        },
+        {
+          name: "Efbet",
+          value: 1.7,
+        },
+        {
+          name: "BetB2B",
+          value: 17.9328851360075,
+        },
+        {
+          name: "TopSport",
+          value: 3.5000000000000004,
+        },
+        {
+          name: "Baby Leopard",
+          value: 211.36,
+        },
+        {
+          name: "Reevo",
+          value: 7.6,
+        },
+        {
+          name: "Slotegrator",
+          value: 4.84081762194806,
+        },
+        {
+          name: "Peppermill",
+          value: -19.16,
+        },
+        {
+          name: "Crystalbet",
+          value: 15.78158365759694,
+        },
+        {
+          name: "Leopard",
+          value: 1.979957828304658,
+        },
+        {
+          name: "TGLab",
+          value: -16.227557552856894,
+        },
+        {
+          name: "Optimus",
+          value: -1.8412346683597454,
+        },
+        {
+          name: "ORYX",
+          value: -57.64980651753315,
+        },
+        {
+          name: "EGT New Platform",
+          value: 307.21000000000004,
+        },
+        {
+          name: "SoftSwiss",
+          value: -0.4999999999999999,
+        },
+        {
+          name: "iSOFTBET",
+          value: 120.91476937297045,
+        },
+        {
+          name: "Asvla",
+          value: 32.78981380555138,
+        },
+        {
+          name: "Everymatrix",
+          value: 2.096097430391219,
+        },
+        {
+          name: "MrSlotty",
+          value: 5.608093057130073,
+        },
+        {
+          name: "Virtualsoft",
+          value: 33.98717418650352,
+        },
+        {
+          name: "Admiralbet",
+          value: 5.35,
+        },
+        {
+          name: "Pariplay",
+          value: 1.1841049498611098,
+        },
+        {
+          name: "Ondiss",
+          value: 5.385974792263509,
+        },
+        {
+          name: "Skywind360",
+          value: 15.34941051176604,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -144.6529444727394,
+        },
+        {
+          name: "Comtrade",
+          value: 2.2180094473523817,
+        },
+      ],
+      total: 225.31232897532277,
+      period: "2026-03-26T06:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Efbet",
+          value: 0.2,
+        },
+        {
+          name: "Crystalbet",
+          value: 16.228501371138044,
+        },
+        {
+          name: "Slotegrator",
+          value: 3.8440067468971604,
+        },
+        {
+          name: "iSOFTBET",
+          value: 36.317568500221746,
+        },
+        {
+          name: "Peppermill",
+          value: -40.36,
+        },
+        {
+          name: "Skywind360",
+          value: -23.593339431128875,
+        },
+        {
+          name: "BetB2B",
+          value: 10.661780159497617,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 355.19259142070035,
+        },
+        {
+          name: "Virtualsoft",
+          value: 6.497924027330762,
+        },
+        {
+          name: "Reevo",
+          value: 45.45,
+        },
+        {
+          name: "Dench",
+          value: 1.85,
+        },
+        {
+          name: "Optimus",
+          value: 6.129041430293399,
+        },
+        {
+          name: "Easit",
+          value: 64.1740182126352,
+        },
+        {
+          name: "Avento",
+          value: -80.52551998020482,
+        },
+        {
+          name: "ORYX",
+          value: 166.02508687899146,
+        },
+        {
+          name: "Leopard",
+          value: 2.2775820623682876,
+        },
+        {
+          name: "SoftSwiss",
+          value: 2.25,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.15412481105817788,
+        },
+        {
+          name: "EGT New Platform",
+          value: 47.379999999999995,
+        },
+        {
+          name: "TGLab",
+          value: 11.689290990966505,
+        },
+        {
+          name: "Baby Leopard",
+          value: 354.64,
+        },
+        {
+          name: "BtoBet",
+          value: -1.7886504588796028,
+        },
+        {
+          name: "TopSport",
+          value: 10.249999999999998,
+        },
+        {
+          name: "Intralot",
+          value: 10.076345890544086,
+        },
+        {
+          name: "Asvla",
+          value: 13.18565736404966,
+        },
+        {
+          name: "Comtrade",
+          value: 2.979591452283996,
+        },
+        {
+          name: "Pariplay",
+          value: 3.6169221882252085,
+        },
+        {
+          name: "MrSlotty",
+          value: -31.309667175571786,
+        },
+        {
+          name: "Ondiss",
+          value: 8.867633595581687,
+        },
+        {
+          name: "Evoplay",
+          value: 3.5826521961358386,
+        },
+      ],
+      total: 1005.943142253134,
+      period: "2026-03-26T06:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Newton",
+          value: 1.5702721751167303,
+        },
+        {
+          name: "Pariplay",
+          value: 0.8714371140237898,
+        },
+        {
+          name: "Intralot",
+          value: 151.76818145827752,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 226.8855114488117,
+        },
+        {
+          name: "Optimus",
+          value: 1.7655674902079754,
+        },
+        {
+          name: "EGT New Platform",
+          value: 364.42,
+        },
+        {
+          name: "BetB2B",
+          value: 33.4171909928295,
+        },
+        {
+          name: "Ondiss",
+          value: -6.045976200196868,
+        },
+        {
+          name: "Slotegrator",
+          value: 4.224022623016272,
+        },
+        {
+          name: "Dench",
+          value: 1.2,
+        },
+        {
+          name: "Comtrade",
+          value: 0.03925680437791823,
+        },
+        {
+          name: "Leopard",
+          value: -0.3783358907588519,
+        },
+        {
+          name: "SoftSwiss",
+          value: 3.25,
+        },
+        {
+          name: "ORYX",
+          value: 100.33357640994859,
+        },
+        {
+          name: "Asvla",
+          value: 12.963783321866133,
+        },
+        {
+          name: "TopSport",
+          value: -3.85,
+        },
+        {
+          name: "iSOFTBET",
+          value: 78.53668651536132,
+        },
+        {
+          name: "Evoplay",
+          value: 6.08584440279728,
+        },
+        {
+          name: "Easit",
+          value: -72.15,
+        },
+        {
+          name: "Skywind360",
+          value: 10.501195171093135,
+        },
+        {
+          name: "BtoBet",
+          value: 1.2284687217579688,
+        },
+        {
+          name: "Reevo",
+          value: 51.1,
+        },
+        {
+          name: "Baby Leopard",
+          value: 204.13,
+        },
+        {
+          name: "Leris",
+          value: 5.4,
+        },
+        {
+          name: "Crystalbet",
+          value: 3.695787616942766,
+        },
+        {
+          name: "TGLab",
+          value: 23.841793979244034,
+        },
+        {
+          name: "Virtualsoft",
+          value: 102.47757221788142,
+        },
+        {
+          name: "Peppermill",
+          value: 54.6,
+        },
+        {
+          name: "Avento",
+          value: 1.1934068530887152,
+        },
+        {
+          name: "MrSlotty",
+          value: 36.570083713930444,
+        },
+      ],
+      total: 1399.6453269396175,
+      period: "2026-03-26T06:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: -5.6498159686655205,
+        },
+        {
+          name: "Avento",
+          value: 26.57685656385066,
+        },
+        {
+          name: "Gaming1",
+          value: 3.8,
+        },
+        {
+          name: "Intralot",
+          value: -109.58120739939383,
+        },
+        {
+          name: "iSOFTBET",
+          value: 49.168955698960644,
+        },
+        {
+          name: "Skywind360",
+          value: 12.564140241152739,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -34.991025416650345,
+        },
+        {
+          name: "Easit",
+          value: 12.931206412912648,
+        },
+        {
+          name: "TopSport",
+          value: 6.1,
+        },
+        {
+          name: "EGT New Platform",
+          value: 124.95643667989701,
+        },
+        {
+          name: "Reevo",
+          value: 27.250000000000007,
+        },
+        {
+          name: "Pariplay",
+          value: -5.560846612017303,
+        },
+        {
+          name: "Baby Leopard",
+          value: -981.9,
+        },
+        {
+          name: "Virtualsoft",
+          value: 58.86936831633065,
+        },
+        {
+          name: "MrSlotty",
+          value: 45.58459032908596,
+        },
+        {
+          name: "ORYX",
+          value: 104.83092064598863,
+        },
+        {
+          name: "Leopard",
+          value: -12.762530714931934,
+        },
+        {
+          name: "Asvla",
+          value: 87.6560948083638,
+        },
+        {
+          name: "Comtrade",
+          value: 1.778333238319697,
+        },
+        {
+          name: "Crystalbet",
+          value: 20.887856256992134,
+        },
+        {
+          name: "Slotegrator",
+          value: 4.679178040548168,
+        },
+        {
+          name: "Peppermill",
+          value: 9.96,
+        },
+        {
+          name: "BtoBet",
+          value: -0.12284687217579696,
+        },
+        {
+          name: "BetB2B",
+          value: -15.016735461038222,
+        },
+        {
+          name: "TGLab",
+          value: 4.4504682094588865,
+        },
+        {
+          name: "Evoplay",
+          value: 37.97805701586001,
+        },
+      ],
+      total: -525.5625459871512,
+      period: "2026-03-26T06:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TGLab",
+          value: -1.4895444619413407,
+        },
+        {
+          name: "iSOFTBET",
+          value: -171.66987906831088,
+        },
+        {
+          name: "Asvla",
+          value: 13.027175905347141,
+        },
+        {
+          name: "Peppermill",
+          value: 19.060000000000002,
+        },
+        {
+          name: "Efbet",
+          value: 21,
+        },
+        {
+          name: "Comtrade",
+          value: -7.982871170249679,
+        },
+        {
+          name: "BlueOcean",
+          value: 2.045167524784874,
+        },
+        {
+          name: "Easit",
+          value: 11.349999999999998,
+        },
+        {
+          name: "Pariplay",
+          value: -0.07179743103008551,
+        },
+        {
+          name: "Baby Leopard",
+          value: 374.96999999999997,
+        },
+        {
+          name: "BetB2B",
+          value: 10.943445178547702,
+        },
+        {
+          name: "MrSlotty",
+          value: 40.8110046658093,
+        },
+        {
+          name: "ORYX",
+          value: 14.665047556564641,
+        },
+        {
+          name: "Betmexico",
+          value: 0.008247903141823793,
+        },
+        {
+          name: "Intralot",
+          value: -65.88341201674646,
+        },
+        {
+          name: "Admiralbet",
+          value: 2,
+        },
+        {
+          name: "Avento",
+          value: -5.358553797585842,
+        },
+        {
+          name: "Optimus",
+          value: 0.7566717815177036,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 276.97970562455544,
+        },
+        {
+          name: "BtoBet",
+          value: -0.4913874887031876,
+        },
+        {
+          name: "EGT New Platform",
+          value: -172.66481067712854,
+        },
+        {
+          name: "Crystalbet",
+          value: 3.4231995079744317,
+        },
+        {
+          name: "Slotegrator",
+          value: 0.883444984500497,
+        },
+        {
+          name: "TopSport",
+          value: 1.4,
+        },
+        {
+          name: "Leopard",
+          value: -4.893144187147817,
+        },
+        {
+          name: "Reevo",
+          value: -433.09000000000003,
+        },
+        {
+          name: "Virtualsoft",
+          value: 94.68879413871457,
+        },
+        {
+          name: "Evoplay",
+          value: 13.115265766328411,
+        },
+        {
+          name: "Skywind360",
+          value: -13.67707064526672,
+        },
+      ],
+      total: 23.854699593675917,
+      period: "2026-03-26T06:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: -18.150000000000002,
+        },
+        {
+          name: "Comtrade",
+          value: 3.817724225752551,
+        },
+        {
+          name: "Intralot",
+          value: 64.85181615461065,
+        },
+        {
+          name: "Ondiss",
+          value: 0.018165176365138314,
+        },
+        {
+          name: "Baby Leopard",
+          value: 997.76,
+        },
+        {
+          name: "Pariplay",
+          value: -15.360437164809383,
+        },
+        {
+          name: "iSOFTBET",
+          value: 58.22662124882299,
+        },
+        {
+          name: "Crystalbet",
+          value: 46.15930966169597,
+        },
+        {
+          name: "Virtualsoft",
+          value: -151.97752731783078,
+        },
+        {
+          name: "Leopard",
+          value: -12.207638075152284,
+        },
+        {
+          name: "Avento",
+          value: -65.95143135490268,
+        },
+        {
+          name: "TGLab",
+          value: 7.635429132146471,
+        },
+        {
+          name: "Reevo",
+          value: 8.399999999999999,
+        },
+        {
+          name: "Slotegrator",
+          value: -0.19000793805955563,
+        },
+        {
+          name: "Skywind360",
+          value: -13.955793956349941,
+        },
+        {
+          name: "EGT New Platform",
+          value: 366.08961535570586,
+        },
+        {
+          name: "BlueOcean",
+          value: -120.98023400523925,
+        },
+        {
+          name: "Asvla",
+          value: 8.050858102088014,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 396.6635027186074,
+        },
+        {
+          name: "BtoBet",
+          value: 2.8009086856081695,
+        },
+        {
+          name: "TopSport",
+          value: 4.8,
+        },
+        {
+          name: "BetB2B",
+          value: 75.97013600002214,
+        },
+        {
+          name: "Evoplay",
+          value: 9.700740112750461,
+        },
+        {
+          name: "ORYX",
+          value: -42.71144187026581,
+        },
+        {
+          name: "Optimus",
+          value: 2.1943481664013404,
+        },
+        {
+          name: "MrSlotty",
+          value: 22.992877366048575,
+        },
+      ],
+      total: 1634.647540424016,
+      period: "2026-03-26T06:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: -1.2485084395042105,
+        },
+        {
+          name: "iSOFTBET",
+          value: -471.91196732642044,
+        },
+        {
+          name: "TGLab",
+          value: 1.7741322249951748,
+        },
+        {
+          name: "Slotegrator",
+          value: 2.959597185634632,
+        },
+        {
+          name: "Crystalbet",
+          value: 3.901813513256042,
+        },
+        {
+          name: "TopSport",
+          value: 1.45,
+        },
+        {
+          name: "Baby Leopard",
+          value: 504.63,
+        },
+        {
+          name: "Reevo",
+          value: 17.1,
+        },
+        {
+          name: "EGT New Platform",
+          value: 187.88451240904558,
+        },
+        {
+          name: "Betmexico",
+          value: 0.08247903141823792,
+        },
+        {
+          name: "Skywind360",
+          value: 7.88080347886709,
+        },
+        {
+          name: "Virtualsoft",
+          value: 45.17539359260653,
+        },
+        {
+          name: "Pariplay",
+          value: 9.634954017992092,
+        },
+        {
+          name: "Avento",
+          value: 0.3925680437791826,
+        },
+        {
+          name: "Easit",
+          value: -43.999991890774446,
+        },
+        {
+          name: "BetB2B",
+          value: 28.689872063666698,
+        },
+        {
+          name: "Evoplay",
+          value: -6.573091779208951,
+        },
+        {
+          name: "BlueOcean",
+          value: 44.511595530229535,
+        },
+        {
+          name: "Asvla",
+          value: 1.8669115835156853,
+        },
+        {
+          name: "Comtrade",
+          value: 1.6291573816836078,
+        },
+        {
+          name: "Intralot",
+          value: 270.6463628132522,
+        },
+        {
+          name: "Optimus",
+          value: 0.45400306891062214,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 353.9415827366646,
+        },
+        {
+          name: "ORYX",
+          value: 52.32698143030361,
+        },
+        {
+          name: "MrSlotty",
+          value: 25.015502317617383,
+        },
+      ],
+      total: 1038.2146629875306,
+      period: "2026-03-26T07:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Slotegrator",
+          value: 1.484985115911603,
+        },
+        {
+          name: "Evoplay",
+          value: 51.558080191425965,
+        },
+        {
+          name: "Leopard",
+          value: -2.421349700856652,
+        },
+        {
+          name: "TGLab",
+          value: 4.111384917309638,
+        },
+        {
+          name: "BetB2B",
+          value: 152.2028960672784,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.9203253861531933,
+        },
+        {
+          name: "TopSport",
+          value: -20.750000000000004,
+        },
+        {
+          name: "iSOFTBET",
+          value: 19.78139521866356,
+        },
+        {
+          name: "Intralot",
+          value: -75.30397569664186,
+        },
+        {
+          name: "Asvla",
+          value: -33.30963299009565,
+        },
+        {
+          name: "Gaming1",
+          value: 4.1,
+        },
+        {
+          name: "Skywind360",
+          value: 10.171438014318621,
+        },
+        {
+          name: "Baby Leopard",
+          value: 106.62,
+        },
+        {
+          name: "Easit",
+          value: -34.35,
+        },
+        {
+          name: "Avento",
+          value: 63.2034550484484,
+        },
+        {
+          name: "ORYX",
+          value: 44.81566993643002,
+        },
+        {
+          name: "Ondiss",
+          value: 0.096880940614071,
+        },
+        {
+          name: "Comtrade",
+          value: -6.811055559568818,
+        },
+        {
+          name: "Pariplay",
+          value: 5.229237738569115,
+        },
+        {
+          name: "MrSlotty",
+          value: 20.836574856442425,
+        },
+        {
+          name: "EGT New Platform",
+          value: 2128.5216059083536,
+        },
+        {
+          name: "Crystalbet",
+          value: -6.26001761874954,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -152.7917626071775,
+        },
+        {
+          name: "Virtualsoft",
+          value: 65.82031679148979,
+        },
+        {
+          name: "Optimus",
+          value: 0.025222392717256785,
+        },
+      ],
+      total: 2347.5016743510355,
+      period: "2026-03-26T07:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: -4.726647015489586,
+        },
+        {
+          name: "Everymatrix",
+          value: 7.898896566731616,
+        },
+        {
+          name: "Comtrade",
+          value: 9.719984763972562,
+        },
+        {
+          name: "Leopard",
+          value: 6.658711677355791,
+        },
+        {
+          name: "Intralot",
+          value: -25.22239271725679,
+        },
+        {
+          name: "iSOFTBET",
+          value: 243.67133743453005,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -64.8806133553795,
+        },
+        {
+          name: "MrSlotty",
+          value: 30.628100525814013,
+        },
+        {
+          name: "Ondiss",
+          value: 2.90642821842213,
+        },
+        {
+          name: "Gaming1",
+          value: -12.3,
+        },
+        {
+          name: "BetB2B",
+          value: 9.983291373974787,
+        },
+        {
+          name: "Baby Leopard",
+          value: -615.0699999999999,
+        },
+        {
+          name: "TopSport",
+          value: -0.09999999999999964,
+        },
+        {
+          name: "Crystalbet",
+          value: 2.744898864727646,
+        },
+        {
+          name: "Easit",
+          value: 0.48,
+        },
+        {
+          name: "BtoBet",
+          value: 0.9827749774063752,
+        },
+        {
+          name: "Asvla",
+          value: 9.718083047638526,
+        },
+        {
+          name: "Avento",
+          value: 0.4907100547239782,
+        },
+        {
+          name: "ORYX",
+          value: 72.00104721604792,
+        },
+        {
+          name: "Reevo",
+          value: 105.469383033162,
+        },
+        {
+          name: "Skywind360",
+          value: 5.71971639786269,
+        },
+        {
+          name: "Pariplay",
+          value: 6.557822106486765,
+        },
+        {
+          name: "Optimus",
+          value: 2.724018413463733,
+        },
+        {
+          name: "TGLab",
+          value: 1.1383510522153344,
+        },
+        {
+          name: "Newton",
+          value: -0.25516922845646867,
+        },
+        {
+          name: "Admiralbet",
+          value: 0.3457674401514057,
+        },
+        {
+          name: "Slotegrator",
+          value: 8.64330711075479,
+        },
+        {
+          name: "EGT New Platform",
+          value: 143.34,
+        },
+        {
+          name: "Evoplay",
+          value: 52.12863620285354,
+        },
+      ],
+      total: 1.396444161713383,
+      period: "2026-03-26T07:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "EGT New Platform",
+          value: -227.44999999999993,
+        },
+        {
+          name: "Optimus",
+          value: 0.35311349804159503,
+        },
+        {
+          name: "Evoplay",
+          value: 15.129984549622694,
+        },
+        {
+          name: "Everymatrix",
+          value: 8.553927013728872,
+        },
+        {
+          name: "Easit",
+          value: -11.246242904427639,
+        },
+        {
+          name: "Efbet",
+          value: -11.700000000000003,
+        },
+        {
+          name: "Newton",
+          value: -3.0718449425721035,
+        },
+        {
+          name: "TGLab",
+          value: 0.8117439976098019,
+        },
+        {
+          name: "TopSport",
+          value: 24.3,
+        },
+        {
+          name: "Gaming1",
+          value: 7.4,
+        },
+        {
+          name: "Virtualsoft",
+          value: -2.7711551564327763,
+        },
+        {
+          name: "ORYX",
+          value: -2.4068501923766727,
+        },
+        {
+          name: "Avento",
+          value: 4.95,
+        },
+        {
+          name: "Skywind360",
+          value: 9.986931033742405,
+        },
+        {
+          name: "Baby Leopard",
+          value: 16.75999999999999,
+        },
+        {
+          name: "MrSlotty",
+          value: 20.29842426678152,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 275.7059331612651,
+        },
+        {
+          name: "BetB2B",
+          value: 125.27497790688585,
+        },
+        {
+          name: "Intralot",
+          value: 122.0511583588056,
+        },
+        {
+          name: "iSOFTBET",
+          value: -24.265646741079816,
+        },
+        {
+          name: "Reevo",
+          value: -9.810145671336985,
+        },
+        {
+          name: "Ondiss",
+          value: 3.3060620984551727,
+        },
+        {
+          name: "Crystalbet",
+          value: -7.198227854268458,
+        },
+        {
+          name: "Admiralbet",
+          value: 0.468404167692791,
+        },
+        {
+          name: "Comtrade",
+          value: 1.1777041313375478,
+        },
+        {
+          name: "Slotegrator",
+          value: -3.00730567610123,
+        },
+        {
+          name: "Leopard",
+          value: 1.9169018465115157,
+        },
+        {
+          name: "Asvla",
+          value: -29.540943902149728,
+        },
+      ],
+      total: 305.9769029897351,
+      period: "2026-03-26T07:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: -170.54999999999995,
+        },
+        {
+          name: "Avento",
+          value: 93.15687485723728,
+        },
+        {
+          name: "Ondiss",
+          value: -5.331479263168095,
+        },
+        {
+          name: "MrSlotty",
+          value: 52.27810923342744,
+        },
+        {
+          name: "ORYX",
+          value: 48.19253411238238,
+        },
+        {
+          name: "Newton",
+          value: 12.758461422823434,
+        },
+        {
+          name: "Slotegrator",
+          value: -1.5200635044764435,
+        },
+        {
+          name: "Skywind360",
+          value: -2.453550273619891,
+        },
+        {
+          name: "Gaming1",
+          value: -0.1499999999999999,
+        },
+        {
+          name: "Easit",
+          value: -47.4,
+        },
+        {
+          name: "Asvla",
+          value: 54.96453950720798,
+        },
+        {
+          name: "Comtrade",
+          value: -3.277943165556174,
+        },
+        {
+          name: "Efbet",
+          value: 46.25,
+        },
+        {
+          name: "EGT New Platform",
+          value: 25.689999999999994,
+        },
+        {
+          name: "TopSport",
+          value: 16.9,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 336.78803113131687,
+        },
+        {
+          name: "iSOFTBET",
+          value: -74.43071070459136,
+        },
+        {
+          name: "Crystalbet",
+          value: 8.58018617415443,
+        },
+        {
+          name: "Leopard",
+          value: 0.5044478543451357,
+        },
+        {
+          name: "BetB2B",
+          value: -310.69436532441716,
+        },
+        {
+          name: "Pariplay",
+          value: 6.003582484989213,
+        },
+        {
+          name: "Reevo",
+          value: -14.94,
+        },
+        {
+          name: "Intralot",
+          value: -119.8921215422084,
+        },
+        {
+          name: "TGLab",
+          value: 6.352671968927423,
+        },
+        {
+          name: "Virtualsoft",
+          value: -47.349114940205006,
+        },
+        {
+          name: "Evoplay",
+          value: 37.5,
+        },
+      ],
+      total: -52.069909971430896,
+      period: "2026-03-26T07:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: -38.449999999999996,
+        },
+        {
+          name: "TopSport",
+          value: 8.350000000000001,
+        },
+        {
+          name: "Leopard",
+          value: 3.026687126070814,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 8.339340477851847,
+        },
+        {
+          name: "Reevo",
+          value: 6.666152527634999,
+        },
+        {
+          name: "EGT New Platform",
+          value: 108.94,
+        },
+        {
+          name: "SoftSwiss",
+          value: 1.373988153227139,
+        },
+        {
+          name: "Evoplay",
+          value: 14.25,
+        },
+        {
+          name: "BetB2B",
+          value: 136.7002096145415,
+        },
+        {
+          name: "Slotegrator",
+          value: -31.71296500352677,
+        },
+        {
+          name: "Comtrade",
+          value: 17.420206942701228,
+        },
+        {
+          name: "Gaming1",
+          value: -0.5999999999999992,
+        },
+        {
+          name: "TGLab",
+          value: 1.503485179352886,
+        },
+        {
+          name: "Pariplay",
+          value: -0.38004962532060205,
+        },
+        {
+          name: "Baby Leopard",
+          value: 834.96,
+        },
+        {
+          name: "MrSlotty",
+          value: 14.809233410947762,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.1820755463983459,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.31379328823098995,
+        },
+        {
+          name: "BtoBet",
+          value: -3.1940186765707197,
+        },
+        {
+          name: "Optimus",
+          value: -1.387231599449123,
+        },
+        {
+          name: "ORYX",
+          value: 49.014166196864664,
+        },
+        {
+          name: "Intralot",
+          value: -208.03429513193396,
+        },
+        {
+          name: "Virtualsoft",
+          value: 49.2108188368608,
+        },
+        {
+          name: "Peppermill",
+          value: 11.2,
+        },
+        {
+          name: "Asvla",
+          value: 29.930808290557923,
+        },
+        {
+          name: "Efbet",
+          value: 2.85,
+        },
+        {
+          name: "Skywind360",
+          value: -3.5919976005795204,
+        },
+        {
+          name: "iSOFTBET",
+          value: -28.733109893872534,
+        },
+        {
+          name: "Ondiss",
+          value: 1.6518200374699106,
+        },
+      ],
+      total: 985.6091180974577,
+      period: "2026-03-26T07:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Reevo",
+          value: -25.6,
+        },
+        {
+          name: "Intralot",
+          value: 29.053674171008094,
+        },
+        {
+          name: "TGLab",
+          value: 3.7420263312184927,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 236.26439782885748,
+        },
+        {
+          name: "Efbet",
+          value: 2.9699999999999998,
+        },
+        {
+          name: "Evoplay",
+          value: 1.1500000000000004,
+        },
+        {
+          name: "Virtualsoft",
+          value: -69.64913105705378,
+        },
+        {
+          name: "Comtrade",
+          value: -29.05003523965951,
+        },
+        {
+          name: "Slotegrator",
+          value: -23.866229013603395,
+        },
+        {
+          name: "ORYX",
+          value: 28.003479144919535,
+        },
+        {
+          name: "EGT New Platform",
+          value: 97.42,
+        },
+        {
+          name: "BetB2B",
+          value: -33.647428551078846,
+        },
+        {
+          name: "Optimus",
+          value: 31.023543042225846,
+        },
+        {
+          name: "Peppermill",
+          value: 3.62,
+        },
+        {
+          name: "MrSlotty",
+          value: -32.49259304169008,
+        },
+        {
+          name: "WeAreCasino",
+          value: 11.847557818769786,
+        },
+        {
+          name: "Ondiss",
+          value: -2.918538335998889,
+        },
+        {
+          name: "Asvla",
+          value: -94.50249382431267,
+        },
+        {
+          name: "BtoBet",
+          value: -9.950596646239548,
+        },
+        {
+          name: "TopSport",
+          value: 4.1,
+        },
+        {
+          name: "SoftSwiss",
+          value: 14.819443652664143,
+        },
+        {
+          name: "Easit",
+          value: -6.580000000000001,
+        },
+        {
+          name: "Pariplay",
+          value: 10.71224725372949,
+        },
+        {
+          name: "BlueOcean",
+          value: -0.3546226639195037,
+        },
+        {
+          name: "Gaming1",
+          value: 11.45,
+        },
+        {
+          name: "Skywind360",
+          value: 1.4034307565105781,
+        },
+        {
+          name: "Newton",
+          value: 1.6193431805891283,
+        },
+        {
+          name: "Crystalbet",
+          value: 4.703729694290793,
+        },
+        {
+          name: "Leopard",
+          value: 6.318209375672825,
+        },
+        {
+          name: "Baby Leopard",
+          value: -240.26,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1.9291892243104893,
+        },
+      ],
+      total: -66.72139689878952,
+      period: "2026-03-26T07:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "iSOFTBET",
+          value: 199.91045645128108,
+        },
+        {
+          name: "Comtrade",
+          value: 12.670133612973117,
+        },
+        {
+          name: "Asvla",
+          value: 41.19250074595899,
+        },
+        {
+          name: "Easit",
+          value: -2.9000000000000012,
+        },
+        {
+          name: "Pariplay",
+          value: 0.2948324932219126,
+        },
+        {
+          name: "TopSport",
+          value: 10.15,
+        },
+        {
+          name: "Leopard",
+          value: 11.93019175526246,
+        },
+        {
+          name: "Evoplay",
+          value: 26.77,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 239.50314890434908,
+        },
+        {
+          name: "Intralot",
+          value: 67.37657766560805,
+        },
+        {
+          name: "Optimus",
+          value: 1.6873780727844792,
+        },
+        {
+          name: "Betmexico",
+          value: 0.9485088613097361,
+        },
+        {
+          name: "Gaming1",
+          value: 17.05,
+        },
+        {
+          name: "Ondiss",
+          value: -8.5981834794988,
+        },
+        {
+          name: "BtoBet",
+          value: 8.107893563602595,
+        },
+        {
+          name: "Reevo",
+          value: -74.6,
+        },
+        {
+          name: "Virtualsoft",
+          value: 50.45360369032163,
+        },
+        {
+          name: "Baby Leopard",
+          value: -351.82000000000005,
+        },
+        {
+          name: "BetB2B",
+          value: 198.90555404157075,
+        },
+        {
+          name: "ORYX",
+          value: -23.738772149659322,
+        },
+        {
+          name: "Efbet",
+          value: 23.799999999999997,
+        },
+        {
+          name: "Slotegrator",
+          value: 10.256808066280243,
+        },
+        {
+          name: "EGT New Platform",
+          value: 45.36000000000001,
+        },
+        {
+          name: "BlueOcean",
+          value: 4.39383057362591,
+        },
+        {
+          name: "Everymatrix",
+          value: 4.789330134106027,
+        },
+        {
+          name: "MrSlotty",
+          value: -30.29335236762927,
+        },
+        {
+          name: "Crystalbet",
+          value: 3.2330217575314073,
+        },
+        {
+          name: "TGLab",
+          value: -0.5449552909541493,
+        },
+        {
+          name: "Skywind360",
+          value: 2.738162105359798,
+        },
+      ],
+      total: 489.0266692074057,
+      period: "2026-03-26T07:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Betmexico",
+          value: 0.37940354452389446,
+        },
+        {
+          name: "ORYX",
+          value: 8.809690655703818,
+        },
+        {
+          name: "TGLab",
+          value: 0.49999999999999994,
+        },
+        {
+          name: "EGT New Platform",
+          value: 71.94999999999999,
+        },
+        {
+          name: "Gaming1",
+          value: -55.4,
+        },
+        {
+          name: "Efbet",
+          value: 16.05,
+        },
+        {
+          name: "BetB2B",
+          value: 6.143356078816579,
+        },
+        {
+          name: "Crystalbet",
+          value: 5.3566733041451755,
+        },
+        {
+          name: "Evoplay",
+          value: 6.359999999999999,
+        },
+        {
+          name: "Comtrade",
+          value: -1.2267751368099455,
+        },
+        {
+          name: "Leopard",
+          value: 0.08827837451039873,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 268.9766404153698,
+        },
+        {
+          name: "Skywind360",
+          value: 0.3925680437791826,
+        },
+        {
+          name: "Asvla",
+          value: 33.99110326251648,
+        },
+        {
+          name: "Optimus",
+          value: -0.557414879051375,
+        },
+        {
+          name: "Ondiss",
+          value: 3.8510173894093223,
+        },
+        {
+          name: "BtoBet",
+          value: -3.931099909625501,
+        },
+        {
+          name: "Slotegrator",
+          value: -5.048544730758244,
+        },
+        {
+          name: "Easit",
+          value: -156.10000000000002,
+        },
+        {
+          name: "Pariplay",
+          value: 2.868618737947522,
+        },
+        {
+          name: "TopSport",
+          value: 12.77,
+        },
+        {
+          name: "Everymatrix",
+          value: -2.543059382459935,
+        },
+        {
+          name: "BlueOcean",
+          value: 2.423254870116609,
+        },
+        {
+          name: "Reevo",
+          value: 103.79999999999998,
+        },
+        {
+          name: "Baby Leopard",
+          value: 530.1700000000001,
+        },
+        {
+          name: "MrSlotty",
+          value: 8.276455641146153,
+        },
+        {
+          name: "iSOFTBET",
+          value: 17.5814880630855,
+        },
+        {
+          name: "Intralot",
+          value: -65.31338594133645,
+        },
+        {
+          name: "Virtualsoft",
+          value: -24.745200332184325,
+        },
+      ],
+      total: 785.8730680688446,
+      period: "2026-03-26T07:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "iSOFTBET",
+          value: 62.67648224276822,
+        },
+        {
+          name: "TopSport",
+          value: -1.9399999999999995,
+        },
+        {
+          name: "Ondiss",
+          value: 2.15560092866308,
+        },
+        {
+          name: "Evoplay",
+          value: 10.950000000000001,
+        },
+        {
+          name: "EGT New Platform",
+          value: 66.99000000000001,
+        },
+        {
+          name: "Optimus",
+          value: 1.4099317528946544,
+        },
+        {
+          name: "Slotegrator",
+          value: 3.1313196311237523,
+        },
+        {
+          name: "MrSlotty",
+          value: 7.581699159363818,
+        },
+        {
+          name: "Baby Leopard",
+          value: 967.4200000000001,
+        },
+        {
+          name: "BtoBet",
+          value: -7.51822857715877,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 361.52753193780774,
+        },
+        {
+          name: "Gaming1",
+          value: -2.8999999999999995,
+        },
+        {
+          name: "Virtualsoft",
+          value: 82.39910592758594,
+        },
+        {
+          name: "Pariplay",
+          value: 5.4732592196447225,
+        },
+        {
+          name: "Skywind360",
+          value: 1.3936165554160982,
+        },
+        {
+          name: "Intralot",
+          value: 151.74800354410374,
+        },
+        {
+          name: "Easit",
+          value: 43.68630129085163,
+        },
+        {
+          name: "Efbet",
+          value: 9.949999999999998,
+        },
+        {
+          name: "Crystalbet",
+          value: 23.093918162131214,
+        },
+        {
+          name: "Everymatrix",
+          value: 6.3345297344911105,
+        },
+        {
+          name: "BlueOcean",
+          value: 3.3098115299153683,
+        },
+        {
+          name: "Asvla",
+          value: 27.90224561916567,
+        },
+        {
+          name: "ORYX",
+          value: 19.47342077267441,
+        },
+        {
+          name: "Reevo",
+          value: 60.25,
+        },
+        {
+          name: "BetB2B",
+          value: 53.29090260541522,
+        },
+        {
+          name: "Comtrade",
+          value: 4.710816525350191,
+        },
+        {
+          name: "SoftSwiss",
+          value: 0.8,
+        },
+      ],
+      total: 1965.300268562208,
+      period: "2026-03-26T07:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 159,
+        },
+        {
+          name: "Ondiss",
+          value: 6.551573609026551,
+        },
+        {
+          name: "Gaming1",
+          value: 48.7,
+        },
+        {
+          name: "Dench",
+          value: 1.35,
+        },
+        {
+          name: "Asvla",
+          value: 17.011399777128496,
+        },
+        {
+          name: "TopSport",
+          value: 12.780000000000001,
+        },
+        {
+          name: "Easit",
+          value: 52.71382521306701,
+        },
+        {
+          name: "BetConstruct",
+          value: -4.2326523779025225,
+        },
+        {
+          name: "Reevo",
+          value: 66.31506426529597,
+        },
+        {
+          name: "Leopard",
+          value: 0.32789110532433824,
+        },
+        {
+          name: "Virtualsoft",
+          value: -48.17614748693312,
+        },
+        {
+          name: "Comtrade",
+          value: 4.5145325034606,
+        },
+        {
+          name: "Intralot",
+          value: 26.96186225428087,
+        },
+        {
+          name: "Optimus",
+          value: 1.0442070584944312,
+        },
+        {
+          name: "Efbet",
+          value: 12.44,
+        },
+        {
+          name: "EGT New Platform",
+          value: 140.07,
+        },
+        {
+          name: "Skywind360",
+          value: -8.94662571772757,
+        },
+        {
+          name: "Evoplay",
+          value: 20.4,
+        },
+        {
+          name: "ORYX",
+          value: -3.2843043919122987,
+        },
+        {
+          name: "BetB2B",
+          value: 24.93157489221413,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 260.9879584915516,
+        },
+        {
+          name: "Crystalbet",
+          value: 32.34606572118433,
+        },
+        {
+          name: "MrSlotty",
+          value: 10.666553223146035,
+        },
+        {
+          name: "Slotegrator",
+          value: 65.25708400360898,
+        },
+        {
+          name: "Pariplay",
+          value: 1.374620403090495,
+        },
+        {
+          name: "iSOFTBET",
+          value: 158.30421720910437,
+        },
+        {
+          name: "SoftSwiss",
+          value: 19.28,
+        },
+        {
+          name: "BtoBet",
+          value: 4.4224873983286885,
+        },
+      ],
+      total: 1083.1111871538315,
+      period: "2026-03-26T07:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Evoplay",
+          value: 8.55,
+        },
+        {
+          name: "Leopard",
+          value: -4.035582834761087,
+        },
+        {
+          name: "Dench",
+          value: 0.2,
+        },
+        {
+          name: "TopSport",
+          value: 34.29,
+        },
+        {
+          name: "ORYX",
+          value: 31.056821242581314,
+        },
+        {
+          name: "MrSlotty",
+          value: 25.58572781102678,
+        },
+        {
+          name: "Crystalbet",
+          value: 24.23498466478935,
+        },
+        {
+          name: "Newton",
+          value: 9.69643068134581,
+        },
+        {
+          name: "BetConstruct",
+          value: 8.151774950034488,
+        },
+        {
+          name: "iSOFTBET",
+          value: -56.309416128052774,
+        },
+        {
+          name: "Optimus",
+          value: 2.721496174192007,
+        },
+        {
+          name: "Intralot",
+          value: -12.27321629621715,
+        },
+        {
+          name: "EGT New Platform",
+          value: -67.53,
+        },
+        {
+          name: "Efbet",
+          value: -11.700000000000001,
+        },
+        {
+          name: "Pariplay",
+          value: 3.2964596042884837,
+        },
+        {
+          name: "BlueOcean",
+          value: 8.074162822688077,
+        },
+        {
+          name: "Ondiss",
+          value: 0.24220235153517755,
+        },
+        {
+          name: "Leris",
+          value: 12.416311021922294,
+        },
+        {
+          name: "Baby Leopard",
+          value: 292.14000000000004,
+        },
+        {
+          name: "Skywind360",
+          value: -13.944016915036565,
+        },
+        {
+          name: "Slotegrator",
+          value: -13.1052235731068,
+        },
+        {
+          name: "Virtualsoft",
+          value: 56.667411652258735,
+        },
+        {
+          name: "BetB2B",
+          value: 68.62265428035694,
+        },
+        {
+          name: "Comtrade",
+          value: 24.928070779978093,
+        },
+        {
+          name: "Everymatrix",
+          value: -3.61162600276848,
+        },
+        {
+          name: "Easit",
+          value: -70.36999999999999,
+        },
+        {
+          name: "Asvla",
+          value: 23.64226400924193,
+        },
+        {
+          name: "Reevo",
+          value: 32.793538988946004,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 426.8301876981269,
+        },
+        {
+          name: "Gaming1",
+          value: 26.75,
+        },
+        {
+          name: "BtoBet",
+          value: -11.056218495821721,
+        },
+      ],
+      total: 856.9551984875478,
+      period: "2026-03-26T07:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: -145.77,
+        },
+        {
+          name: "Slotegrator",
+          value: -124.51823832675699,
+        },
+        {
+          name: "TopSport",
+          value: -18.07,
+        },
+        {
+          name: "Intralot",
+          value: -74.61288213618903,
+        },
+        {
+          name: "Pariplay",
+          value: 8.63038411699196,
+        },
+        {
+          name: "Evoplay",
+          value: -28.1,
+        },
+        {
+          name: "Virtualsoft",
+          value: 6.903495371144935,
+        },
+        {
+          name: "Newton",
+          value: 9.421633050700382,
+        },
+        {
+          name: "Asvla",
+          value: 27.62331825184923,
+        },
+        {
+          name: "BlueOcean",
+          value: 15.867724253625639,
+        },
+        {
+          name: "BtoBet",
+          value: 4.250501777282574,
+        },
+        {
+          name: "Efbet",
+          value: 0.9499999999999993,
+        },
+        {
+          name: "EGT New Platform",
+          value: -506.92,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Skywind360",
+          value: 16.92949688797725,
+        },
+        {
+          name: "MrSlotty",
+          value: 31.239455161967136,
+        },
+        {
+          name: "Comtrade",
+          value: -20.456720761333205,
+        },
+        {
+          name: "Optimus",
+          value: 5.13023467869003,
+        },
+        {
+          name: "BetB2B",
+          value: 4.421255938578656,
+        },
+        {
+          name: "Everymatrix",
+          value: 13.190286270980534,
+        },
+        {
+          name: "Baby Leopard",
+          value: -27.94999999999999,
+        },
+        {
+          name: "Gaming1",
+          value: 49.45,
+        },
+        {
+          name: "Avento",
+          value: 6.673656744246104,
+        },
+        {
+          name: "ORYX",
+          value: -21.165647236377822,
+        },
+        {
+          name: "iSOFTBET",
+          value: 50.74145051097212,
+        },
+        {
+          name: "Leopard",
+          value: 4.603086670899364,
+        },
+        {
+          name: "Ondiss",
+          value: -1.162571287368852,
+        },
+        {
+          name: "Crystalbet",
+          value: 10.285446669793547,
+        },
+        {
+          name: "Reevo",
+          value: 46.928766066323995,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 79.22353552490358,
+        },
+      ],
+      total: -576.2623318010989,
+      period: "2026-03-26T08:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 2.11868098824957,
+        },
+        {
+          name: "Optimus",
+          value: 8.610924873671467,
+        },
+        {
+          name: "Easit",
+          value: -134.3,
+        },
+        {
+          name: "EGT New Platform",
+          value: -1946.12,
+        },
+        {
+          name: "Comtrade",
+          value: 7.295877093636109,
+        },
+        {
+          name: "Gaming1",
+          value: -2.449999999999999,
+        },
+        {
+          name: "Slotegrator",
+          value: 78.82737038608896,
+        },
+        {
+          name: "MrSlotty",
+          value: 19.609830273142897,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 663.9870549996001,
+        },
+        {
+          name: "BetB2B",
+          value: -5.2681292008473415,
+        },
+        {
+          name: "TopSport",
+          value: 45.550000000000004,
+        },
+        {
+          name: "Asvla",
+          value: 22.963963365995145,
+        },
+        {
+          name: "BtoBet",
+          value: 20.078092788412242,
+        },
+        {
+          name: "Pariplay",
+          value: 1.1019490601741297,
+        },
+        {
+          name: "BlueOcean",
+          value: -18.636214909303654,
+        },
+        {
+          name: "Baby Leopard",
+          value: 357.29,
+        },
+        {
+          name: "Skywind360",
+          value: 11.816298117753396,
+        },
+        {
+          name: "iSOFTBET",
+          value: 79.71499712515795,
+        },
+        {
+          name: "Crystalbet",
+          value: 19.068489111087203,
+        },
+        {
+          name: "Intralot",
+          value: -22.480937683872618,
+        },
+        {
+          name: "ORYX",
+          value: 31.29832057262835,
+        },
+        {
+          name: "Virtualsoft",
+          value: 35.59575655822343,
+        },
+        {
+          name: "Peppermill",
+          value: 0.8,
+        },
+        {
+          name: "Evoplay",
+          value: -19.000000000000004,
+        },
+        {
+          name: "Efbet",
+          value: 57.5,
+        },
+        {
+          name: "Ondiss",
+          value: -1.4955995207297212,
+        },
+        {
+          name: "Reevo",
+          value: -5.129999999999999,
+        },
+        {
+          name: "Newton",
+          value: 0.4907100547239782,
+        },
+      ],
+      total: -691.1625659462082,
+      period: "2026-03-26T08:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Skywind360",
+          value: -0.8832780985031607,
+        },
+        {
+          name: "Efbet",
+          value: 5.77,
+        },
+        {
+          name: "Comtrade",
+          value: -189.688878754101,
+        },
+        {
+          name: "Evoplay",
+          value: 6,
+        },
+        {
+          name: "Newton",
+          value: -1.0795621203927521,
+        },
+        {
+          name: "Leopard",
+          value: 1.765567490207975,
+        },
+        {
+          name: "Admiralbet",
+          value: 4.9395348593057955,
+        },
+        {
+          name: "Asvla",
+          value: 15.46779036936595,
+        },
+        {
+          name: "MrSlotty",
+          value: 4.297581199515534,
+        },
+        {
+          name: "EGT New Platform",
+          value: -1003.25,
+        },
+        {
+          name: "TopSport",
+          value: -73.65,
+        },
+        {
+          name: "Leris",
+          value: 8.25004054612777,
+        },
+        {
+          name: "ORYX",
+          value: 37.78592191195864,
+        },
+        {
+          name: "Reevo",
+          value: 4.88,
+        },
+        {
+          name: "Intralot",
+          value: 23.86821906854484,
+        },
+        {
+          name: "Ondiss",
+          value: 6.757445607831452,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.11820755463983458,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 252.36097250667652,
+        },
+        {
+          name: "Virtualsoft",
+          value: -41.47065810571361,
+        },
+        {
+          name: "BtoBet",
+          value: -2.992549806202412,
+        },
+        {
+          name: "Slotegrator",
+          value: -17.96093379760108,
+        },
+        {
+          name: "BetB2B",
+          value: 41.997704501268984,
+        },
+        {
+          name: "Peppermill",
+          value: -0.40000000000000013,
+        },
+        {
+          name: "Optimus",
+          value: -0.5876817503120831,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.4710816525350191,
+        },
+        {
+          name: "Crystalbet",
+          value: -1.4073153532783775,
+        },
+        {
+          name: "Baby Leopard",
+          value: -452.74,
+        },
+        {
+          name: "Easit",
+          value: 134,
+        },
+        {
+          name: "Gaming1",
+          value: 8.4,
+        },
+        {
+          name: "Pariplay",
+          value: 3.30281011939613,
+        },
+        {
+          name: "iSOFTBET",
+          value: 18.57048396688023,
+        },
+      ],
+      total: -1207.1074964318498,
+      period: "2026-03-26T08:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 3.2738665746999303,
+        },
+        {
+          name: "BtoBet",
+          value: -32.80011487093777,
+        },
+        {
+          name: "Avento",
+          value: -5.4,
+        },
+        {
+          name: "TopSport",
+          value: 20.16,
+        },
+        {
+          name: "Gaming1",
+          value: -1.0499999999999994,
+        },
+        {
+          name: "Ondiss",
+          value: -30.090614648851616,
+        },
+        {
+          name: "iSOFTBET",
+          value: 185.68875946958244,
+        },
+        {
+          name: "Admiralbet",
+          value: -47.89865252939218,
+        },
+        {
+          name: "Everymatrix",
+          value: -5.322034418129624,
+        },
+        {
+          name: "Reevo",
+          value: -134.87,
+        },
+        {
+          name: "Slotegrator",
+          value: -12.497555332730968,
+        },
+        {
+          name: "MrSlotty",
+          value: -55.46532471639485,
+        },
+        {
+          name: "Efbet",
+          value: 38.79,
+        },
+        {
+          name: "Baby Leopard",
+          value: -199.83,
+        },
+        {
+          name: "EGT New Platform",
+          value: 747.05,
+        },
+        {
+          name: "BetB2B",
+          value: -6.214853560560084,
+        },
+        {
+          name: "Pariplay",
+          value: 2.282488344484176,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 7.2971508416305895,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Optimus",
+          value: 5.367325170232244,
+        },
+        {
+          name: "Newton",
+          value: 1.0795621203927521,
+        },
+        {
+          name: "Evoplay",
+          value: -7.446220533062052,
+        },
+        {
+          name: "ORYX",
+          value: 10.211354897379184,
+        },
+        {
+          name: "Leopard",
+          value: 8.777392665605362,
+        },
+        {
+          name: "Asvla",
+          value: 0.9508887522151221,
+        },
+        {
+          name: "Easit",
+          value: 318.6,
+        },
+        {
+          name: "Intralot",
+          value: 52.83596783455572,
+        },
+        {
+          name: "Skywind360",
+          value: 8.400956136874507,
+        },
+        {
+          name: "Crystalbet",
+          value: 13.461415102192047,
+        },
+        {
+          name: "Peppermill",
+          value: 2.7,
+        },
+        {
+          name: "Comtrade",
+          value: 7.553009162311473,
+        },
+      ],
+      total: 895.5947664620963,
+      period: "2026-03-26T08:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: 0.20000000000000007,
+        },
+        {
+          name: "Reevo",
+          value: 166.442759210026,
+        },
+        {
+          name: "Leopard",
+          value: 0.7062269960831893,
+        },
+        {
+          name: "SoftSwiss",
+          value: 12.36,
+        },
+        {
+          name: "TopSport",
+          value: 15.6,
+        },
+        {
+          name: "BlueOcean",
+          value: 204.67025905999438,
+        },
+        {
+          name: "Ondiss",
+          value: 5.2043230286121265,
+        },
+        {
+          name: "Efbet",
+          value: 25.299999999999997,
+        },
+        {
+          name: "Intralot",
+          value: 49.86961057892012,
+        },
+        {
+          name: "BetB2B",
+          value: 9.110744232896048,
+        },
+        {
+          name: "MrSlotty",
+          value: 27.22451398996456,
+        },
+        {
+          name: "Everymatrix",
+          value: 7.334414446231039,
+        },
+        {
+          name: "Asvla",
+          value: -5.610243638069207,
+        },
+        {
+          name: "Crystalbet",
+          value: 3.375655070363675,
+        },
+        {
+          name: "iSOFTBET",
+          value: 99.77406304644232,
+        },
+        {
+          name: "Admiralbet",
+          value: 29.86193248998901,
+        },
+        {
+          name: "Comtrade",
+          value: 22.973081921957764,
+        },
+        {
+          name: "BtoBet",
+          value: 127.88359393500457,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -9953.186009684512,
+        },
+        {
+          name: "EGT New Platform",
+          value: 268.3,
+        },
+        {
+          name: "Evoplay",
+          value: 24.827474753791197,
+        },
+        {
+          name: "Virtualsoft",
+          value: -28.26175876466931,
+        },
+        {
+          name: "Gaming1",
+          value: 15.45,
+        },
+        {
+          name: "Betmexico",
+          value: 0.9897483770188551,
+        },
+        {
+          name: "ORYX",
+          value: -15.900683640679688,
+        },
+        {
+          name: "Newton",
+          value: -5.054313563656976,
+        },
+        {
+          name: "Skywind360",
+          value: -1.9432118167069539,
+        },
+        {
+          name: "Slotegrator",
+          value: 26.460224697216063,
+        },
+        {
+          name: "Optimus",
+          value: 7.253960145483052,
+        },
+        {
+          name: "Baby Leopard",
+          value: -91.5,
+        },
+        {
+          name: "Avento",
+          value: 2.7872331108321964,
+        },
+        {
+          name: "Pariplay",
+          value: 4.959340846494153,
+        },
+      ],
+      total: -8942.537061170973,
+      period: "2026-03-26T08:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "ORYX",
+          value: 9.39497098609785,
+        },
+        {
+          name: "Intralot",
+          value: 1.2816403923306794,
+        },
+        {
+          name: "Gaming1",
+          value: 13.700000000000001,
+        },
+        {
+          name: "Efbet",
+          value: 6.3,
+        },
+        {
+          name: "Asvla",
+          value: -0.6022295430695748,
+        },
+        {
+          name: "Betmexico",
+          value: 0.8000466047569077,
+        },
+        {
+          name: "Baby Leopard",
+          value: 685.78,
+        },
+        {
+          name: "Evoplay",
+          value: -20.887785962238155,
+        },
+        {
+          name: "Easit",
+          value: 11,
+        },
+        {
+          name: "TGLab",
+          value: 3.735971272430113,
+        },
+        {
+          name: "BetB2B",
+          value: 49.816989960883326,
+        },
+        {
+          name: "Virtualsoft",
+          value: 21.171167267931686,
+        },
+        {
+          name: "EGT New Platform",
+          value: 156.33,
+        },
+        {
+          name: "MrSlotty",
+          value: 29.18167029060901,
+        },
+        {
+          name: "Everymatrix",
+          value: 2.835896523470473,
+        },
+        {
+          name: "Slotegrator",
+          value: 98.23450089246488,
+        },
+        {
+          name: "iSOFTBET",
+          value: 160.91660221553943,
+        },
+        {
+          name: "BlueOcean",
+          value: 29.674397020153016,
+        },
+        {
+          name: "Pariplay",
+          value: -1.71863311646849,
+        },
+        {
+          name: "Admiralbet",
+          value: 15.353793052765825,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Comtrade",
+          value: 10.412867361242816,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 34.327353122298035,
+        },
+        {
+          name: "Ondiss",
+          value: -14.00535097752164,
+        },
+        {
+          name: "Reevo",
+          value: -57.4,
+        },
+        {
+          name: "BtoBet",
+          value: 88.06892266282881,
+        },
+        {
+          name: "TopSport",
+          value: 3.8400000000000003,
+        },
+        {
+          name: "Leopard",
+          value: -2.471794486291165,
+        },
+        {
+          name: "Crystalbet",
+          value: 7.401084121407683,
+        },
+        {
+          name: "Skywind360",
+          value: 2.6105774911315645,
+        },
+        {
+          name: "Optimus",
+          value: -6.3636096825638875,
+        },
+      ],
+      total: 1338.7190474701893,
+      period: "2026-03-26T08:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Slotegrator",
+          value: 24.31163921383282,
+        },
+        {
+          name: "Leopard",
+          value: -0.5548926397796492,
+        },
+        {
+          name: "MrSlotty",
+          value: 13.460404765255698,
+        },
+        {
+          name: "BlueOcean",
+          value: 199.5159710909425,
+        },
+        {
+          name: "BetB2B",
+          value: 19.388149564475924,
+        },
+        {
+          name: "Intralot",
+          value: 104.29827557418719,
+        },
+        {
+          name: "Everymatrix",
+          value: 3.760801859404569,
+        },
+        {
+          name: "Baby Leopard",
+          value: 292.28,
+        },
+        {
+          name: "iSOFTBET",
+          value: 84.57380990823324,
+        },
+        {
+          name: "EGT New Platform",
+          value: -123.15,
+        },
+        {
+          name: "Evoplay",
+          value: -117.2869528685325,
+        },
+        {
+          name: "Efbet",
+          value: 14.8,
+        },
+        {
+          name: "Skywind360",
+          value: 0.9343119441944545,
+        },
+        {
+          name: "Newton",
+          value: 12.081281547304343,
+        },
+        {
+          name: "TopSport",
+          value: 14.86,
+        },
+        {
+          name: "Comtrade",
+          value: -0.7105481592403224,
+        },
+        {
+          name: "TGLab",
+          value: 1.1383510522153344,
+        },
+        {
+          name: "Asvla",
+          value: 35.721720791548,
+        },
+        {
+          name: "Ondiss",
+          value: -6.539463491449792,
+        },
+        {
+          name: "Admiralbet",
+          value: -9.06268383652012,
+        },
+        {
+          name: "Crystalbet",
+          value: 8.716480228638599,
+        },
+        {
+          name: "Betmexico",
+          value: 0.10722274084370931,
+        },
+        {
+          name: "ORYX",
+          value: -17.67821526101085,
+        },
+        {
+          name: "Optimus",
+          value: -4.883055230060914,
+        },
+        {
+          name: "Gaming1",
+          value: 61.00000000000001,
+        },
+        {
+          name: "Peppermill",
+          value: 3.3,
+        },
+        {
+          name: "BtoBet",
+          value: -1.8427030826369537,
+        },
+        {
+          name: "Reevo",
+          value: 47.64,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 182.05361538576378,
+        },
+        {
+          name: "Virtualsoft",
+          value: 0.639174273338254,
+        },
+        {
+          name: "Pariplay",
+          value: -5.760172550909938,
+        },
+      ],
+      total: 837.1125228200374,
+      period: "2026-03-26T08:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Crystalbet",
+          value: 0.6656221265505836,
+        },
+        {
+          name: "Skywind360",
+          value: 0.6869940766135695,
+        },
+        {
+          name: "Intralot",
+          value: 20.748058288641246,
+        },
+        {
+          name: "Reevo",
+          value: 93.55000000000001,
+        },
+        {
+          name: "Easit",
+          value: 35.95,
+        },
+        {
+          name: "Ondiss",
+          value: 8.82827571345722,
+        },
+        {
+          name: "Avento",
+          value: -2.355408262675095,
+        },
+        {
+          name: "Virtualsoft",
+          value: 35.282433239878216,
+        },
+        {
+          name: "Optimus",
+          value: 4.966289126027862,
+        },
+        {
+          name: "ORYX",
+          value: 48.73632170428197,
+        },
+        {
+          name: "Admiralbet",
+          value: 22.00647944214858,
+        },
+        {
+          name: "iSOFTBET",
+          value: 226.37929897141015,
+        },
+        {
+          name: "Leopard",
+          value: 0.6053374252141629,
+        },
+        {
+          name: "Pariplay",
+          value: -20.212758940751,
+        },
+        {
+          name: "TopSport",
+          value: 7.15,
+        },
+        {
+          name: "TGLab",
+          value: 3.306062098455173,
+        },
+        {
+          name: "BtoBet",
+          value: -0.3685406165273907,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 37.412545831256814,
+        },
+        {
+          name: "MrSlotty",
+          value: 37.58335590436785,
+        },
+        {
+          name: "Newton",
+          value: 12.886046037051669,
+        },
+        {
+          name: "BlueOcean",
+          value: 171.693255404551,
+        },
+        {
+          name: "Efbet",
+          value: 0.5,
+        },
+        {
+          name: "Comtrade",
+          value: 18.73530988936149,
+        },
+        {
+          name: "Evoplay",
+          value: 63.5267845083631,
+        },
+        {
+          name: "Asvla",
+          value: -25.32216747148864,
+        },
+        {
+          name: "BetB2B",
+          value: -9.837805385253567,
+        },
+        {
+          name: "Slotegrator",
+          value: -71.3668723954659,
+        },
+        {
+          name: "EGT New Platform",
+          value: 152.54999999999998,
+        },
+        {
+          name: "Peppermill",
+          value: 0.7000000000000001,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.741725653217481,
+        },
+        {
+          name: "Baby Leopard",
+          value: -20.730000000000018,
+        },
+        {
+          name: "Gaming1",
+          value: 7.9,
+        },
+      ],
+      total: 862.8966423686865,
+      period: "2026-03-26T08:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: -37.26248580885528,
+        },
+        {
+          name: "BetB2B",
+          value: -21.89034796706476,
+        },
+        {
+          name: "Pariplay",
+          value: 0.0313448775406755,
+        },
+        {
+          name: "Intralot",
+          value: 91.1607931997627,
+        },
+        {
+          name: "iSOFTBET",
+          value: 78.39373602118636,
+        },
+        {
+          name: "Newton",
+          value: 1.962840218895913,
+        },
+        {
+          name: "Leopard",
+          value: -1.3266978569277068,
+        },
+        {
+          name: "Ondiss",
+          value: 3.5240442148368327,
+        },
+        {
+          name: "ORYX",
+          value: -31.357146650879688,
+        },
+        {
+          name: "MrSlotty",
+          value: 13.103317991225438,
+        },
+        {
+          name: "BtoBet",
+          value: -1.4741624661095631,
+        },
+        {
+          name: "EGT New Platform",
+          value: -332.0874319562208,
+        },
+        {
+          name: "Comtrade",
+          value: 2.777418909737717,
+        },
+        {
+          name: "Admiralbet",
+          value: 6.131836377069264,
+        },
+        {
+          name: "Asvla",
+          value: 27.531399005801774,
+        },
+        {
+          name: "Gaming1",
+          value: 7.199999999999999,
+        },
+        {
+          name: "Slotegrator",
+          value: -21.673824171527386,
+        },
+        {
+          name: "Skywind360",
+          value: -12.146055274527908,
+        },
+        {
+          name: "Avento",
+          value: 5.495952612908557,
+        },
+        {
+          name: "Reevo",
+          value: 62.95,
+        },
+        {
+          name: "BetConstruct",
+          value: -2.9977336110378845,
+        },
+        {
+          name: "Optimus",
+          value: 3.0821763900487795,
+        },
+        {
+          name: "Baby Leopard",
+          value: -1528.6899999999998,
+        },
+        {
+          name: "TopSport",
+          value: -0.8,
+        },
+        {
+          name: "Evoplay",
+          value: 18.27582433706805,
+        },
+        {
+          name: "Virtualsoft",
+          value: 13.315163049837773,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -46.764421499028195,
+        },
+        {
+          name: "Crystalbet",
+          value: -41.633079201152,
+        },
+      ],
+      total: -1745.1675392574111,
+      period: "2026-03-26T08:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: 8.101668658851688,
+        },
+        {
+          name: "Crystalbet",
+          value: -20.745222944159867,
+        },
+        {
+          name: "Virtualsoft",
+          value: -53.06966674130398,
+        },
+        {
+          name: "TopSport",
+          value: 1.4000000000000004,
+        },
+        {
+          name: "Easit",
+          value: -10.75,
+        },
+        {
+          name: "Baby Leopard",
+          value: 225.05000000000007,
+        },
+        {
+          name: "Intralot",
+          value: 50.813032368185524,
+        },
+        {
+          name: "Admiralbet",
+          value: 5.1,
+        },
+        {
+          name: "Evoplay",
+          value: 11.158855244647398,
+        },
+        {
+          name: "BlueOcean",
+          value: -0.20095284288771875,
+        },
+        {
+          name: "Slotegrator",
+          value: -471.65685242922024,
+        },
+        {
+          name: "BetB2B",
+          value: 52.72736242318881,
+        },
+        {
+          name: "BetConstruct",
+          value: -3.047355879544199,
+        },
+        {
+          name: "iSOFTBET",
+          value: 133.91439163186965,
+        },
+        {
+          name: "BtoBet",
+          value: -8.795836047787057,
+        },
+        {
+          name: "Optimus",
+          value: 5.506048330177157,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -86.13087197555765,
+        },
+        {
+          name: "TGLab",
+          value: 1.405505878837944,
+        },
+        {
+          name: "Leopard",
+          value: -4.489585903671708,
+        },
+        {
+          name: "ORYX",
+          value: -5.969191698613308,
+        },
+        {
+          name: "Asvla",
+          value: 21.030489569824404,
+        },
+        {
+          name: "Pariplay",
+          value: -0.10088957086902717,
+        },
+        {
+          name: "Comtrade",
+          value: 14.752707085221681,
+        },
+        {
+          name: "Skywind360",
+          value: -102.85282747014584,
+        },
+        {
+          name: "MrSlotty",
+          value: 54.32552383544424,
+        },
+        {
+          name: "EGT New Platform",
+          value: 576.79,
+        },
+        {
+          name: "Reevo",
+          value: -43.45,
+        },
+      ],
+      total: 350.8163315224879,
+      period: "2026-03-26T08:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 3.1124432613094877,
+        },
+        {
+          name: "Crystalbet",
+          value: 6.58331979450268,
+        },
+        {
+          name: "EGT New Platform",
+          value: 59.95000000000002,
+        },
+        {
+          name: "Evoplay",
+          value: 0.2999999999999994,
+        },
+        {
+          name: "Comtrade",
+          value: 14.269848391373287,
+        },
+        {
+          name: "Reevo",
+          value: -10.59,
+        },
+        {
+          name: "Slotegrator",
+          value: 21.60651728642542,
+        },
+        {
+          name: "ORYX",
+          value: 6.071467394988883,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 231.74125617016742,
+        },
+        {
+          name: "Virtualsoft",
+          value: 40.16666040223143,
+        },
+        {
+          name: "Betmexico",
+          value: 3.299161256729517,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.4525017619829756,
+        },
+        {
+          name: "Optimus",
+          value: 4.507241578573788,
+        },
+        {
+          name: "iSOFTBET",
+          value: -175.96126937785215,
+        },
+        {
+          name: "Intralot",
+          value: 28.410503156718047,
+        },
+        {
+          name: "BlueOcean",
+          value: -13.109217809557656,
+        },
+        {
+          name: "Easit",
+          value: -1.7999999999999994,
+        },
+        {
+          name: "Ondiss",
+          value: -2.9548686887291664,
+        },
+        {
+          name: "BtoBet",
+          value: 13.292031569421226,
+        },
+        {
+          name: "Skywind360",
+          value: 50.05242558184578,
+        },
+        {
+          name: "Baby Leopard",
+          value: -1160.54,
+        },
+        {
+          name: "MrSlotty",
+          value: 37.71398477775371,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.9203568104063682,
+        },
+        {
+          name: "Asvla",
+          value: 38.13063896382631,
+        },
+        {
+          name: "BetB2B",
+          value: 69.32636167467099,
+        },
+        {
+          name: "TopSport",
+          value: -1.9200000000000004,
+        },
+      ],
+      total: -735.9686360432116,
+      period: "2026-03-26T08:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Avento",
+          value: 20.217254254627903,
+        },
+        {
+          name: "BlueOcean",
+          value: -1.6489953872256922,
+        },
+        {
+          name: "Reevo",
+          value: 97,
+        },
+        {
+          name: "Baby Leopard",
+          value: -425.63,
+        },
+        {
+          name: "Leopard",
+          value: -0.15890107411871768,
+        },
+        {
+          name: "Asvla",
+          value: 13.534316573195206,
+        },
+        {
+          name: "Crystalbet",
+          value: 12.884542592514874,
+        },
+        {
+          name: "Virtualsoft",
+          value: 13.266978569277068,
+        },
+        {
+          name: "Pariplay",
+          value: 3.627125160454225,
+        },
+        {
+          name: "Easit",
+          value: 9.26250527099661,
+        },
+        {
+          name: "BetB2B",
+          value: 3.122748744052429,
+        },
+        {
+          name: "Skywind360",
+          value: 87.90776204347236,
+        },
+        {
+          name: "EGT New Platform",
+          value: 301.16,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: -39.285246307584266,
+        },
+        {
+          name: "MrSlotty",
+          value: 34.02484661379812,
+        },
+        {
+          name: "Betmexico",
+          value: 29.69245131056566,
+        },
+        {
+          name: "iSOFTBET",
+          value: 21.023134566489148,
+        },
+        {
+          name: "BtoBet",
+          value: 36.10715266991023,
+        },
+        {
+          name: "Slotegrator",
+          value: 28.36107495903271,
+        },
+        {
+          name: "Evoplay",
+          value: -3.2,
+        },
+        {
+          name: "Comtrade",
+          value: -4.74025912863363,
+        },
+        {
+          name: "Peppermill",
+          value: 5.25,
+        },
+        {
+          name: "ORYX",
+          value: -3.325466288030679,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.3889652733649327,
+        },
+        {
+          name: "Optimus",
+          value: -3.9296487853486077,
+        },
+        {
+          name: "Intralot",
+          value: -43.07984676107459,
+        },
+        {
+          name: "Ondiss",
+          value: 11.286629581539273,
+        },
+        {
+          name: "TopSport",
+          value: 16.55,
+        },
+      ],
+      total: 220.6691244512746,
+      period: "2026-03-26T08:55:00.000Z",
     },
   ],
 };
