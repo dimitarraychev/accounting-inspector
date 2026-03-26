@@ -59,7 +59,7 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
             value: "totalWinProgressiveJackpot",
           },
           { label: "# Games", value: "numberOfGames" },
-          { label: "# Bets", value: "numberOfBet" },
+          { label: "# Bets", value: "numberOfBets" },
           { label: "# Players", value: "numberOfPlayers" },
         ]}
         onChange={(value) => setMetric(value)}
